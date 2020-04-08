@@ -1,0 +1,660 @@
+body{
+    font-family: $Ari;
+    // @include font-smoothing;
+    // font-size: 14px;
+    overflow-x: hidden;
+    background: $Black;
+    color: $white_06;
+    &.modal-open {
+        overflow-y: scroll;
+        padding-right: 0 !important;
+    }
+}
+
+input[type="submit"]{
+    background: $active-color!important;
+    color: White;
+    border: none;
+    @include transition(fast);
+    &:hover{
+        opacity: 0.7;
+    }
+}
+// @include font-smoothing;
+//
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    @include RP(S){
+        width: 100%!important;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+a{
+    color: $White;
+    &:hover{
+        color: $active-color;
+    }
+}
+
+.padding-top-page-sidebar{
+    padding-top: 20px;
+    clear: both;
+    @include MQ(M){
+        padding-top: 120px;
+    }
+}
+
+.bg-fixed{
+    @include MQ(XL){
+        background-attachment: fixed!important;
+    }
+}
+.no-padding{
+    padding: 0px!important;
+}
+
+.text-white{
+    color: $White;
+}
+
+.hidden{
+    display: none!important;
+}
+
+.text-active{
+    color: $active-color;
+    *{
+        color: $active-color;
+    }
+}
+
+.text-title{
+    font-family: $Os;
+}
+
+.bold{
+    font-weight: bold;
+    @include font-smoothing;
+}
+
+.os-font{
+    font-family: $Os;
+}
+
+.text-ara{
+    font-family: $Ara;
+    font-size: 1.3em;
+}
+
+.text-more{
+    font-family: $Ara;
+    font-style: italic;
+}
+
+.sticky-post{
+    padding: 2px 15px;
+    background: $active-color;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.text-desc{
+    font-family: $Ari;
+}
+
+.item-shadow{
+    content:"";
+    float: left;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 2;
+    @include transition;
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+.item-light{
+    content:"";
+    float: left;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 2;
+    @include transition;
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+.item-shadow-mirror{
+    content:"";
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 2;
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+input, button, textarea{
+    resize: none;
+    &:focus{
+        outline: none;
+    }
+}
+
+.citysoul-title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-weight: 700;
+    word-break: break-all;
+    @include font-size(30px);
+    @include MQ(M) {
+        @include font-size(50px);
+         letter-spacing: 1.75px;
+    }
+}
+
+.citysoul-date{
+    em{
+        float: none;
+        @include font-size(20px);
+    }
+    span{
+        float: none;
+        width: auto;
+    }
+}
+
+.citysoul-desc{
+    @include font-size(10px);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1em;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.citysoul-tags{
+    @include font-size(20px);
+    margin-top: 10px;
+}
+.title-section{
+    margin-bottom: 40px;
+    @include MQ(M) {
+        margin-bottom: 80px;
+    }
+}
+
+.title-small{
+    text-transform: uppercase;
+    @include font-size(20px);
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.desc-small{
+    line-height: 22px;
+    color: $white_03;
+}
+.clearfix{
+    // float: left;
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.is-static{
+    position: static!important;
+    @include transition;
+}
+#clear-scroll{
+    float: left;
+    width: 100%;
+}
+
+.text-16x{
+    @include font-size(13px);
+    @include MQ(M) {
+        @include font-size(16px);
+    }
+
+}
+
+
+.text-1x{
+    @include font-size(10px);
+}
+
+.text-2x{
+    @include font-size(20px);
+}
+
+.text-3x{
+    @include font-size(20px);
+    text-align: center;
+    @include MQ(M) {
+        @include font-size(30px);
+        text-align: left;
+    }
+
+}
+.text-4x{
+    @include font-size(40px);
+}
+.text-5x{
+    @include font-size(30px);
+    @media only screen and (min-width: 768px) {
+        @include font-size(50px);
+    }
+}
+
+.text-6x{
+    @include font-size(26px);
+    @include MQ(M) {
+        @include font-size(60px);
+    }
+}
+
+.text-7x{
+    @include font-size(45px);
+    text-align: center;
+    @include MQ(M) {
+        @include font-size(70px);
+    }
+}
+
+.text-8x{
+    @include font-size(80px);
+}
+
+.text-9x{
+    @include font-size(90px);
+}
+
+.text-100x{
+    @include font-size(100px);
+}
+
+.view-all-link{
+    position: relative;
+    line-height: 1em;
+    margin-top: 30px;
+    padding-top: 10px;
+    &:before{
+        content: "";
+        width: 20px;
+        height: 2px;
+        background: $active-color;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    a{
+        color: $white_03;
+        @include font-size(16px);
+        &:hover{
+            color: $active-color;
+        }
+    }
+}
+.citysoul-cover-page{
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+}
+
+.citysoul-cover-image-gallery{
+    background: url(../images/gallery-detail-cover.jpg) no-repeat;
+    background-size: cover;
+}
+
+.citysoul-banner-page{
+    float: left;
+    width: 100%;
+    height: 300px;
+    padding-top: 130px;
+    //min-height: 280px;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    @media only screen and (min-width: 768px){
+        height: 500px;
+    }
+    &.citysoul-banner-detail{
+        height: 990px;
+        .citysoul-banner-image{
+            img{
+                opacity: 0.1;
+            }
+        }
+    }
+    .citysoul-button-banner{
+        padding-bottom: 40px;
+        position: absolute;
+        width: 100%;
+        bottom:0px;
+        @media only screen and (min-width: 768px){
+            padding-bottom: 120px;
+        }
+        .citysoul-button-more{
+            @include font-size(12px);
+            // position: absolute;
+            float: right;
+        }
+    }
+    &.single-page{
+        min-height: 200px;
+    }
+    .citysoul-banner-image{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        background: $Black;
+        @media only screen and (min-width: 768px){
+            height: 500px;
+        }
+        img{
+            position: relative;
+            @include center(xy);
+            min-width: 100%;
+            width: auto;
+            height: 100%;
+            margin-top: 0px;
+            opacity: 0.2;
+            max-width: initial;
+            object-fit: cover;
+        }
+    }
+    .citysoul-social-detail{
+        float: left;
+        width: 100%;
+        text-align: center;
+        .citysoul-social {
+            display: inline-block;
+            // position: relative;
+            // @include center(x);
+            margin-top: 26px;
+        }
+    }
+    .citysoul-date{
+        margin-bottom: 20px;
+    }
+    .text-1x{
+        float: left;
+        text-transform: uppercase;
+        width: 100%;
+        &.text-white{
+            line-height: 40px;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+        &.text-active{
+            letter-spacing: 5px;
+        }
+    }
+    .title-page-text{
+        // padding-top: 210px;
+        padding-bottom: 90px;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+.single-page{
+    .title-page-text{
+        padding-bottom: 60px;
+    }
+}
+
+.citysoul-title-box-menu{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    .view-all-link{
+        margin-top: 22px;
+        &:before{
+            @include center(x);
+        }
+    }
+    .snack-title{
+        color: $white_005;
+    }
+    .text-main-list{
+        position: absolute;
+        @include center(xy);
+    }
+    &.text-border-bottom{
+        .citysoul-title{
+            color: $white_005;
+        }
+        .view-all-link{
+            padding-bottom: 10px;
+            padding-top: 20px;
+            margin-top: 0px;
+            color: $white_06;
+            letter-spacing: 1.5px;
+            &:before{
+                top: 120%;
+                @include center(x);
+            }
+        }
+
+    }
+}
+
+.citysoul-input-text{
+    float: left;
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 30px;
+    font-style: italic;
+    // color: $white_03;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(#7f632d, 0.5);
+    @include transition;
+    &:focus{
+        border-color: #7f632d;
+    }
+    color: $white_08;
+    @include placeholder{
+        color: $white_03;
+    }
+}
+.citysoul-loadmore{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    .citysoul-button-loadmore{
+        display: inline-block;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+
+}
+.title-opacity{
+    float: left;
+    // width: 100%;
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 30px;
+    .text-opacity{
+        color: $white_005;
+        letter-spacing: 5px;
+    }
+    .main-text{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    &.citysoul-title-half{
+        width: 100%;
+        @include center(x);
+        margin-bottom: 90px;
+        .main-text{
+            @include center(x);
+            &:before{
+                content:"";
+                width: 35px;
+                height: 2px;
+                position: absolute;
+                @include center(x);
+                top: -10px;
+                background: $active-color;
+            }
+
+        }
+    }
+}
+
+//breadcrumb
+.breadcrumb{
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+    padding: 0px 0px 30px 0px;
+    margin: 0;
+
+    .container{
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            display: inline-block;
+            position: relative;
+            @include font-size(18px);
+            padding-right: 15px;
+            line-height: 0px;
+            &:after{
+                // color: #c8c8c8;
+                content: "/";
+                position: absolute;
+                right: 10px;
+            }
+            &:last-child{
+                &:after{
+                    display: none;
+                }
+            }
+            &:first-child{
+                a{
+                    padding:0 8px 0 0;
+                }
+            }
+            &.active{
+                a{
+                    color: $active-color;
+                }
+            }
+            a{
+                // color: #c8c8c8;
+                padding:0 8px;
+            }
+
+        }
+    }
+}
+
+.woocommerce-info{
+    clear: both;
+    a{
+        color: $active-color;
+    }
+}
+
+.modal-backdrop{
+
+}
+
+//back to top
+.back-to-top {
+  position: fixed;
+  bottom: 2em;
+  right: 40px;
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  border-radius: 30px;
+  border: 1px solid $active-color;
+  z-index:999;
+  @include transition(fast);
+  &:hover {
+        background-color: $active-color;
+        &:before{
+            color: $White;
+        }
+    }
+  &:before{
+    content: '\f106';
+    font-family: FontAwesome;
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    left: 14px;
+    top: 7px;
+    font-size: 1.3em;
+    color: $active-color;
+  }
+}
+.text-center-event{
+    text-align: center;
+}
+.latest-twitter{
+    .tweet-text{
+        text-align: center;
+        @include MQ(M) {
+            text-align: left;
+        }
+    }
+}
+.main-slider{
+    padding-top: 100px;
+    @include MQ(M) {
+        padding-top: 0;
+    }
+}

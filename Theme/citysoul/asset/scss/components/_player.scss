@@ -1,0 +1,449 @@
+.gradient{
+	background: $active-color;
+}
+
+$player-height: 55px;
+.jp-audio *:focus,
+.jp-audio-stream *:focus,
+.jp-video *:focus {
+	outline:none;
+}
+
+.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+	border: 0;
+}
+.jp-type-playlist{
+	float: left;
+	width: 100%;
+}
+.citysoul-song-name{
+    @include transition;
+}
+.citysoul-play-container{
+    float: left;
+    /*width: 480px;*/
+    width: 70%;
+    border-bottom: 1px solid $white_01;
+    @include transition;
+    position: relative;
+    box-sizing: border-box;
+    @include MQ(M) {
+    	width: 80%;
+    }
+    @include MQ(F) {
+    	width: 480px;
+    }
+    &.no-border{
+        border: none;
+    }
+    .button-click-play{
+        content: "\f04b";
+        font-family: $Aw;
+        @include font-size(12px);
+        position: absolute;
+        @include center(y);
+        /*right: 55px;*/
+        color: $white_03;
+        cursor: pointer;
+        @include transition;
+        display: none;
+        @include MQ(M) {
+        	display: block;
+        	right: 20%;
+        }
+        @include MQ(F) {
+        	right: 55px;
+        }
+    }
+    &:hover{
+        .button-click-play{
+            color: $White!important;
+        }
+    }
+
+}
+.jp-audio{
+	float: left;
+	width: 100%;
+	// margin-top: 35%;
+	height: $player-height;
+	margin-left: auto;
+	margin-right: auto;
+    position: relative;
+    color: #666;
+    @include transition;
+	button{
+		border: none;
+		background: transparent;
+		font-family: $Aw;
+		line-height: $player-height;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		cursor: pointer;
+		color: $base-color;
+		@include font-size(14px);
+		border-radius: 0;
+	}
+	.jp-current-song{
+		float: left;
+        /*width: 33%;*/
+        width: 100%;
+		// width: 20%;
+		height: $player-height;
+        line-height: $player-height;
+		// p{
+		// 	line-height: $player-height*0.5;
+		// 	float: left;
+		// 	width: 100%;
+		// 	margin-bottom: 0px;
+		// 	margin-top: 0px;
+		// }
+		@include MQ(M) {
+			width: 50%;
+		}
+		@include MQ(F) {
+			width: 33%;
+		}
+	}
+    .kilobite-text{
+        text-transform: uppercase;
+        line-height: $player-height;
+        float: left;
+        width: 30px;
+        text-align: right;
+        display: none;
+        @include MQ(M) {
+        	display: block;
+        	width: 18%;
+        }
+    }
+    // .jp-volume-controls, .jp-current-song{
+    //     border-bottom: 1px solid $white_01;
+    // }
+	.jp-type-playlist{
+		float: left;
+		/*margin-left: 15px;*/
+		@include MQ(F) {
+			margin-left: 15px;
+		}
+		.jp-gui{
+			float: left;
+			width: 100%;
+			height: auto;
+            @include MQ(F) {
+            	padding-left: 55px;
+            }
+			.jp-controls{
+				float: left;
+				/*width: 12%;*/
+				width: 30%;
+				@include MQ(M) {
+					width: 20%;
+				}
+				@inclue MQ(F) {
+					width: 13%;
+				}
+			}
+			.jp-progress{
+				float: left;
+                // width: 35%;
+				width: 50%;
+				height: $player-height;
+				cursor: pointer;
+                /*opacity: 0;*/
+                @include transition;
+                // @extend .jp-volume-controls;
+                display: none;
+                @include MQ(M) {
+                	opacity: 0;
+                	display: block;
+                	width: 10%;
+                }
+                @include MQ(F) {
+                	width: 35%;
+                }
+				.jp-seek-bar{
+					float: left;
+					width: 100%;
+					position: relative;
+					@include center(y);
+					height: 2px;
+					background: $white_01;
+					border-radius: 5px;
+					.jp-play-bar{
+						float: left;
+						@extend .gradient;
+						height: 2px;
+                        position: relative;
+                        // &:after{
+                        //     content:"";
+                        //     top: -2px;
+                        //     right: 0px;
+                        //     width: 5px;
+                        //     height: 5px;
+                        //     background: $active-color;
+                        //     border-radius: 50%;
+                        // }
+					}
+				}
+			}
+			button{
+				// display: block;
+                @include font-size(12px);
+                color: #666;
+				&.jp-previous{
+                    /*opacity: 0;*/
+                    @include MQ(M) {
+                    	opacity: 0;
+                    }
+					&:before{
+						content: "\f048";
+					}
+				}
+				&.jp-play{
+                     /*opacity: 0;*/
+                     @include MQ(M) {
+                    	opacity: 0;
+                    }
+					&:before{
+						content: "\f04b";
+					}
+				}
+				&.jp-next{
+                     /*opacity: 0;*/
+                     @include MQ(M) {
+                    	opacity: 0;
+                    }
+					&:before{
+						content: "\f051";
+					}
+				}
+				&.jp-stop{
+                     opacity: 0;
+					&:before{
+						content: "\f04d";
+					}
+				}
+			}
+		}
+	}
+    .jp-volume-controls{
+        font-family: $Aw;
+        float: left;
+        width: 40px;
+        line-height: $player-height;
+        margin-left: 10px;
+        display: none;
+        @include MQ(M) {
+        	display: block;
+        	width: 10%;
+        }
+        
+        .jp-mute{
+            &:before{
+                content: "\f028";
+                opacity: 0;
+                // content: "\f04b";
+                @include transition;
+                // content: "\f026";
+            }
+            &:hover{
+                opacity: 1;
+            }
+        }
+        .jp-volume-max{
+            display: none!important;
+            &:before{
+                content: "\f028";
+            }
+        }
+        .jp-volume-bar{
+            display: none!important;
+            float: left;
+            height: 2px;
+            width: 100px;
+            background: #fff;
+            cursor: pointer;
+            .jp-volume-bar-value{
+                float: left;
+                height: 2px;
+                @extend .gradient;
+            }
+        }
+    }
+	&.jp-state-playing{
+        background: $white_005;
+        
+        .citysoul-play-container{
+            border-bottom: none;
+            .button-click-play{
+                z-index: -1;
+                opacity: 0;
+            }
+            .citysoul-song-name{
+                color: $White;
+            }
+        }
+        .jp-mute{
+            &:before{
+                opacity: 1;
+            }
+        }
+		.jp-type-playlist{
+			.jp-gui{
+                .jp-progress{
+                    opacity: 1;
+                }
+				button{
+                    opacity: 1;
+					&.jp-play{
+						&:before{
+							content: "\f04c";
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.jp-state-muted{
+		.jp-volume-controls{
+
+			.jp-mute{
+				&:before{
+					content: "\f026";
+				}
+			}
+		}
+	}
+	.jp-time-holder{
+		float: left;
+		width: 10%;
+		line-height: 50px;
+		.jp-current-time{
+			&:after{
+				content: "/";
+				margin-left: 10px;
+			}
+			padding-right: 10px;
+		}
+		.jp-current-time, .jp-duration{
+			float: left;
+		}
+	}
+	.jp-toggles{
+		float: left;
+		// width: 5%;
+		button{
+			float: left;
+			&.jp-repeat{
+				&:before{
+					content: "\f01e";
+				}
+			}
+			&.jp-shuffle{
+				&:before{
+					content: "\f074";
+				}
+			}
+			&.jp-toshow{
+				&:before{
+					content: "\f001";
+				}
+				&.active{
+					color: $active-color;
+				}
+			}
+		}
+	}
+	&.jp-state-looped{
+		.jp-toggles{
+			button{
+				&.jp-repeat{
+					color: $active-color;
+				}
+			}
+		}
+	}
+	&.jp-state-shuffled{
+		.jp-toggles{
+			button{
+				&.jp-shuffle{
+					color: $active-color;
+				}
+			}
+		}
+	}
+	.jp-playlist{
+		display: none;
+		height: auto;
+		// opacity: 0;
+		position: absolute;
+		background:rgba(#fff,.5);
+		bottom: $player-height+$player-height*0.5;
+		right: 0px;
+		padding:15px;
+		// padding: 15px;
+		// border-radius: 5px;
+		// max-height: 200px;
+		overflow: hidden;
+		overflow-y: scroll;
+		z-index: 9999;
+		.contain-playlist{
+			max-height: 200px;
+			height: 200px;
+			overflow: hidden;
+			overflow-y:scroll;
+			float: left;
+			width: 100%;
+			height: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			float: left;
+		}
+		ul{
+			// padding: 15px;
+			padding-left: 0px;
+			// pxheight: 200;
+			max-height: 200px;
+			float: left;
+			@include font-size(13px);
+			list-style: none;
+			width: 200px;
+			li{
+				// background: rgba(#000, 0.4);
+				float: left;
+				margin-bottom: 5px;
+				width: 100%;
+				a{
+					text-decoration: none;
+					color: $base-color;
+					float: left;
+					&:hover{
+						color: $active-color;
+					}
+					&.jp-playlist-item-remove{
+						display: block!important;;
+						color: red;
+						float: left;
+						margin-right: 5px;
+					}
+				}
+				.jp-artist{
+					@include font-size(11px);
+				}
+				&.jp-playlist-current{
+					a{
+						color:$active-color;
+						&.jp-playlist-item-remove{
+							color: red;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,227 @@
+/*
+Theme Name: Citysoul
+Theme URI: http://citysoul.beautheme.com/
+Author: BeauTheme
+Author URI: http://beautheme.com/
+Description: Our CitySoul is a visually stunning and extremely attractive, engaging and sophisticated, modem and responsive WordPress Theme club which have combination between music and business...
+Version: 1.1.3
+License:  GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: citysoul
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template,  theme-options
+Copyright: (c) 2016 BeauTheme.
+*/
+
+.sticky {
+}
+
+.sticky:hover {
+}
+.wp-caption{
+    text-align: center;
+    margin-bottom: 80px;
+    max-width: 100%;
+}
+.wp-caption-text{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+.gallery-caption {}
+
+.entry-content div{
+    max-width: 100%!important;
+}
+
+.bypostauthor {}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin: 15px;
+}
+
+.aligncenter {}
+
+.gallery-caption, .aligncenter, .bypostauthor, .aligncenter {
+    margin-top: 40px;
+}
+
+.edit-link {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nothing-found {
+    display: block;
+    margin-bottom: 30px;
+}
+.screen-reader-text{}
+
+header .spa-logo img{
+    display: none;
+}
+
+.sidebar-widget{
+    margin-bottom: 20;
+}
+
+.sidebar-widget ul{
+    padding: 0 10px;
+    list-style: none;
+}
+
+.sidebar-widget ul li:before {
+    content: "•";
+    color: rgba(128, 100, 46, 0.7);
+    padding: 0 10px;
+}
+
+.sidebar-widget ul.children{
+    margin-left: 20px;
+}
+
+.sidebar-widget ul.menu li{
+    padding: 5px 10px;
+    line-height: 24px;
+}
+
+.sidebar-widget ul li a.rsswidget{
+    color: #80642e;
+    font-weight: bold;
+    font-size: 1.2em
+}
+
+.sidebar-widget .rss-date{
+    font-family: 'Arapey', serif;
+    font-size: 1.2em;
+}
+
+.sidebar-widget .rssSummary{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar-widget input[type="button"], input[type="reset"], input[type="submit"]{
+    padding: 5px 30px;
+}
+
+input, button, select, textarea{
+    max-width: 100%;
+}
+select{
+    border: 1px solid rgba(221, 221, 221, 0.25);
+    padding: 7px;
+    color: #FFFFFFB3;
+    background: transparent;
+}
+
+#wp-calendar{
+    width: 100%;
+}
+
+#wp-calendar thead{
+    border-bottom: 1px solid rgba(221, 221, 221, 0.25);
+    border-top: 1px solid rgba(221, 221, 221, 0.25);
+}
+
+#wp-calendar tfoot{
+    border-top: 1px solid rgba(221, 221, 221, 0.25);
+}
+
+#wp-calendar tfoot a{
+    color: #80642e;
+}
+
+#wp-calendar tfoot #prev{
+    text-align: left;
+}
+
+#wp-calendar tfoot #next{
+    text-align: right;
+}
+
+#wp-calendar td, th{
+    text-align: center;
+}
+
+td, th{
+    font-size: 0.9em;
+    line-height: 32px;
+    padding: 0 10px;
+}
+
+.sticky-note{
+    position: relative;
+    z-index: 2;
+    background: #000;
+    color: #fff;
+    padding: 6px;
+    top: 5px;
+}
+iframe{
+    max-width: 100%;
+}
+
+.textwidget img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-post img{
+    max-width: 100%;
+    height: auto;
+}
+
+dt{
+    line-height: 24px;
+}
+
+ul li, ol li{
+    line-height: 24px;
+}
+
+h1{
+    line-height: 46px;
+}
+
+h2{
+    line-height: 40px;
+}
+
+h3{
+    line-height: 34px;
+}
+
+h4{
+    line-height: 28px;
+    font-size: 1.1em;
+}
+
+h5{
+    line-height: 18px;
+    font-size: 1em;
+}
+
+h6{
+    line-height: 16px;
+    font-size: 0.9em;
+}
+.vc_row[data-vc-full-width] {
+    overflow: visible !important;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"]{
+    background: #80642e;
+    border: none;
+    color: #fff;
+}

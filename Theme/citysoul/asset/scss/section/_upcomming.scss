@@ -1,0 +1,454 @@
+.upcomming{
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #000;
+    //padding-top: 160px;
+}
+.upcomming-slider{
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    @include MQ(M) {
+        text-align: left;
+    }
+    .title-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .all-link{
+        position: relative;
+        line-height: 1em;
+        padding-top:1%;
+        float: left;
+        left: 1%;
+        padding-bottom : 10%;
+        @include font-size(15px);
+        @include transition;
+        a {
+            color: $white_03;
+            &:hover {
+                color: $active-color;
+            }
+        }
+        &:before{
+            content:"";
+            width: 20px;
+            height: 2px;
+            position: absolute;
+            background: $active-color;
+            top: 0px;
+        }
+    }
+    .btn-next-back {
+        top: 50%;
+    }
+}
+
+.citysoul-upcomming{
+    float: left;
+    width: 100%;
+    padding: 0 30px;
+    @media only screen and (min-width: 768px){
+        padding: 0;
+    }
+    .upcomming-item{
+        float: left;
+        position: relative;
+        height: 350px;
+        @include MQ(M) {
+            height: 455px;
+        }
+
+        // min-width: 300px;
+        .slider-image{
+            float: left;
+            width: 80%;
+            height: 100%;
+            position: relative;
+            opacity: 0.7;
+            overflow: hidden;
+            @media only screen and (max-width: 500px){
+                @include center(x);
+            }
+            left: 50%;
+            @media only screen and (min-width: 500px){
+                width: 96%;
+                left: 9px;
+            }
+            img{
+                position: absolute;
+                @include center(xy);
+                height: 100%;
+                width: auto;
+                min-width: 100%;
+                object-fit: cover;
+            }
+        }
+        .info-slide{
+            position: absolute;
+            width: 80%;
+            height: 100%;
+            text-align: center;
+            @include center(xy);
+            @include transition;
+            color: #fff;
+            @media only screen and (min-width: 500px){
+                width: 100%;
+            }
+            background: $black_09;
+            @include MQ(M) {
+                background: none;
+            }
+            .citysoul-date{
+                top: 75px;
+                @include MQ(M) {
+                    top: 0;
+                }
+            }
+            .citysoul-button {
+                color: $White;
+            }
+            &:after{
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 7;
+                @extend .item-shadow;
+            }
+            // padding-top: 30px;
+            &:before{
+                content:"";
+                width: 100%;
+                height: 104%;
+                position: absolute;
+                top: -2%;
+                left: 0px;
+                border: 10px solid $active-color;
+                opacity: 1;
+                @include MQ(M) {
+                    opacity: 0;
+                }
+                @include transition;
+                z-index: 9;
+            }
+
+            .citysoul-date{
+                position: absolute;
+                width: 100%;
+                top: 0px;
+                @include MQ(M) {
+                    top: -35px;
+                }
+                @include transition(fast);
+            }
+            .info-ticket{
+                position: absolute;
+                width: 100%;
+                @include center(xy);
+                box-sizing:border-box;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top:50px;
+                opacity: 1;
+                @include MQ(M) {
+                    opacity: 0;
+                }
+                z-index: 9;
+                @include transition;
+                .title-small{
+                    margin-bottom: 20px;
+                    margin-top:100px;
+                    @include transition;
+                    max-height: 90px;
+                    overflow: hidden;
+                }
+                .desc-small{
+                    margin-bottom: 20px;
+                     @include transition;
+                     display: none;
+                     @include MQ(M) {
+                        display: block;
+                     }
+                }
+                .btn-buy{
+                    margin-top: 20px;
+                    @include transition;
+                    cursor: pointer;
+                    .fa{
+                        opacity: 0.4;
+                    }
+                    &:hover{
+                        //background: $white-03;
+                        color: $Black;
+                    }
+                }
+            }
+            &:hover{
+                background: $black_09;
+                &:before,.info-ticket{
+                    opacity: 1;
+                }
+                .citysoul-date{
+                    @include MQ(M) {
+                        top: 85px;
+                    }
+                }
+                .info-ticket{
+                    .title-small{
+                        margin-top:0px;
+                    }
+                }
+            }
+            // display: none;
+        }
+    }
+    // Other style for upcomming slider
+    &.citysoul-upcomming-full{
+
+        .upcomming-item{
+            min-height: 200px!important;
+            max-height: 200px!important;
+            overflow: hidden;
+            padding: 0px;
+
+            .slider-image{
+                float: left;
+
+                width:140px;
+                height: 100%;
+                position: relative;
+                opacity: 0.7;
+                overflow: hidden;
+                img{
+                    max-width: 140px;
+                    height: auto;
+                }
+                &:after{
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 200px;
+                    z-index: 2;
+                    @extend .item-shadow;
+                }
+                &:before{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    content:"";
+                    width: 100%;
+                    height: 200px;
+                    z-index: 2;
+                    @include transition;
+                }
+            }
+            .info-slide{
+                position: relative;
+                float: right;
+                padding: 0px;
+                right: 0px;
+                left: 0px;
+
+                // padding-left: 10px;
+                width: 150px;
+                max-height: 200px;
+                transform: none;
+                -webkit-transform: none;
+                -moz-transform: none;
+                text-align: left;
+                padding-top: 30px;
+                z-index: 9;
+                &:after{
+                    display: none!important;
+                }
+                // padding-top: 30px;
+                &:before{
+                    display: none;
+                }
+
+                .citysoul-date{
+                    position: static;
+                    margin-top: -5px;
+                }
+                .number-slider{
+                    color: $white_01;
+                    position: absolute;
+                    top: -12px;
+                    left: 0px;
+                }
+                .info-ticket{
+                    position: static;
+                    width: 100%;
+                    height: auto;
+                    padding: 0px;
+                    padding-right: 10px;
+                    // padding-top: 30px;
+                    opacity: 1!important;
+                    transform: none;
+                    -webkit-transform: none;
+                    -moz-transform: none;
+                    &:after{
+                        display: none;
+                    }
+                    .title-small{
+                        @include font-size(14px);
+                        line-height: 20px;
+                        color: #666;
+                        position: static;
+                        margin-top: 0px;
+                        display: block;
+                    }
+                    .desc-small{
+                        position: static;
+                        display: none;
+
+                    }
+                    .btn-buy{
+                        position: relative;
+                        margin-top: 0px;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                        color: $white_07;
+                        white-space: nowrap;
+                        @include transition;
+                        opacity: 0;
+                        z-index: 9;
+                        .fa{
+
+                        }
+                        &:hover{
+
+                        }
+                    }
+                }
+                // display: none;
+            }
+             .slider-image  {
+                 @include RP(R) {
+                    @include MQ(L) {
+                        width: 45%;
+                    }
+                 }
+            }
+            .info-slide {
+                 @include RP(R) {
+                    @include MQ(L) {
+                        width: 43%;
+                    }
+                 }
+            }
+            &:hover{
+                .slider-image{
+                    &:before{
+                        border: 5px solid $active-color;
+                    }
+                }
+                .info-ticket{
+                    .title-small{
+                        color: $White;
+                    }
+                    .btn-buy{
+                       opacity: 1;
+                        .fa{
+
+                        }
+                        &:hover{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.citysoul-upcomming{
+    .swiper-wrapper{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.upcomming-small-box{
+    background: #0b0907;
+    padding-bottom: 150px;
+    //padding-top: 160px;
+    float: left;
+    width: 100%;
+    height: auto;
+    .citysoul-upcomming{
+        padding:0;
+        .info-slide {
+            top: 0;
+        }
+        .slider-image ,.info-slide {
+            width: 48%;
+        }
+        .slider-image {
+            :before {
+                z-index: 2;
+                border : 5px;
+            }
+        }
+    }
+}
+
+.citysoul-upcomming-small{
+    .btn-next-back{
+        top: 45%;
+    }
+}
+
+
+// For slider top
+.upcomming-slider-top{
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    position: relative;
+    .btn-next-back{
+        z-index: 9999;
+        top: 48%;
+        // border-color: $White;
+        // color: $White;
+        &:hover{
+            background: $active-color;
+            color: $White;
+            border-color: $active-color;
+        }
+        &.btn-next{
+            right: 40px;
+        }
+        &.btn-back{
+            left: 40px;
+        }
+    }
+    .upcomming-item{
+        // position: relative;
+        .slider-image{
+            float: left;
+            width: 100%;
+            height: auto;
+            min-height: 700px;
+            position: relative;
+            overflow: hidden;
+            opacity: 0.3;
+            @include transition;
+            img{
+                position: absolute;
+                @include center(xy);
+                min-width: 100%;
+                height: 100%;
+            }
+            &:hover{
+                opacity: .8;
+            }
+        }
+    }
+}

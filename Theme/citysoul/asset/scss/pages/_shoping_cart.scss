@@ -1,0 +1,217 @@
+//Cart page
+.shopping-cart{
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-cart{
+    box-sizing: border-box;
+    padding-right: 0;
+    @media only screen and (min-width: 768px){
+        padding-right: 70px;
+    }
+}
+.shop_table{
+    float: left;
+    width: 100%;
+    border: collapse;
+    border: 1px solid $white_01;
+    .product-thumbnail{
+        width: 70%;
+    }
+    .product-price{
+        width:10%;
+        padding:0px;
+        text-align: center;
+    }
+    .product-quantity{
+        width: 10%;
+        .remove{
+            @include font-size(12px);
+            color: $white_06!important;
+            border-bottom: 1px solid $white_06;
+            display: inherit;
+            border-radius: inherit;
+            font-weight: inherit;
+            &:hover{
+                color: $white_05!important;
+                background: none;
+            }
+        }
+    }
+    .product-subtotal{
+        width: 10%;
+        padding:0px;
+        text-align: center;
+    }
+
+    thead{
+        background: $active-color;
+        color: $white_05;
+    }
+    th{
+        padding: 5px 10px!important;
+        @media only screen and (min-width: 768px){
+            padding: 15px 30px!important;
+        }
+        &:first-child{
+            text-align: left!important;
+        }
+    }
+    td, th{
+        float: none!important;
+        border: 1px solid $white_01;
+        padding:30px;
+        font-size: inherit;
+        line-height: inherit;
+        &.first-child{
+            text-align: left;
+        }
+        .product-image{
+            width: 140px;
+            height: 140px;
+            position: relative;
+            overflow: hidden;
+            margin-right: 20px;
+            float: left;
+            img{
+                position: absolute;
+                width: 100%;
+                height: auto;
+                @include center(xy);
+                object-fit: cover;
+            }
+        }
+    }
+    tr{
+        padding-left: 10px;
+
+    }
+    .product-item{
+        float: left;
+        width: 100%;
+    }
+    tfoot{
+        text-transform: uppercase;
+        .total{
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        .checkout-button{
+            float: left!important;
+        }
+    }
+
+
+    .product-info-name{
+        float: left;
+        width: 50%;
+        .title-product{
+            line-height: 30px;
+            color: $white_07;
+            letter-spacing: 2px;
+        }
+        .text-desc{
+            color: $white_06;
+            line-height: 20px;
+            max-height: 75px;
+            overflow: hidden;
+            float: inherit;
+        }
+    }
+    input[type="number"]{
+        background: transparent;
+        width: 40px;
+        border: none;
+        text-align: center;
+    }
+    .title-product{
+        text-transform: uppercase;
+        width: 100%;
+    }
+}
+
+.woocommerce table.shop_table td{
+    padding: 5px;
+    @media only screen and (min-width: 768px){
+        padding: 10px;
+    }
+    @media only screen and (min-width: 1024px){
+        padding: 30px;
+    }
+}
+
+.woocommerce table.shop_table th{
+    font-weight: 400;
+}
+
+.woocommerce a.button.alt, .woocommerce input.button.alt{
+    background: $active-color;
+    font-family: $Os;
+    border-radius: 0;
+    padding: 15px 45px;
+    letter-spacing: 1px;
+    color: $white_07;
+    @include transition (fast);
+    line-height: inherit;
+    display: inherit;
+    &:hover{
+        color: $White;
+        background: $active-color;
+    }
+}
+
+.woocommerce input.button{
+    border-radius: 0;
+    padding: 18px 45px;
+    letter-spacing: 1px;
+    line-height: inherit;
+    display: inherit;
+    text-transform: uppercase;
+    font-family: $Os;
+    @include transition (fast);
+}
+
+
+input[type="text"],input[type="password"], input[type="email"], input[type="tel"], textarea{
+    // float: left;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $active-color;
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 30px;
+    // font-family: $Me;
+    // width: 100%;
+    font-family: $Ara;
+    font-style: italic;
+    color: $white_05;
+    letter-spacing: 1.5px;
+    resize: none;
+    @include transition;
+    &:focus{
+        border-color: $active-color;
+    }
+    &.txt-border{
+        border: 1px solid $active-color;
+    }
+    // font-weight: $Light;
+    @include placeholder{
+        font-style: italic;
+        color: $white_05;
+    }
+    &.input-coupon{
+        background: transparent;
+        border: none;
+    }
+}
+textarea{
+    height: 110px;
+    width: 100%;
+}
+
+.select2-container .select2-choice{
+    background: transparent;
+    border: none!important;
+}

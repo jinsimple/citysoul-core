@@ -1,0 +1,146 @@
+.play-video{
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding: 0 15px;
+    @include MQ(M) {
+        padding: 0;
+        height: 600px;
+    }
+    @include MQ(F) {
+        height: 900px;
+    }
+}
+.citysoul-playvideo{
+    float: left;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    @include MQ(M) {
+        height: 600px;
+    }
+    @include MQ(F) {
+        height: 900px;
+    }
+
+    .video-play{
+        float: left;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        iframe{
+            min-width: 100%;
+            height: 400px;
+            background: transparent;
+            @include MQ(M) {
+                height: 600px;
+            }
+            @include MQ(F) {
+                height: 900px;
+            }
+        }
+    }
+    .img-video{
+        float: left;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        overflow: hidden;
+        @include transition;
+        img{
+            min-width: 100%;
+            min-height: 900px;
+            width: auto;
+            height: auto;
+            position: absolute;
+            @include center(xy);
+        }
+    }
+    .text-button{
+        float: left;
+        position: relative;
+        @include center(y);
+        width: 100%;
+        z-index: 3;
+        @include transition;
+        .video-title{
+            float: left;
+            width: 100%;
+            @include transition;
+            font-weight: 400;
+            @include MQ(F) {
+            letter-spacing: 12px;
+            }
+        }
+        .btn-control{
+            float: left;
+            position: relative;
+            @include center(x);
+            width: 85px;
+            height: 85px;
+            margin-bottom: 30px;
+            @include transition;
+            .play-icon{
+                float: left;
+                cursor: pointer;
+                width: 85px;
+                height: 85px;
+                &:hover {
+                    background: $White;
+                }
+            }
+            &.btn-play{
+                .play-icon{
+                    background: url(../images/play.png) no-repeat center center;
+                }
+            }
+            &.btn-pause{
+                top: 40px;
+                @include MQ(M) {
+                    top: 0;
+                }
+                .play-icon{
+                    background: url(../images/pause.png) no-repeat center center;
+                }
+            }
+
+        }
+        .all-video-link{
+            position: relative;
+            line-height: 1em;
+            padding-top:15px;
+            float: left;
+            margin-top: 30px;
+            @include center(x);
+            @include transition;
+            @include font-size(18px);
+            a{
+                color: $white_03;
+                letter-spacing: 0.5px;
+                &:hover{
+                    color: $White;
+                }
+            }
+            &:before{
+                content:"";
+                width: 20px;
+                height: 2px;
+                position: absolute;
+                background: $active-color;
+                @include center(x);
+                top: 0px;
+            }
+        }
+    }
+    &.active-video{
+        .img-video,.video-title,.all-video-link{
+            opacity: 0;
+        }
+    }
+}

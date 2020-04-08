@@ -1,0 +1,235 @@
+.citysoul-calendar-page{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    .title-section{
+        float: left;
+        max-width: 50%;
+    }
+}
+
+.form-fillter{
+    float: right;
+    min-width: 50%;
+    padding-top: 25px;
+    // text-align: right;
+    .citysoul-button, form{
+        float: right;
+    }
+    form{
+        .select-option{
+            float: left;
+        }
+    }
+}
+.select-year{
+    .sbHolder{
+        width: 96px;
+    }
+    .sbOptions {
+        min-width: 96px
+    }
+}
+.select-month{
+    .sbHolder{
+        width: 155px;
+    }
+}
+.select-locale{
+    .sbHolder{
+        width: 80px;
+    }
+    .sbOptions {
+        min-width: 80px
+    }
+}
+.calendar-dates{
+    float: left;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding-left: 0px;
+    border-left:  1px solid $white_01;
+    border-bottom:  1px solid $white_01;
+    box-sizing: border-box;
+    .citysoul-date-item{
+        float: left;
+        width: 14.285%;
+        border-right: 1px solid $white_01;
+        border-top: 1px solid $white_01;
+        height: 240px;
+        box-sizing: border-box;
+        padding: 20px;
+        position: relative;
+        &.citysoul-title-item{
+            height: 45px!important;
+            line-height: 45px!important;
+            text-align: center;
+            background: $active-color;
+            color: $white_06;
+            padding: 0px;
+        }
+        &.citysoul-even-item{
+            background: #0b0b0b;
+        }
+        .date{
+            opacity: 0.4;
+            float: left;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .info-date{
+            position: relative;
+            .citysoul-title{
+                line-height: 20px;
+            }
+        }
+        .cover-buy{
+            // display: none;
+            opacity: 0;
+            position: absolute;
+            left: -150px;
+            z-index: -1;
+            top: 0px;
+            width: 166px;
+            height: 100%;
+            @include transition;
+            overflow: hidden;
+            .img-cover{
+                float: left;
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                img{
+                    min-width: 100%;
+                    height: auto;
+                }
+            }
+            .button-to-buy{
+                float: left;
+                position: absolute;
+                @include center(xy);
+                z-index: 10;
+                white-space: nowrap;
+                .citysoul-button-buy-ticket{
+                    @include font-size(12px);
+                    background: $active-color;
+                    color: $White;
+                    border-color: $active-color;
+                    // padding-top: 13px;
+                    // padding-bottom: 13px;
+                }
+            }
+        }
+        &:hover{
+            .cover-buy{
+                left: -166px;
+                opacity: 1;
+                z-index: 9;
+            }
+        }
+        &.citysoul-mon{
+            .cover-buy{
+                // opacity: 1;
+                // display: none;
+                left: 90%;
+            }
+            &:hover{
+                .cover-buy{
+                    left: 100%;
+                }
+            }
+        }
+    }
+    // Calendar view full detail items
+    &.grid-views-full{
+        .citysoul-date-item{
+            height: 456px;
+            @include transition;
+            .info-date{
+                float: right;
+                top: 270px;
+                position: absolute;
+            }
+            .cover-buy{
+                // display: none;
+                opacity: .8;
+                position: relative;
+                left: 0px;
+                z-index: 1;
+                top: 5px;
+                width: 140px;
+                height: 203px;
+                @include transition;
+                overflow: hidden;
+                float: left;
+                &:after{
+                    @extend .item-shadow;
+                    // @include transition;
+                }
+                .img-cover{
+                    float: left;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    img{
+                        min-width: 100%;
+                        height: auto;
+                    }
+                }
+                .button-to-buy{
+                    float: left;
+                    position: absolute;
+                    @include center(xy);
+                    z-index: 10;
+                    white-space: nowrap;
+                    opacity: 0;
+                    @include transition;
+                }
+            }
+            &:hover{
+                background: $active-color;
+                .date{
+                    color: $White;
+                }
+                .info-date{
+                    color: $White;
+                    .citysoul-title{
+                        color: $White;
+                    }
+                    .tag-event{
+                        .tags-list{
+                            a{
+                                color: $White;
+                            }
+                        }
+                    }
+                }
+                .cover-buy{
+                    // display: none;
+                    opacity: 1;
+                    &:after{
+                        opacity: 0;
+                    }
+                    .button-to-buy{
+                        opacity: 1;
+                    }
+                }
+            }
+            &.citysoul-mon{
+                .cover-buy{
+                    // opacity: 1;
+                    // display: none;
+                    left: 0px;
+                }
+                &:hover{
+                    .cover-buy{
+                        left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+}

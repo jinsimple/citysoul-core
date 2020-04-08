@@ -1,0 +1,60 @@
+.apply-form{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+.citysoul-apply-form{
+    float: left;
+    width: 100%;
+    height: auto;
+    .checkout-list-input{
+        .citysoul-button{
+            margin-top: 20px;
+            &.text-active {
+                color: #bc8b2e !important;
+            }
+        }
+    }
+}
+.apply-chose{
+    padding-left: 40px;
+    margin-top: -45px;
+    .title-box{
+        margin-bottom: 50px;
+    }
+    .list-view-member{
+        padding-left: 0px;
+        list-style: none;
+        margin-bottom: 50px;
+        float: left;
+        width: 100%;
+        height: auto;
+        li{
+            float: left;
+            width: 100%;
+            line-height: 30px;
+        }
+    }
+    .list-pagkage-register{
+        margin-top: 16px;
+        li{
+            font-weight: bold;
+            i{
+                margin-right: 15px;
+                padding-bottom: 5px;
+                display: inline-block;
+                @include font-size(10px);
+                color: $white_01;
+            }
+        }
+    }
+    .list-address{
+        li{
+            strong{
+                text-transform: uppercase;
+            }
+        }
+    }
+
+}

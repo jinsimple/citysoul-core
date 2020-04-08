@@ -1,0 +1,130 @@
+.twitter-recentpost{
+    float: left;
+    width: 100%;
+    height: auto;
+    // background: $Black;
+    padding: 0 15px;
+    @include  MQ(F) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .container {
+        @include RP(F) {
+            width: 100%;
+            padding-right:0px;
+            padding-left:0px;
+        }
+    }
+}
+
+.twitter-recents-items{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .message {
+        color: rgba(204, 204, 204, 0.2);
+        a {
+            color: rgba(204, 204, 204, 0.2);
+            &:hover{
+                color: #ccc; 
+            }
+        }
+    }
+    .citysoul-button{
+        // color: $white-02;
+        @include transition;
+        @include font-size(10px);
+        opacity:0.4;
+        &:hover{
+            color: $White;
+            opacity: 1;
+        }
+    }
+    .title-items-twitter{
+        margin-bottom: 40px;
+        i{
+            @include font-size(18px);
+            margin-right: 10px;
+        }
+    }
+    .twitter-message, .recent-post{
+        box-sizing:border-box;
+        // .citysoul-title{
+        //     @include font-size(30px);
+        // }
+        ul{
+            list-style: none;
+            padding-left: 0px;
+            margin:0px;
+            li{
+                margin-bottom: 40px;
+                .name-follow, .time{
+                    color: #666;
+                }
+                .message{
+                    color: rgba(#ccc, 0.3);
+                    line-height: 20px;
+                    a{
+                        color: rgba(#ccc, 0.3);
+                        &:hover{
+                            color: #ccc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .twitter-message{
+        //mobile 
+        padding-bottom:70px;
+        padding: 0;
+        @include MQ(L){
+            padding-right: 70px;
+            padding-left: 170px;  
+        }
+
+        .title-items-twitter{
+            margin-bottom: 30px;
+        }
+        .twitter-user{
+            margin-bottom: 15px;
+            i{
+                @include font-size(18px);
+            }
+        }
+        .text-title{
+            //mobile         
+            @include RP(L) {
+                text-align: left;
+            }
+        }
+    }
+    .citysoul-button {
+        color: $White;
+        &:hover {
+            border-color : $White;
+            &.text-active {
+                * {
+                    color: $White;
+                }
+            }
+        }
+    }
+    .recent-post{
+        //mobile 
+        padding-top: 50px;
+        @include MQ(F) {
+            padding-top: 0;
+            padding-left: 70px;
+            padding-right: 170px;
+        }
+
+        .recent-image{
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}

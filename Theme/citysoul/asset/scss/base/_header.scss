@@ -1,0 +1,432 @@
+header{
+    float: left;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 9;
+    display: none;
+    &:before{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        top: 40px;
+        z-index: 1;
+        background: rgba(0,0,0,0.9);
+        background: -moz-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.9)), color-stop(100%, rgba(255,255,255,0)));
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+        background: -o-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+    }
+
+    .search{
+        margin-top: 0;
+        float: right;
+        padding-top: 15px;
+        position: relative;
+        @media only screen and (min-width: 500px){
+            margin-top: 30px;
+            
+        }
+        .fa{
+            color: $White;
+            cursor: pointer;
+        }
+        .frm-search-header{
+            display: none;
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            padding-top:20px;
+        }
+        &:hover{
+            .frm-search-header{
+                display: block;
+            }
+        }
+    }
+}
+
+.loaded{
+    header{
+        display: block;
+    }
+    .master-slider a{
+        display: block;
+    }
+}
+
+.master-slider a{
+    display: none;
+}
+
+.top-header{
+    float: left;
+    width: 100%;
+    background: $Black;
+    height: 40px;
+    border-bottom: 1px solid $white-02;
+    line-height: 40px;
+    position: relative;
+    z-index: 4;
+    color: $active-color;
+    a{
+        color: $active-color;
+    }
+    // font-family: $Ara;
+    .top-bar-left{
+        // font-family: $Ara;
+        font-style: italic;
+        a{
+            @include font-size(10px);
+            @include MQ(M) {
+                @include font-size(14px);
+                letter-spacing: 1.5px;
+            }
+        }
+        i,p{
+            float: left;
+            line-height: 40px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+        }
+    }
+    .top-bar-right{
+        @include font-size(9px);
+        letter-spacing: 0;
+        @include MQ(M) {
+            @include font-size(14px);
+            letter-spacing: 1.25px;
+        }
+        
+        .text-top-header{
+            .text-center{
+                line-height: 40px;
+            }
+        }
+        .text-logout{
+            a{
+                line-height: 40px;
+            }
+        }
+        >ul{
+            list-style: none;
+            padding-left: 0px;
+            margin:0px;
+            >li{
+                border-right: 1px solid $white-02;
+                padding-right: 5px;
+                height: 39px;
+                position: relative;
+                @include MQ(M) {
+                    padding-right: 20px;
+                }
+                &:hover{
+                    .citysoul-form-user{
+                        display: block;
+                    }
+                }
+            }
+            li{
+                float: right;
+                margin-left: 5px;
+                @include MQ(M) {
+                    margin-left: 20px;
+                }
+                list-style: none;
+            }
+            .citysoul-language{
+                padding-left: 0px;
+                float: left;
+                width: 15px;
+                height: auto;
+                padding-top: 8px;
+                position: relative;
+                @include MQ(M) {
+                    width: 35px;
+                }
+                li{
+                    float: left;
+                    display: none;
+                    line-height: 25px;
+                    margin-left: 0px;
+                    width: 100%;
+                    text-align: center;
+                    &:first-child{
+                        display: block;
+                    }
+                }
+                &:hover{
+                    li{
+                        display: block;
+                    }
+                }
+            }
+            .citysoul-social{
+                padding-left: 0px;
+                margin-top: 8px;
+                li{
+                    float: left;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    @include MQ(M) {
+                        margin-right: 10px;
+                    }
+                    a{
+                        // color: $active-color;
+                        &:hover{
+                            color: $White;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.citysoul-form-user{
+    position: absolute;
+    background: $active-color;
+    right: 0px;
+    width: 380px;
+    padding: 60px 60px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 2;
+    // &:after{
+    //     content: "\f0d8";
+    //     font-family:$Aw;
+    //     position: absolute;
+    //     top: -23px;
+    //     right: 40px;
+    // }
+    &.form-register{
+        display: none;
+
+    }
+    &.form-login{
+        right: 0;
+        @include MQ(M) {
+            right: -83px;
+        }
+        &:after{
+            right: 115px;
+        }
+
+    }
+    .title-form{
+        // font-family: $Os;
+        color: $White;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 5px;
+        @include font-size(10px);
+    }
+    .citysoul-social{
+        float: left;
+        // width: 100%;
+        height: auto;
+        margin-bottom: 45px;
+        li{
+            a{
+                background: $white-02;
+                border-radius: 50%!important;
+            }
+        }
+    }
+    form {
+        label {
+            color: $White;
+
+        }
+        input {
+            width: 100%;
+            border-bottom :  1px solid $White;
+            color: $White;
+            &[type="submit"] {
+                width: 35%;
+                color: $White;
+                text-transform: uppercase;
+                font-weight: 700;
+                @include font-size(10px);
+                padding : 2%;
+                background : White!important;
+                color: $active-color;
+                border : none;
+            }
+            &[type='checkbox'] {
+                width: 5%;
+            }
+        }
+    }
+    ul{
+        float: left;
+        padding-left: 0px;
+        margin:0px;
+        list-style: none;
+        width: 100%;
+        &.list-form{
+            li{
+                width: 100%;
+            }
+        }
+        li{
+            display: block;
+            float: left;
+            input[type="text"], input[type="password"]{
+                background: transparent;
+                border:none;
+                width: 100%;
+                color: $White;
+                // font-family: $Ara;
+                letter-spacing: 1.5px;
+                @include font-size(16px);
+                font-style: italic;
+                border-bottom: 1px solid $white-01;
+                @include placeholder{
+                    color: $white-08;
+                }
+            }
+            input[type="button"], input[type="submit"]{
+                border:none;
+                color: $White;
+            }
+            &.button-text{
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+//Sticker menu
+
+.sticker{
+    position: fixed;
+    @include center(x);
+    width: 100%;
+    top: -150px;
+    @include transition(fast);
+    height: auto;
+
+    @media only screen and (min-width: 768px){
+        height: 70px;
+    }
+    .top-header{
+        background: $Black;
+    }
+    .bottom-header {
+        background: $Black;
+    }
+    .citysoul-logo, .navigator , .search{
+        margin-top: 0;
+        padding-bottom: 15px;
+    }
+    &.active{
+        top: 0;
+        position: fixed;
+        z-index: 8;
+        .citysoul-logo {
+            padding-top : 15px;
+        }
+        .navigator  {
+            padding-top :25px;
+        }
+        .search {
+            padding-top :30px;
+        }
+
+    }
+    &.show-menu-mobile{
+        right: -85px;
+        left: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .search{
+        float: right;
+    }
+}
+
+.bottom-header{
+    float: left;
+    width: 100%;
+    // height: 60px;
+    position: relative;
+    z-index: 1;
+}
+// Top logo
+.citysoul-logo{
+    float: left; 
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    display: none;
+    @media only screen and (min-width: 500px){
+        display: block;
+    }
+}
+ 
+.logo-mobile{
+    display: block;
+    padding: 10px;
+    max-width: 40%;
+    float: left;
+    @media only screen and (min-width: 500px){
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+
+#citysoulSearch{
+    background: #000;
+    z-index: 10;
+    .btn-default{
+        background: transparent;
+        border: none;
+        color: $White;
+        text-transform: uppercase;
+        position: absolute;
+        right: 0;
+        @include center(y);
+        z-index: 1;
+        -webkit-transform: rotate(90deg); /* Safari */
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+    }
+    .modal-content{
+        background: transparent;
+        .modal-body{
+            height: 100vh;
+        }
+        .content-search{
+            position: absolute;
+            @include center(y);
+            top: 49%;
+        }
+        input{
+            background: transparent;
+            color: $White;
+            border: none;
+            line-height: 48px;
+            padding-left: 15px;
+            min-height: 90px;
+            @include font-size(42px);
+            @media only screen and (min-width: 1400px){
+                @include font-size(72px);
+            }
+        }
+        h4{
+            color: $active-color;
+            @include font-size(14px);
+            line-height: 36px;
+            margin-bottom: 0;
+            text-align: left;
+        }
+    }
+}

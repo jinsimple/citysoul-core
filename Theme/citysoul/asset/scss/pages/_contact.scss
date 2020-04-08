@@ -1,0 +1,85 @@
+.contact-page{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding : 0 15px;
+    @include MQ(M) {
+        padding : 0;
+    }
+}
+.citysoul-map-view{
+    //mobile
+    min-height : 320px;
+    @include MQ(F) {
+        min-height: 955px;
+    }
+}
+#citysoul-contact-map{
+    float: left;
+    width: 100%;
+    height: 955px;
+}
+.contact-banner{
+    float: left;
+    width: 100%;
+    height: 500px;
+    //background: url(../images/contact-cover.jpg) no-repeat center top;
+}
+.title-form-contact{
+    //mobile
+    
+    width: 100%;
+    @include MQ(F){
+        width: 395px; 
+    }
+
+    .desc-contact{
+        margin-top: 25px;
+        @include font-size(16px);
+    }
+}
+.citysoul-form-contact{
+    float: left;
+    //mobile
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top : 50px;
+    box-sizing:border-box;
+    @include MQ(F) {
+        padding-top: 140px;
+        padding-left: 90px;
+    }
+
+    .form-contact{
+        float: left;
+        margin-top: 50px;
+    }
+    .list-form-text{
+        list-style: none;
+        padding-left: 0px;
+        li{
+            float: left;
+            width: 100%;
+            margin-bottom: 30px;
+            textarea{
+                height: 120px;
+            }
+            .btn-contact{
+                margin-top: 10px;
+                color: $white-05;
+                border-color: $white-05;
+                padding-left: 40px;
+                padding-right: 40px;
+                @include transition;
+                &:hover{
+                    color: $White;
+                    border-color: $White;
+                }
+            }
+        }
+        div {
+            border: 0px !important;
+        }
+    }
+}

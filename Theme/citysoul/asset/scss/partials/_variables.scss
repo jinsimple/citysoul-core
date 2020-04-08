@@ -1,0 +1,55 @@
+//Setting
+$import : true;
+$content-size: 1170px;
+$default_padding: 0px;
+$nav-height: 80px;
+$base-line: 24px;
+$body-size: 14px;
+$margin-base: 100px;
+$menu_open: 250px;
+
+
+// colors
+$base-color: #1a1b1c; // Base color
+$active-color: #bc8b2e;  // Active color
+$body-color: #5f6a6f;  // Body color
+$link-color: #2ca5ea;
+$Black: #000;
+$White: #fff;
+$Error: rgba(255, 0, 0, 0.5);
+$Success:  rgb(21, 214, 28);
+$curent-menu : rbg(107,83,37,1);
+
+//Color opacity
+
+$black_005: rgba(0,0,0, 0.05);
+$black_01:  rgba(0,0,0, 0.1);
+$black_02:  rgba(0,0,0, 0.2);
+$black_03:  rgba(0,0,0, 0.3);
+$black_04:  rgba(0,0,0, 0.4);
+$black_05:  rgba(0,0,0, 0.5);
+$black_06:  rgba(0,0,0, 0.6);
+$black_07:  rgba(0,0,0, 0.7);
+$black_08:  rgba(0,0,0, 0.8);
+$black_09:  rgba(0,0,0, 0.9);
+
+
+$white_005: rgba(255,255,255, 0.05);
+$white_01:  rgba(255,255,255, 0.1);
+$white_02:  rgba(255,255,255, 0.2);
+$white_03:  rgba(255,255,255, 0.3);
+$white_04:  rgba(255,255,255, 0.4);
+$white_05:  rgba(255,255,255, 0.5);
+$white_06:  rgba(255,255,255, 0.6);
+$white_07:  rgba(255,255,255, 0.7);
+$white_08:  rgba(255,255,255, 0.8);
+$white_09:  rgba(255,255,255, 0.9);
+
+
+
+// fonts
+$Aw:  FontAwesome;
+$Os:  'Oswald', sans-serif;
+$Ara: 'Arapey', serif;
+$Ari: 'Arimo', sans-serif;
+$Rob 	:'Roboto Condensed', sans-serif;

@@ -1,0 +1,156 @@
+.citysoul-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: $active-color;
+    line-height: 1em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background: $white-01;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    @include MQ(M) {
+        margin-bottom: 10px;
+    }
+    i{
+        @include font-size(18px);
+        line-height: 20px;
+    }
+    &.twitter-follow-button{
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+        @include MQ(M) {
+            transform: translateX(0);
+            left: 0;
+        }
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }     to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotation {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }     to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+button{
+    &.citysoul-button{
+        border:none;
+    }
+    &:focus{
+        outline: none;
+    }
+    .fa-spinner{
+        display: none;
+    }
+    &.loading{
+        .fa-spinner{
+            display: block;
+            -webkit-animation: rotation 1s infinite steps(8);
+            animation: rotation 1s infinite steps(8);
+        }
+    }
+}
+.citysoul-button-o{
+    background: transparent;
+    border: 2px;
+    border-style: solid;
+}
+
+button{
+    &.citysoul-button{
+        border:none;
+        // padding-left: 35px;
+        // padding-right: 35px;
+        // padding-top: 13px;
+        // padding-bottom: 13px;
+    }
+    &:focus{
+        outline: none;
+    }
+    &.citysoul-button-o{
+        border: 2px;
+        border-style: solid;
+    }
+}
+.citysoul-button-small{
+    @include font-size(12px);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.citysoul-btn-active{
+    background: $white-01;
+}
+
+.btn-buy{
+    background: $active-color;
+}
+
+.btn-next-back{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    box-sizing:border-box;
+    border: 1px solid $white-02;
+    top: 60%;
+    cursor: pointer;
+    color: $white-02;
+    text-align: center;
+    @include transition;
+    &:hover{
+        border-color: #fff;
+        color: #fff;
+    }
+    &:before{
+        content:"";
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-family: $Aw;
+        line-height: 32px;
+        width: 35px;
+        @include font-size(25px);
+    }
+    &.btn-next{
+        right: 0;
+        z-index: 1;
+        @media only screen and (min-width: 1024px){
+            right: -60px;
+        }
+        &:before{
+            content:"\f105";
+        }
+    }
+    &.btn-back{
+        left: 0;
+        z-index: 1;
+        @media only screen and (min-width: 1024px){
+            left: -60px;
+        }
+        &:before{
+            content:"\f104";
+        }
+    }
+}

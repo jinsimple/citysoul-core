@@ -1,0 +1,393 @@
+.citysoul-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: #bc8b2e;
+  line-height: 1em;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.1);
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer; }
+  @media only screen and (min-width: 768px) {
+    .citysoul-button {
+      margin-bottom: 10px; } }
+  .citysoul-button i {
+    font-size: 1.28571em;
+    line-height: 20px; }
+  .citysoul-button.twitter-follow-button {
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%; }
+    @media only screen and (min-width: 768px) {
+      .citysoul-button.twitter-follow-button {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        left: 0; } }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg); } }
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg); } }
+
+button.citysoul-button {
+  border: none; }
+
+button:focus {
+  outline: none; }
+
+button .fa-spinner {
+  display: none; }
+
+button.loading .fa-spinner {
+  display: block;
+  -webkit-animation: rotation 1s infinite steps(8);
+  animation: rotation 1s infinite steps(8); }
+
+.citysoul-button-o {
+  background: transparent;
+  border: 2px;
+  border-style: solid; }
+
+button.citysoul-button {
+  border: none; }
+
+button:focus {
+  outline: none; }
+
+button.citysoul-button-o {
+  border: 2px;
+  border-style: solid; }
+
+.citysoul-button-small {
+  font-size: 0.85714em;
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.citysoul-btn-active {
+  background: rgba(255, 255, 255, 0.1); }
+
+.btn-buy {
+  background: #bc8b2e; }
+
+.btn-next-back {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  top: 60%;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out; }
+  .btn-next-back:hover {
+    border-color: #fff;
+    color: #fff; }
+  .btn-next-back:before {
+    content: "";
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: FontAwesome;
+    line-height: 32px;
+    width: 35px;
+    font-size: 1.78571em; }
+  .btn-next-back.btn-next {
+    right: 0;
+    z-index: 1; }
+    @media only screen and (min-width: 1024px) {
+      .btn-next-back.btn-next {
+        right: -60px; } }
+    .btn-next-back.btn-next:before {
+      content: "\f105"; }
+  .btn-next-back.btn-back {
+    left: 0;
+    z-index: 1; }
+    @media only screen and (min-width: 1024px) {
+      .btn-next-back.btn-back {
+        left: -60px; } }
+    .btn-next-back.btn-back:before {
+      content: "\f104"; }
+
+body {
+  background: #fff;
+  color: #000; }
+
+a:hover {
+  color: #0196fd; }
+
+/*Top header*/
+.top-header {
+  background: #fff;
+  color: #000; }
+  .top-header a {
+    color: #000; }
+    .top-header a:hover {
+      color: rgba(0, 0, 0, 0.1); }
+
+.sticker .top-header {
+  background: #fff;
+  color: #000; }
+
+.sticker .bottom-header {
+  background: rgba(255, 255, 255, 0.5); }
+
+.sticker.active a {
+  color: #000 !important; }
+  .sticker.active a:hover {
+    color: #0196fd !important; }
+
+.citysoul-form-user {
+  background: #0196fd; }
+
+/*Social list*/
+.citysoul-social.social-round li a:hover {
+  background: #0196fd; }
+
+/*Navigation*/
+.navigator .main-menu li a :hover {
+  color: #0196fd; }
+
+.navigator .main-menu .menu-item.current-menu-item > a, .navigator .main-menu .menu-item:hover > a {
+  color: #0196fd; }
+
+.navigator .main-menu .menu-item .sub-menu .menu-item {
+  background: #0196fd; }
+
+.navigator .main-menu .menu-item .sub-menu .current-menu-item {
+  background: #fff !important; }
+
+/*Setup font & color*/
+.text-more {
+  font-style: italic;
+  font-weight: 300; }
+
+.text-active {
+  color: #0196fd; }
+  .text-active * {
+    color: #0196fd; }
+
+.btn-buy {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.9); }
+
+.desc-small {
+  color: rgba(255, 255, 255, 0.2); }
+
+.citysoul-input-text {
+  border-color: #0196fd !important; }
+
+.view-all-link:before {
+  background: #0196fd; }
+
+.view-all-link a {
+  color: rgba(0, 0, 0, 0.8); }
+
+.citysoul-list-news-view .item-news.items-small .date-link a {
+  color: #79787e;
+  opacity: 0.8; }
+  .citysoul-list-news-view .item-news.items-small .date-link a:hover {
+    opacity: 1; }
+
+/*Upcomming*/
+.upcomming {
+  background: #fff; }
+
+.upcomming-slider .citysoul-title, .upcomming-slider .all-link a {
+  color: #000; }
+
+.upcomming-slider .upcomming-item .slider-image {
+  opacity: 1; }
+
+.upcomming-slider .upcomming-item .info-ticket a {
+  color: #000; }
+
+.upcomming-slider .upcomming-item .info-ticket .desc-small {
+  color: rgba(0, 0, 0, 0.9); }
+
+.upcomming-slider .upcomming-item .info-slide .citysoul-date {
+  font-weight: 300; }
+  .upcomming-slider .upcomming-item .info-slide .citysoul-date em {
+    font-size: 1.07143em; }
+  .upcomming-slider .upcomming-item .info-slide .citysoul-date strong {
+    font-size: 1.28571em; }
+
+.upcomming-slider .upcomming-item .info-slide:after {
+  background: none; }
+
+.upcomming-slider .upcomming-item .info-slide:before {
+  border: 10px solid #0196fd; }
+
+.upcomming-slider .upcomming-item .info-slide:hover {
+  background: #fff; }
+
+.upcomming-slider .upcomming-item .info-slide .btn-buy {
+  background: #0196fd;
+  color: #fff; }
+
+.upcomming-slider .all-link:before {
+  background: #0196fd; }
+
+/*Dj*/
+.single-dj {
+  background: #f4f1ef; }
+  .single-dj .cover-soundcloud .dj-image:after {
+    border-color: #0196fd; }
+  .single-dj .dj-infomation .citysoul-title {
+    color: #000; }
+  .single-dj .dj-infomation .desc-small {
+    color: rgba(0, 0, 0, 0.3); }
+
+/*Testimonial*/
+.testimonial {
+  background: url(../images/party-testimonial.png) no-repeat center center; }
+  .testimonial .testimonial-title .citysoul-title {
+    color: #d0d6d8; }
+
+.testimonial-list .citysoul-testimonial .testimonial-item .auth-testimonial {
+  color: #000; }
+  .testimonial-list .citysoul-testimonial .testimonial-item .auth-testimonial:after {
+    background: #0196fd; }
+
+.testimonial-list .citysoul-testimonial .testimonial-item .testi-message {
+  color: #0196fd; }
+
+/**
+ * Product Slider 
+ */
+.shop-slider {
+  background: rgba(0, 0, 0, 0.9); }
+
+.citysoul-shop-item .shop-item-text .item-shop-info .desc-product {
+  color: rgba(255, 255, 255, 0.5); }
+
+.citysoul-shop-item .shop-item-text .border-image:before {
+  border-color: #0196fd; }
+
+/*Twitter recent*/
+.twitter-recents-items {
+  background: url(../images/rectangle-electronic.png) no-repeat center center; }
+  .twitter-recents-items .twitter-message .title-items-twitter, .twitter-recents-items .twitter-message .title-items-twitter *, .twitter-recents-items .recent-post .title-items-twitter, .twitter-recents-items .recent-post .title-items-twitter * {
+    color: #000; }
+  .twitter-recents-items .twitter-message ul li .name-follow, .twitter-recents-items .twitter-message ul li .time, .twitter-recents-items .recent-post ul li .name-follow, .twitter-recents-items .recent-post ul li .time {
+    color: #000; }
+  .twitter-recents-items .twitter-message ul li .message, .twitter-recents-items .recent-post ul li .message {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 20px; }
+    .twitter-recents-items .twitter-message ul li .message a, .twitter-recents-items .recent-post ul li .message a {
+      color: rgba(0, 0, 0, 0.8); }
+      .twitter-recents-items .twitter-message ul li .message a:hover, .twitter-recents-items .recent-post ul li .message a:hover {
+        color: rgba(0, 0, 0, 0.8); }
+  .twitter-recents-items .citysoul-button {
+    color: #0196fd;
+    border: #0196fd 1px solid; }
+    .twitter-recents-items .citysoul-button:hover {
+      border-color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.8); }
+      .twitter-recents-items .citysoul-button:hover.text-active * {
+        color: rgba(0, 0, 0, 0.8); }
+  .twitter-recents-items .btn-buy {
+    background: none;
+    opacity: 1; }
+
+/*Video*/
+.citysoul-playvideo .text-button .btn-control.btn-play .play-icon {
+  background: url(../images/play-white-big.png) no-repeat center center;
+  background-size: 100% 100%; }
+
+.citysoul-playvideo .text-button .btn-control.btn-pause .play-icon {
+  background: url(../images/pause-white.png) no-repeat center center; }
+
+.citysoul-playvideo .text-button .all-video-link:before {
+  background: #0196fd; }
+
+/*News*/
+.citysoul-news .citysoul-title {
+  color: #000; }
+
+.citysoul-news .item-news .news-link {
+  font-weight: 700;
+  opacity: 0.5; }
+
+/*Gallery*/
+.gallery {
+  background: #fff; }
+  .gallery .title-gallery .citysoul-title {
+    color: #000; }
+  .gallery .gallery-item .gal-image img {
+    opacity: 1; }
+
+/*Shop slider*/
+.shop-slider {
+  background: #d7eff7; }
+
+.citysoul-shop-item .shop-item-text .item-shop-info .citysoul-title {
+  color: #000; }
+
+.citysoul-shop-item .shop-item-text .item-shop-info .desc-small {
+  color: rgba(0, 0, 0, 0.8); }
+
+.citysoul-shop-item .shop-item-text .item-shop-image:before {
+  border: 10px solid #0196fd; }
+
+/*Footer*/
+footer {
+  background: #0f0e21;
+  color: #fff; }
+  footer .text-active, footer .text-active * {
+    color: #fff; }
+
+.footer-widget .citysoul-button-o:hover {
+  border-color: #0196fd; }
+  .footer-widget .citysoul-button-o:hover.btn-subcribe {
+    border-color: #fff; }
+  .footer-widget .citysoul-button-o:hover.text-active * {
+    color: #0196fd; }
+
+.footer-widget .citysoul-button-o .text-title {
+  color: #fff; }
+
+.copyright {
+  font-size: 0.85714em;
+  color: rgba(255, 255, 255, 0.2); }
+  .copyright a {
+    color: rgba(255, 255, 255, 0.2); }
+    .copyright a:hover {
+      color: #fff; }
+
+.content-widget .additional-widget a {
+  color: #fff; }
+  .content-widget .additional-widget a:hover {
+    color: #0196fd; }
+
+.back-to-top {
+  border-color: #0196fd; }
+  .back-to-top:before {
+    color: #0196fd; }
+  .back-to-top:hover {
+    background: #0196fd; }

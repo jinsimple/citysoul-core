@@ -1,0 +1,515 @@
+.citysoul-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: #bc8b2e;
+  line-height: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.1);
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .citysoul-button {
+    margin-bottom: 10px;
+  }
+}
+
+.citysoul-button i {
+  font-size: 1.28571em;
+  line-height: 20px;
+}
+
+.citysoul-button.twitter-follow-button {
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .citysoul-button.twitter-follow-button {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    left: 0;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+button.citysoul-button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button .fa-spinner {
+  display: none;
+}
+
+button.loading .fa-spinner {
+  display: block;
+  -webkit-animation: rotation 1s infinite steps(8);
+  animation: rotation 1s infinite steps(8);
+}
+
+.citysoul-button-o {
+  background: transparent;
+  border: 2px;
+  border-style: solid;
+}
+
+button.citysoul-button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.citysoul-button-o {
+  border: 2px;
+  border-style: solid;
+}
+
+.citysoul-button-small {
+  font-size: 0.85714em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.citysoul-btn-active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-buy {
+  background: #bc8b2e;
+}
+
+.btn-next-back {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  top: 60%;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.btn-next-back:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-next-back:before {
+  content: "";
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: FontAwesome;
+  line-height: 32px;
+  width: 35px;
+  font-size: 1.78571em;
+}
+
+.btn-next-back.btn-next {
+  right: 0;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .btn-next-back.btn-next {
+    right: -60px;
+  }
+}
+
+.btn-next-back.btn-next:before {
+  content: "\f105";
+}
+
+.btn-next-back.btn-back {
+  left: 0;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .btn-next-back.btn-back {
+    left: -60px;
+  }
+}
+
+.btn-next-back.btn-back:before {
+  content: "\f104";
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+a:hover {
+  color: #860e00;
+}
+
+/*Top header*/
+.top-header {
+  background: #860e00;
+  color: #fff;
+}
+
+.top-header a {
+  color: #fff;
+}
+
+.top-header a:hover {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.sticker .top-header {
+  background: #860e00;
+  color: #fff;
+}
+
+.sticker .top-header a:hover {
+  color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.sticker .bottom-header {
+  background: #000;
+}
+
+.sticker.active .top-header a:hover {
+  color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.sticker.active a {
+  color: #fff !important;
+}
+
+.sticker.active a:hover {
+  color: #860e00 !important;
+}
+
+.sticker.active a {
+  color: #fff !important;
+}
+
+.sticker.active a:hover {
+  color: #860e00 !important;
+}
+
+.citysoul-form-user {
+  background: #860e00;
+}
+
+/*Social list*/
+.citysoul-social.social-round li a:hover {
+  background: #860e00;
+}
+
+/*Navigation*/
+.navigator .main-menu li a :hover {
+  color: #860e00;
+}
+
+.navigator .main-menu .menu-item.current-menu-item > a, .navigator .main-menu .menu-item:hover > a {
+  color: #860e00;
+}
+
+.navigator .main-menu .menu-item .sub-menu .menu-item {
+  background: #860e00;
+}
+
+.navigator .main-menu .menu-item .sub-menu .current-menu-item {
+  background: #000 !important;
+}
+
+/*Setup font & color*/
+.text-title {
+  font-family: "Oswald", sans-serif;
+}
+
+.text-more {
+  font-family: "Arapey", serif;
+  font-style: italic;
+}
+
+.text-desc {
+  font-family: "Arimo", sans-serif;
+}
+
+.text-active {
+  color: #860e00;
+}
+
+.text-active * {
+  color: #860e00;
+}
+
+.btn-buy {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.desc-small {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.citysoul-input-text {
+  border-color: #860e00 !important;
+}
+
+.view-all-link:before {
+  background: #860e00;
+}
+
+.view-all-link a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.back-to-top {
+  border-color: #860e00;
+}
+
+.back-to-top:before {
+  color: #860e00;
+}
+
+.back-to-top:hover {
+  background: #860e00;
+}
+
+/*Upcomming*/
+.upcomming-slider .citysoul-title, .upcomming-slider .all-link a {
+  color: #fff;
+}
+
+.upcomming-slider .upcomming-item .slider-image {
+  opacity: 1;
+}
+
+.upcomming-slider .upcomming-item .info-ticket a {
+  color: #fff;
+}
+
+.upcomming-slider .upcomming-item .info-ticket .desc-small {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.upcomming-slider .upcomming-item .info-slide:after {
+  background: none;
+}
+
+.upcomming-slider .upcomming-item .info-slide:before {
+  border: 10px solid #860e00;
+}
+
+.upcomming-slider .upcomming-item .info-slide:hover {
+  background: #000;
+}
+
+.upcomming-slider .upcomming-item .info-slide .btn-buy {
+  background: #fff;
+  color: #000;
+}
+
+.upcomming-slider .all-link:before {
+  background: #860e00;
+}
+
+/*Dj*/
+.single-dj {
+  background: url(../images/artist_bg_rock2.png) no-repeat center center;
+}
+
+.single-dj .cover-soundcloud .dj-image:after {
+  border-color: #860e00;
+}
+
+.single-dj .dj-infomation .citysoul-title {
+  color: #fff;
+}
+
+/*Testimonial*/
+.testimonial .testimonial-title .citysoul-title {
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.testimonial-list .citysoul-testimonial .testimonial-item .auth-testimonial {
+  color: #fff;
+}
+
+.testimonial-list .citysoul-testimonial .testimonial-item .auth-testimonial:after {
+  background: #860e00;
+}
+
+.testimonial-list .citysoul-testimonial .testimonial-item .testi-message {
+  color: #fff;
+}
+
+/**
+ * Product Slider 
+ */
+.shop-slider {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.citysoul-shop-item .shop-item-text .item-shop-info .desc-product {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.citysoul-shop-item .shop-item-text .border-image:before {
+  border-color: #860e00;
+}
+
+/*Twitter recent*/
+.twitter-recents-items {
+  background: url(../images/rectangle-rock2.png) no-repeat center center;
+}
+
+.twitter-recents-items .twitter-message ul li .message, .twitter-recents-items .recent-post ul li .message {
+  color: rgba(255, 255, 255, 0.2);
+  line-height: 20px;
+}
+
+.twitter-recents-items .twitter-message ul li .message a, .twitter-recents-items .recent-post ul li .message a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.twitter-recents-items .twitter-message ul li .message a:hover, .twitter-recents-items .recent-post ul li .message a:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.twitter-recents-items .citysoul-button {
+  color: #860e00;
+  border: #860e00 1px solid;
+}
+
+.twitter-recents-items .citysoul-button:hover {
+  border-color: #fff;
+}
+
+.twitter-recents-items .citysoul-button:hover.text-active * {
+  color: #fff;
+}
+
+.twitter-recents-items .btn-buy {
+  background: none;
+  opacity: 1;
+}
+
+/*Video*/
+.citysoul-playvideo .text-button .btn-control.btn-play .play-icon {
+  background: url(../images/play-white-big.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.citysoul-playvideo .text-button .btn-control.btn-pause .play-icon {
+  background: url(../images/pause-white.png) no-repeat center center;
+}
+
+.citysoul-playvideo .text-button .all-video-link:before {
+  background: #860e00;
+}
+
+/*News*/
+.citysoul-news .citysoul-title {
+  color: #fff;
+}
+
+/*Gallery*/
+.gallery .title-gallery .citysoul-title {
+  color: #fff;
+}
+
+/*Shop slider*/
+.shop-slider .citysoul-title-shop {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.citysoul-shop-item .shop-item-text .item-shop-info .citysoul-title {
+  color: #fff;
+}
+
+.citysoul-shop-item .shop-item-text .item-shop-info .desc-small {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.citysoul-shop-item .shop-item-text .item-shop-image:before {
+  border: 10px solid #860e00;
+}
+
+.citysoul-shop-item .shop-item-text .item-shop-info .shop-more .text-more {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*Footer*/
+footer {
+  background: url(../images/footer_bg_rock2.png) no-repeat center center;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-widget .citysoul-button-o .text-title {
+  color: #860e00;
+}
+
+.copyright {
+  font-size: 0.85714em;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.copyright a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.copyright a:hover {
+  color: #fff;
+}
+
+.content-widget .additional-widget a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.content-widget .additional-widget a:hover {
+  color: #860e00;
+}
+/*# sourceMappingURL=rock.css.map */

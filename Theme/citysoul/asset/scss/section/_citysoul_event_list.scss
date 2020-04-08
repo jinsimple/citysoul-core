@@ -1,0 +1,364 @@
+// For month list
+.list-event-of-month{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    .citysoul-event-month{
+        .grid-list-full{
+            .event-date{
+                width: 100%;
+            }
+        }
+    }
+}
+.citysoul-list-event{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.citysoul-event-list{
+    float: left;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding: 0px 30px;
+    @media only screen and (min-width: 768px){
+        padding: 0px;
+    }
+    &.grid-list{
+        .event-date{
+            height: 400px;
+            @media only screen and (min-width: 768px){
+                height: 320px;
+            }
+        }
+    }
+    .event-date{
+        height: auto;
+        position: relative;
+        padding: 0;
+        @media only screen and (min-width: 768px){
+            height: 320px;
+        }
+
+        .event-cover-name, .event-cover{
+            float: left;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            position: relative;
+            box-sizing: border-box;
+            padding: 0;
+            left: 0px;
+            top: 0px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            @media only screen and (min-width: 768px){
+                margin-bottom: 0;
+            }
+            &:before, &:after{
+                @extend .item-shadow;
+            }
+            &:after{
+                background: none;
+                opacity: 0;
+                border: 10px solid $active-color;
+            }
+            .img-event-list{
+                width: 100%;
+                height: 320px;
+                position: relative;
+                overflow: hidden;
+                @media only screen and (min-width: 768px){
+                    width: 220px;
+                }
+            }
+            img{
+                opacity: 0.5;
+                @include transition;
+                @include center(xy);
+                position: absolute;
+                object-fit: cover;
+                width: 100%;
+                height: auto;
+            }
+            .citysoul-date{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                padding: 30px;
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+            }
+
+        }
+        .citysoul-button{
+            color: $active-color;
+        }
+        // For list full event
+        .event-cover{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            @media only screen and (min-width: 768px){
+                width: auto;
+            }
+            img{
+                opacity: 1;
+            }
+            &:before{
+                @include transition;
+            }
+        }
+
+        .detail-event-day{
+            // display: none;
+            opacity: 0;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            background: $active-color;
+            @include transition;
+            z-index: 3;
+            text-align: center;
+            color: $White;
+            .info-event{
+                position: absolute;
+                @include center(xy);
+                // left: 0px;
+                width: 100%;
+                padding: 20px;
+            }
+            .citysoul-date{
+                float: left;
+                width: 100%;
+                height: auto;
+            }
+            .title-event{
+                text-transform: uppercase;
+                float: left;
+                width: 100%;
+                height: auto;
+                line-height: 25px;
+                letter-spacing: 2px;
+                margin-top: 15px;
+                max-height: 90px;
+                overflow: hidden;
+                a{
+                    &:hover{
+                        color: $white_03!important;
+                    }
+                }
+            }
+            .dj-play{
+                float: left;
+                width: 100%;
+                height: auto;
+                margin-top: 2px;
+                strong{
+                    text-transform: uppercase;
+                }
+
+            }
+            .citysoul-button{
+                background: $White;
+                color: $active-color;
+                margin-top: 20px;
+                i{
+                    opacity: 0.8;
+                }
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+        //Style text small style list event ticket
+        .title-full{
+            .dj-play{
+                line-height: 16px;
+                margin-bottom: 0;
+            }
+            .tag-event{
+                margin-top: 20px;
+            }
+        }
+        &:hover{
+            .detail-event-day{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+//For list full event
+.buy-ticket-event{
+    opacity: 0;
+    @include transition;
+     padding-top: 83px;
+     .citysoul-button{
+        @include font-size(12px);
+     }
+}
+.event-row{
+    box-sizing: border-box;
+    padding-left: 0!important;
+    overflow: hidden;
+    float: left;
+    max-width: 100%;
+    @include transition;
+    background: #0b0907;
+        .event-cover{
+            &:after{
+               opacity: 1;
+            }
+            &:before{
+                opacity: 0;
+            }
+        }
+        .buy-ticket-event{
+            opacity: 1;
+        }
+        .date-full{
+            .text-title{
+                color: $white_05;
+            }
+        }
+    @media only screen and (min-width: 1024px){
+        padding-left: 215px!important;
+        .buy-ticket-event{
+            opacity: 0;
+        }
+    }
+    &.active-event{
+        background: $active-color;
+        color: $White;
+        .event-cover{
+            padding: 20px;
+            @media only screen and (min-width: 768px){
+                padding: 0;
+            }
+        }
+        .buy-ticket-event,.title-full{
+            padding: 20px;
+            @media only screen and (min-width: 768px){
+                padding: auto;
+            }
+        }
+        .title-event{
+            a{
+                color: $White;
+            }
+        }
+        .tags-list{
+            a{
+                color: $white_05;
+            }
+        }
+        .buy-ticket-event, .citysoul-button, .citysoul-button i{
+            opacity: 1;
+            color: $White;
+            border-color: $White;
+        }
+        .date-full{
+            .text-title,.text-more{
+                color: $White;
+            }
+        }
+        .citysoul-event-title{
+            span{
+                color: $white_05;
+            }
+        }
+        &:hover{
+            background: $active-color;
+            .date-full{
+                .text-title{
+                    color: $white_05;
+                }
+            }
+            .event-cover{
+                &:after{
+                   opacity: 0;
+                }
+                &:before{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &:hover{
+        background: #0b0907;
+        .event-cover{
+            &:after{
+               opacity: 1;
+            }
+            &:before{
+                opacity: 0;
+            }
+        }
+        .buy-ticket-event{
+            opacity: 1;
+        }
+        .date-full{
+            .text-title{
+                color: $white_05;
+            }
+        }
+    }
+
+}
+.title-full{
+    margin-top: 65px;
+    padding: 0;
+    letter-spacing: 1.5px;
+    box-sizing: border-box;
+    @media only screen and (min-width: 768px){
+        padding-left: 35px;
+        padding-right: 90px;
+    }
+    .citysoul-title{
+        line-height: 30px;
+    }
+}
+.citysoul-event-title{
+    span, >a{
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+        strong{
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        &.start-at, &.event-title{
+            margin-bottom: 10px;
+        }
+    }
+}
+.date-full{
+    margin-top: 77px;
+    text-align: center;
+    // padding-right: 50px;
+    padding: 0;
+    padding-bottom: 20px;
+    @media only screen and (min-width: 768px){
+        padding-left: 0;
+    }
+    @media only screen and (min-width: 1200px){
+        padding-left: 80px;
+    }
+    .text-more{
+        letter-spacing: 2px;
+        @include transition;
+    }
+    .text-title{
+        @include transition;
+        line-height:1.09em;
+        color: $white_01;
+    }
+}

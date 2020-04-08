@@ -1,0 +1,1 @@
+Main plugin for citysoul theme

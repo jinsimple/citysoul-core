@@ -1,0 +1,355 @@
+@charset "UTF-8";
+@import 'bourbon/bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and media queries
+/* --------------------------------
+
+Primary style
+/*Css for Style*/
+
+/**
+ * Table of Contents:
+01. Header
+02. Pagging
+03. Navigation
+04. Body
+05. Button
+06. Modal popup
+07. Sidebar
+08. Tags
+09. Comments
+10. Author box
+11. Social list
+12. Select box
+13. Player
+14. Main slider
+15. Upcomming
+16. Single dj
+17. Testimonial
+18. Play video
+19. Gallery
+20. Schedule list
+21. Twitter recentpost
+22. News
+23. Coundown text
+24. Shop slider
+25. Drink list
+26. Snack list
+27. Track list
+28. All albums
+29. Pagkage list
+30. Apply form
+31. Event list
+32. Calendar
+33. About text
+34. Service icon
+35. Partner
+36. Team list
+37. Podcast
+38. Other artist
+39. More news
+40. Booking event
+41. Page 404
+42. Page contact
+43. Page video
+44. Page dj
+45. Page gallery
+46. Page blog
+47. Page shop
+48. Page shoping cart
+49. Page detail event
+50. Page about event
+51. Page checkout
+52. Footer
+53. Style custom admin
+
+------------------------*/
+
+/*
+01. Header
+ */
+@import 'base/header'; //Get header style
+@import 'base/mobilemenu'; //Get mobile
+
+/*
+02. Pagging
+ */
+@import 'base/pagging'; //Get header style
+
+/*
+03. Navigation
+ */
+@import 'base/navigation'; //Get navigation style
+
+/*
+04. Body
+ */
+@import 'base/body'; //Get body style
+@import 'base/load'; //Get load
+/*
+05. Button
+ */
+@import 'layouts/button'; // responsive grid and media queries
+
+/*
+06. Modal popup
+ */
+@import 'layouts/modal'; // responsive grid and media queries
+
+/*
+07. Sidebar
+ */
+@import 'layouts/sidebar'; // responsive grid and media queries
+
+/*
+08. Tags
+ */
+@import 'layouts/tags'; // responsive grid and media queries
+
+/*
+09. Comments
+ */
+@import 'layouts/comments'; // responsive grid and media queries
+
+/*
+10. Author box
+ */
+@import 'layouts/author_box'; // responsive grid and media queries
+
+/*
+11. Social list
+ */
+@import 'layouts/social_list'; // responsive grid and media queries
+
+/*
+12. Select box
+ */
+@import 'components/select_box'; // Custom select box
+
+/*
+13. Player
+ */
+@import 'components/player'; // Custom player
+
+/*
+14. Main slider
+ */
+@import 'section/main_slider'; //Get main slider
+
+/*
+15. Upcomming
+ */
+@import 'section/upcomming'; //Get upcomming
+
+/*
+16. Single dj
+ */
+@import 'section/single_dj'; //Get single dj
+
+/*
+17. Testimonial
+ */
+@import 'section/testimonial'; //Get testimonial
+
+/*
+18. Play video
+ */
+@import 'section/play_video'; //Get play video
+
+/*
+19. Gallery
+ */
+@import 'section/gallery'; //Get gallery
+
+/*
+20. Schedule list
+ */
+@import 'section/schedule_list'; //Get gallery
+
+/*
+21. Twitter recentpost
+ */
+@import 'section/twitter_recentpost'; //Get twitter recentpost
+
+/*
+22. News
+ */
+@import 'section/news'; //Get news
+
+/*
+23. Coundown text
+ */
+@import 'section/coundown_text'; //Get news
+
+/*
+24. Shop slider
+ */
+@import 'section/shop_slider'; //Get shop slider
+
+/*
+25. Drink list
+ */
+@import 'section/drink_list';
+
+/*
+26. Snack list
+ */
+@import 'section/snack_list';
+
+/*
+27. Track list
+ */
+@import 'section/track_list';
+
+/*
+28. All albums
+ */
+@import 'section/all_albums';
+
+/*
+29. Pagkage list
+ */
+@import 'section/pagkage_list';
+
+/*
+30. Apply form
+ */
+@import 'section/apply_form';
+
+/*
+31. Event list
+ */
+@import 'section/citysoul_event_list';
+
+/*
+32. Calendar
+ */
+@import 'section/citysoul_calendar_page';
+
+/*
+33. About text
+ */
+@import 'section/about_text';
+
+/*
+34. Service icon
+ */
+@import 'section/service_icon';
+
+/*
+35. Partner
+ */
+@import 'section/partner';
+
+/*
+36. Team list
+ */
+@import 'section/team_list';
+
+/*
+37. Podcast
+ */
+@import 'section/podcast_short_code';
+
+/*
+38. Other artist
+ */
+@import 'section/other_artist';
+
+/*
+39. More news
+ */
+@import 'section/more_news';
+
+/*
+40. Booking event
+ */
+@import 'section/booking_event';
+
+// Get page
+/*
+41. Page 404
+ */
+@import 'pages/404';
+
+/*
+42. Page contact
+ */
+@import 'pages/contact';
+
+/*
+43. Page video
+ */
+@import 'pages/video';
+
+/*
+44. Page dj
+ */
+@import 'pages/dj';
+
+/*
+45. Page gallery
+ */
+@import 'pages/gallery';
+
+/*
+46. Page blog
+ */
+@import 'pages/blog';
+
+/*
+47. Page shop
+ */
+@import 'pages/shop';
+
+/*
+48. Page shoping cart
+ */
+@import 'pages/shoping_cart';
+
+/*
+49. Page detail event
+ */
+@import 'pages/detail_event';
+
+/*
+50. Page about event
+ */
+@import 'section/about_event';
+
+/*
+51. Page checkout
+ */
+@import 'pages/checkout';
+
+/*
+52. Footer
+ */
+@import 'base/footer'; //Get footer style
+
+/*
+53. Style custom admin
+ */
+@import 'base/custom_admin'; //Get footer style
+
+/*54. event h3
+ */
+@import 'section/event'; //
+/*55. update
+ */
+@import 'section/instagram'; //
+/*56. gallery h3
+ */
+@import 'section/galleryh3'; //
+
+/*57. update
+ */
+@import 'base/update'; //
+
+/*58. event_calendar
+ */
+@import 'section/event_calendar'; //

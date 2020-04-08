@@ -1,0 +1,166 @@
+.shop-slider{
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #eff0f2;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    .container {
+        @include RP(F) {
+            width: 100%;
+            padding-left:15px;
+            padding-right : 15px;  
+        }
+        
+    }
+}
+.citysoul-shop-slider{
+    float: left;
+    width: 100%;
+    height: auto;
+    .shop-slider-view{
+        padding-bottom: 0;
+        @include MQ(M) {
+            padding-top: 30px;
+        }
+        .swiper-pagination-bullet-active{
+            background: $black-07!important;
+        }
+    }
+    .citysoul-title-shop{
+        position: relative;
+        width: 270px;
+        left: 48%;
+        top: 135px;
+        @include RP(F){
+            width: 100%;
+            left: 0;
+            text-align: center;
+            top: 0;
+            padding-bottom:40px;
+        }
+        opacity: 0.5;
+        padding-left: 15px;
+        color: $black-005;
+        padding-top: 50px;
+        @include MQ(M) {
+            padding-top: 0;
+        }
+    .title-7x {
+        @include font-size(70px);
+        letter-spacing: 5px;
+    }
+    }
+}
+.citysoul-shop-item{
+    margin-bottom: 80px;
+    .shop-item-text{
+        // @include center(x);
+        float: left;
+        width: 100%;
+        height: auto;
+        .border-image {
+            position: relative;
+            float: left;
+            @include RP(F) {
+                width: 100%;
+            } 
+           &:before{
+                @include MQ(F) {
+                    content: ""; 
+                }            
+                width: 300px;
+                height: 450px;
+                top: 3%;
+                left: 25%;
+                box-sizing: border-box;
+                border: 10px solid $active-color;
+                position: absolute;
+                // @include center(x);
+                z-index: 1px;
+            }  
+        }
+        .item-shop-image{
+            float: left;
+            width: 100%;
+            margin-top: 0px;
+            @include MQ(L) {
+                width: 100%;
+
+            }
+            @include MQ(F) {
+                width: 580px;          
+                margin-top: 90px;
+            }
+           
+            text-align: right;
+            overflow: hidden; 
+            height: 320px;
+            position: relative;
+
+            padding-bottom: 60px;
+            img{
+                float: right;
+                position: absolute;
+                width: 100%;
+                height: auto;
+                @include center(xy);
+                z-index: 2px;
+
+            }
+        }
+        .item-shop-info{
+            float: right;
+            //mobile
+            width: 100%;
+
+            margin-top: 20px;
+            @include MQ(F){
+                width: 50%;
+                margin-top: 114px;
+                position : absolute;
+                left: 48%;
+
+            }
+
+            box-sizing:border-box;
+            padding-left: 15px;
+
+            .shop-date,.desc-product,.shop-price,.shop-more,.title-shop{
+                float: left;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .shop-date{
+                //mobile
+                margin-bottom:0px;
+                @include MQ(F) {
+                    margin-bottom: 50px;  
+                }
+   
+            }
+            .desc-product {
+                float: left;
+                color: $black-05;
+                //mobile 
+                width: 100%;
+                @include MQ(F) {
+                    width: 240px;
+                }
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                max-height: 45px;      /* fallback */
+                -webkit-line-clamp: 2; /* number of lines to show */
+                -webkit-box-orient: vertical;
+                margin-bottom: 10px;
+            }
+            .shop-more{
+                .text-more{
+                    color: $black-07;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

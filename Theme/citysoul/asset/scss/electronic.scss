@@ -1,0 +1,467 @@
+@charset "UTF-8";
+
+@import 'bourbon/bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and media queries
+
+@import 'layouts/button'; // responsive grid and media queries
+$active-style : $white-03;
+$active-style2 : #860e00;
+$single-dj : #f4f1ef;
+$testimonial :$White;
+body {
+    background :   $Black;
+    color: $White;
+}
+a{
+    &:hover{
+        color: $active-style;
+    }
+}
+/*Top header*/
+.top-header{
+    background: $Black;
+    color: $white-03;
+    a{
+        color: $white-03;
+        &:hover{
+            color: $white_01;
+        }
+    }
+}
+.sticker {
+    .top-header {
+        background: $Black;
+        color: $white-03;
+         a:hover{
+                color: $White!important;
+            }
+    }
+    .bottom-header {
+       background: $Black;
+       //color: $Black;
+    }
+    &.active{
+        .top-header {
+            color: $white-03;
+            a:hover{
+                color: $White!important;
+            }
+        }
+        a  {
+            color: $white-03 !important;
+            &:hover{
+                color: $White!important;
+            }
+        }
+        .sub-menu {
+            a {
+                color: $Black !important;
+                &:hover{
+                    color: $White!important;
+                }
+            }
+        }
+    }
+}
+.citysoul-form-user{
+    background: $active-style;
+}
+
+/*Social list*/
+.citysoul-social{
+    &.social-round{
+        li{
+            a{
+                color: $black_09;
+                &:hover{
+                    background: $White;
+                    color: $Black;
+
+                }
+            }
+        }
+    }
+}
+/*Navigation*/
+.navigator{
+    .main-menu{
+        li {
+            a :hover { color: $white-03; }
+        }
+        .menu-item{
+            &.current-menu-item, &:hover{
+                >a{
+                    color: $white-03;
+                }
+            }
+            .sub-menu{
+                // border-bottom: 10px solid $White;
+                // border-top: 10px solid $White;
+                // background: $White;
+                .menu-item{
+                    background: $White;
+                    a {
+                       color: $Black;
+                       &:hover {
+                        color: $White;
+                        background: $Black;
+                       }
+                    }
+                }
+                .current-menu-item {
+                    background: $Black !important;
+                    a {
+                        color: $White !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Setup font & color*/
+.text-title{
+    font-family: $Os;
+}
+
+.text-more{
+    font-family: $Ara;
+    font-style: italic;
+}
+.text-desc{
+    font-family: $Ari;
+}
+.text-active{
+    color: $active-style;
+    *{
+        color: $active-style;
+    }
+}
+.btn-buy{
+    background: $White;
+    color: $black_09;
+}
+.desc-small{
+    color: $white-03;
+}
+.citysoul-input-text{
+    border-color: $active-style !important;
+}
+.view-all-link{
+    &:before{
+        background: $active-style;
+    }
+    a{
+        color: $white-03;
+    }
+}
+.back-to-top {
+    border-color : $active-style;
+    &:before {
+         color: $active-style;
+    }
+    &:hover {
+        background: $active-style;
+    }
+}
+/*Upcomming*/
+.upcomming {
+   // background :$White;
+}
+.upcomming-slider{
+    .citysoul-title , .all-link a {
+        color: $White;
+    }
+    .upcomming-item{
+        .slider-image {
+            opacity: 1;
+        }
+        .info-ticket {
+            a {
+                color: $White;
+            }
+            .desc-small {
+                color: $white_09;
+            }
+        }
+        .info-slide{
+            &:after {
+                background: none;
+            }
+            &:before{
+                //border-color: $active-style2;
+                // border-width: 10px;
+                // border-style: solid;
+                background-image: rgba(134, 14, 0, 1);
+                -webkit-border-image: -webkit-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Safari 5.1 to 6.0 */
+                -o-border-image: -o-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Opera 11.1 to 12.0 */
+                -moz-border-image: -moz-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Firefox 3.6 to 15 */
+                 border-image: linear-gradient(200deg,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* Standard syntax */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b21926', endColorstr='#002f2b', GradientType=0 );
+
+            }
+            &:hover {
+                background :$Black;
+            }
+            .btn-buy {
+                 background: $White;
+                 color :$Black;
+            }
+
+        }
+    }
+    .all-link {
+        &:before{
+            background: $white-03;
+        }
+    }
+
+}
+/*Dj*/
+.single-dj{
+    background : url(../images/artist_bg_electronic.png) no-repeat center center;
+    .cover-soundcloud {
+        .dj-image:after {
+            background-image: rgba(134, 14, 0, 1);
+                -webkit-border-image: -webkit-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Safari 5.1 to 6.0 */
+                -o-border-image: -o-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Opera 11.1 to 12.0 */
+                -moz-border-image: -moz-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Firefox 3.6 to 15 */
+                 border-image: linear-gradient(200deg,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* Standard syntax */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b21926', endColorstr='#002f2b', GradientType=0 );
+
+        }
+    }
+    .dj-infomation {
+        .citysoul-title {
+            color: $White;
+        }
+    }
+}
+
+/*Testimonial*/
+.testimonial  {
+    .testimonial-title {
+        .citysoul-title {
+            color: rgba($White, 0.05);
+        }
+    }
+}
+.testimonial-list{
+    .citysoul-testimonial{
+        .testimonial-item{
+            .auth-testimonial{
+                color: $White;
+
+                &:after{
+                    background: $active-style;
+                }
+            }
+            .testi-message {
+                color: $White;
+            }
+        }
+    }
+}
+
+/**
+ * Product Slider
+ */
+.shop-slider {
+    background: $black_09;
+}
+.citysoul-shop-item {
+    .shop-item-text {
+        .item-shop-info {
+            .desc-product{
+                color: $white-05;
+            }
+            .text-active {
+                color: $White;
+                *{
+                    color: $White;
+                }
+            }
+        }
+
+        .border-image:before {
+            background-image: rgba(134, 14, 0, 1);
+                -webkit-border-image: -webkit-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Safari 5.1 to 6.0 */
+                -o-border-image: -o-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Opera 11.1 to 12.0 */
+                -moz-border-image: -moz-linear-gradient(top,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* For Firefox 3.6 to 15 */
+                 border-image: linear-gradient(200deg,rgba(178, 25, 38, 1), rgba(128, 41, 90, 1), rgba(0, 47, 43, 1)) 10; /* Standard syntax */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b21926', endColorstr='#002f2b', GradientType=0 );
+
+        }
+    }
+}
+/*Twitter recent*/
+.twitter-recents-items{
+    background: url(../images/rectangle-electronic.png) no-repeat center center;
+    .twitter-message, .recent-post{
+         .title-items-twitter ,.title-items-twitter *  {
+             color: $White;
+         }
+        ul {
+            li {
+                .text-active ,.text-active *{
+                    color: $White;
+                }
+                .message{
+                    color: $white-03;
+                    line-height: 20px;
+                    a{
+                        color: $white-03;
+                        &:hover{
+                            color: $white-03;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .citysoul-button{
+        color: $active-style;
+        border : $active-style 1px solid;
+        &:hover{
+            color: $active-style;
+        }
+    }
+    .btn-buy {
+        background : none;
+        opacity: 1;
+    }
+
+}
+
+
+/*Video*/
+.citysoul-playvideo{
+    .text-button{
+        .btn-control{
+            &.btn-play{
+                .play-icon{
+                    background: url(../images/play-white-big.png) no-repeat center center;
+                    background-size: 100% 100%;
+                }
+            }
+            &.btn-pause{
+                .play-icon{
+                    background: url(../images/pause-white.png) no-repeat center center;
+                }
+            }
+
+        }
+        .all-video-link{
+            &:before{
+                background: $active-style;
+            }
+        }
+    }
+}
+
+/*News*/
+.citysoul-news {
+    .citysoul-title {
+        color: $White;
+    }
+
+    .text-active{
+        color: $White;
+        *{
+            color: $White;
+        }
+    }
+
+}
+/*Gallery*/
+.gallery {
+
+    .title-gallery {
+        .citysoul-title {
+            color:  $White;
+        }
+    }
+}
+/*Shop slider*/
+
+.shop-slider {
+    //background :#d7eff7;
+    .citysoul-title-shop {
+        color: $white-03;
+    }
+
+}
+.citysoul-shop-item{
+    .shop-item-text{
+        .item-shop-info {
+           .citysoul-title  {
+                color: $White;
+            }
+            .desc-small {
+                color: $white-03;
+            }
+        }
+        .item-shop-image{
+
+                &:before{
+                    border: 10px solid $active-style2;
+                }
+
+        }
+    }
+}
+.citysoul-shop-item .shop-item-text .item-shop-info .shop-more .text-more {
+    color: $white-03;
+}
+
+/*Footer*/
+
+footer{
+    background : url(../images/footer_bg_electronic.png) no-repeat center center;
+    color: $white-03;
+}
+.footer-widget{
+    .citysoul-button-o {
+        &:hover {
+            border-color : $White;
+            &.text-active {
+                * {
+                    color: $White;
+                }
+            }
+        }
+      .text-title {
+         color: $white-03;
+      }
+    }
+    .title-widget {
+        color: $White;
+    }
+
+}
+.copyright{
+    @include font-size(12px);
+    color: $white-03;
+    a{
+        color: $white-03;
+        &:hover{
+            color: $White;
+        }
+    }
+}
+.content-widget{
+    .additional-widget{
+        a{
+            color: $white-03;
+            &:hover{
+                color: $White;
+            }
+        }
+    }
+}

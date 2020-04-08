@@ -1,0 +1,54 @@
+.citysoul-about-event{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    .container {
+        @include RP(F){
+            padding-left :15px;
+            padding-right:15px;
+            width: 100%; 
+        }
+
+    }
+    .main-text-about{
+        box-sizing: border-box;
+        //moblie
+        @include MQ(L){
+            padding-right: 50px;
+            padding-left: 89px;
+        }
+        
+        p{
+            text-transform: uppercase;
+            line-height: 35px;
+            margin-bottom: 40px;
+            letter-spacing: 1.5px;
+        }
+    }
+    .detail-text-about{
+        box-sizing: border-box;
+        //mobile
+        @include MQ(L) {
+            padding-left: 40px; 
+        }
+
+        p{
+            color: $white_06;
+            margin-bottom: 25px;
+        }
+    }
+}
+.title-about-event{
+    .citysoul-tags{
+        text-transform: uppercase;
+        @include font-size(10px);
+        letter-spacing: 5px;
+        bottom: 10px;
+        // margin-top: 0px;
+        &:before{
+            display: none;
+        }
+    }
+}

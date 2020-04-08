@@ -1,0 +1,31 @@
+.citysoul-author-box{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background: $active-color;
+    margin-bottom: 50px;
+    .author-name{
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .author-short-desc{
+        font-style: italic;
+        color: $white_05;
+        letter-spacing: 1.1px;
+        // float: left;
+        // width: 100%;
+    }
+    .author-url{
+        color: $white_05;
+        margin-top: 20px;
+        // float: left;
+        // width: 100%;
+    }
+    img{
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+    }
+}

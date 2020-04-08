@@ -1,0 +1,123 @@
+.gallery-page{
+    float: left;
+    width: 100%;
+    height: auto;
+    // background: $Black;
+}
+.citysoul-gallery{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+    .citysoul-gallery-list{
+        float: left;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+        list-style: none;
+        .citysoul-item-gallery{
+            position: relative;
+            @include MQ(M) {
+                width: 50%;
+            }
+            @include MQ(F) {
+                width: 25%;
+            }
+            &:hover{
+                .feature-gallery-image{
+                    img{
+                        opacity: 1;
+                    }
+                }
+                .info-item{
+                    .title-gal{
+                        opacity: 1;
+                    }
+                }
+            }
+            &.big-item{
+                @include MQ(F) {
+                    width: 50%;
+                }
+                .info-item{
+                    max-width: 65%;
+                    padding: 60px;
+                    .title-gal{
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+        .info-item{
+            position: absolute;
+            width: 100%;
+            // height: 100%;
+            box-sizing:border-box;
+            padding: 60px 40px;
+            bottom: 0px;
+            left: 0px;
+            z-index: 2;
+            @include MQ(M) {
+                padding: 40px;
+            }
+            .title-gal{
+                display: block;
+                text-transform: uppercase;
+                letter-spacing: 1.75px;
+                opacity: 0.5;
+                &.text-4x{
+                    padding: 0px;   
+                    @include font-size(18px);
+                    @include MQ(F) {
+                        @include font-size(36px);
+                        line-height: 50px;
+                    }
+                }
+            }
+            .citysoul-date{
+                text-align: center;
+            }
+        }
+        .feature-gallery-image{
+            background: $Black;
+            position: relative;
+            width: 100%;
+            height: 320px;
+            overflow: hidden;
+            &:before{
+                @extend .item-shadow;
+            }
+            img{
+                opacity: 0.7;
+                position: absolute;
+                @include center(xy);
+                @include transition;
+                width: auto;
+                height: 100%;
+                min-width: 100%;
+                object-fit: cover;
+            }
+        }
+        .big-item .feature-gallery-image{
+            background: $Black;
+            position: relative;
+            width: 100%;
+            height: 320px;
+            overflow: hidden;
+            @include MQ(F) {
+                height: 640px;
+            }
+            &:before{
+                @extend .item-shadow;
+            }
+            img{
+                opacity: 0.7;
+                position: absolute;
+                @include center(xy);
+                @include transition;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

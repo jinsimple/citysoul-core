@@ -1,0 +1,355 @@
+.calendar {
+    .ui-widget-header {
+        font-weight:inherit;
+        background-color: transparent;
+        &.fc-head-container {
+            border:none;
+        }
+    }
+  .fc-toolbar.fc-header-toolbar {
+        margin: 0 auto;
+        // display: none;
+    }
+    .ui-widget-content {
+        border-color:  $white_01;
+        background-image: none !important;
+        background-color: transparent;
+    }
+    .fc-week.ui-widget-content {
+         background: #0b0b0b;
+         &:nth-child(2n) {
+            background: #000;
+         }
+    }
+    .fc-day-grid-event {
+        margin: 0;
+        padding:0;
+    }
+    .fc-basic-view .fc-day-number, .fc-basic-view .fc-week-number {
+        padding:0;
+    }
+    .fc-day-header.ui-widget-header {
+        background: $active-color;
+        color: $white_06;
+        font-family: $Ara;
+        font-style: italic;
+        font-size :13px;
+        @include MQ(M) {
+            font-size :16px;
+        }
+        border:0;
+        border-right: 1px solid $white_01;
+        border-top: 1px solid $white_01;
+        height: 45px;
+        line-height: 45px;
+
+    }
+    .fc-row.fc-week {
+        border: 0 !important;
+    }
+    .fc-basic-view .fc-body .fc-row {
+        min-height: 283px;
+    }
+    .fc-scroller {
+        height: auto!important;
+        overflow-y: auto;
+    }
+    .fc-day-grid-event {
+        &.fc-event {
+            background: none !important;
+            border: 0 !important;
+        }
+    }
+    .fc-event-container {
+        padding:0;
+    }
+    .fc-day-top.fc-past  {
+        padding:20px 20px 0 20px;
+    }
+    .fc-day-top .fc-day-number {
+        float: none !important;
+        color: $active-color;
+        opacity: 0.4;
+    }
+    .ev {
+        padding-top: 20px;
+        white-space: initial;
+        &__cover {
+            width: 140px;
+            height: 203px;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            &--view {
+                display: none;
+                position:absolute;
+                left:-150px;
+            }
+            &_image {
+                position: absolute;
+                z-index: 1;
+                &:after {
+                    @extend .item-shadow;
+                }
+            }
+            &_buy {
+                position: absolute;
+                display: inline-block;
+                @include center(xy);
+                z-index: 0;
+                padding: 10px 10px;
+                text-transform: uppercase;
+                background: $active-color;
+                a {
+                    color: $White;
+                    font : {
+                        family: $Os;
+                        weight: 700;
+                    }
+                    @include font-size(14px);
+                    letter-spacing: 2px;
+                    cursor: pointer;
+
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__title {
+            font: {
+                family : $Os;
+                weight : 700;
+                size : 16px;
+            }
+            line-height: 20px;
+            padding: 7px 0;
+            color: $active-color;
+            &_buy {
+                display: none;
+                float: right;
+            }
+            a {
+                color: $active-color;
+            }
+        }
+        &__by {
+            opacity: 0.7;
+            &_job {
+                font: {
+                    family : $Os;
+                    weight : 700;
+                    size : 14px;
+                }
+                padding: 7px 0 7px 2px;
+            }
+            &_name {
+                font: {
+                    family : $Ara;
+                    style : italic;
+                    size : 14px;
+                }
+                padding-left: 4px;
+            }
+        }
+        &__tags{
+            padding: 7px 0;
+            span {
+                display: inline-block;
+                padding: 5px 10px;
+                background: rgba(255, 255, 255, 0.2);
+                color: rgba(255, 255, 255, 0.5);
+                margin-bottom: 10px;
+                margin-right: 5px;
+                text-transform: uppercase;
+                font: {
+                    family: $Ara;
+                    size : 0.8em;
+                    style: italic;
+                }
+            }
+        }
+    }
+    .fc-event-container {
+        .fc-content {
+            padding: 0 20px;
+            &:hover {
+                background: $active-color;
+                .ev {
+                    &__cover {
+                        &_buy {
+                            z-index: 2;
+                        }
+                        &_image {
+                            &:after {
+                                content: none;
+                            }
+                        }
+                    }
+                    &__title {
+                        a {
+                            color: $White;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.view {
+        .fc-content-skeleton {
+            .fc-event-container {
+                &:first-child {
+                    .ev {
+                        &__cover {
+                            right: auto;
+                            left:160px;
+                            padding: 0 0 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+        .fc-event-container {
+            .fc-content {
+                overflow: inherit;
+            }
+            .fc-day-grid-event {
+                &.fc-event {
+                    z-index: 0;
+                }
+            }
+            .ev {
+                position: relative;
+                padding-top:0px;
+                &__cover {
+                    position: absolute;
+                    right:160px;
+                    padding: 0 20px 0 0;
+                    display: none;
+                }
+                &__title {
+                    z-index: 1;
+                }
+                &__tags {
+                    z-index: 1;
+                }
+                &__by {
+                    z-index: 1;
+                }
+            }
+            &:hover {
+                .fc-day-grid-event {
+                    &.fc-event {
+                        z-index: 1;
+                    }
+                }
+                .ev {
+                    &__cover {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    .fc-listMonth-view {
+        .fc-list-heading {
+            background: $active-color;
+            span {
+                color: $white_06;
+                font-family: $Ara;
+                font-style: italic;
+                font-size :13px;
+                @include MQ(M) {
+                    font-size :16px;
+                }
+                border:0;
+            }
+        }
+        .fc-list-item-title {
+            >a {
+                display: none;
+            }
+        }
+        .fc-list-item-marker {
+            display: none;
+        }
+        .ev {
+            padding-top:0;
+            &__title {
+                &_buy {
+                    display: block;
+                }
+            }
+        }
+    }
+    .fc-agendaWeek-view {
+        .fc-content {
+            white-space: inherit;
+        }
+        // .fc-time-grid-event.fc-event {
+        //     background: $Black;
+        //     border:none;
+        // }
+        .fc-axis{
+                display: none;
+        }
+        .fc-divider.ui-widget-header {
+            display: none;
+        }
+        .fc-time-grid.fc-unselectable {
+            display: none;
+        }
+        .ev {
+            &__cover {
+                display: none !important;
+            }
+            &__title {
+                &_buy {
+                    display: block;
+                }
+            }
+            &__tags{
+                display: none;
+            }
+        }
+    }
+}
+.event-fc {
+    .citysoul-button {
+        &:hover {
+            color: $White;
+        }
+    }
+    .title-section {
+        max-width: 100%;
+        @include MQ(M){
+            margin-bottom:40px;
+
+        }
+    }
+    .form-fillter {
+        max-width: 100%;
+    }
+}
+.event-fc-v {
+    padding-top:0px;
+    @include MQ(M){
+        margin-top:-100px;
+    }
+    .form-fillter {
+        padding-top:0px;
+    }
+    .title-section {
+        padding-bottom:0px;
+        margin: 0 auto;
+    }
+}
+.view-2 {
+    .fc-view-container {
+        .fc-view {
+            position:static;
+        }
+    }
+}

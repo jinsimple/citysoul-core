@@ -1,0 +1,416 @@
+@charset "UTF-8";
+ 
+@import 'bourbon/bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and media queries
+
+@import 'layouts/button'; // responsive grid and media queries
+$active-style : #860e00;
+$single-dj : #f4f1ef;
+$testimonial :$White;
+body {
+    background :   $Black;
+    color: $White;
+}
+a{ 
+    &:hover{
+        color: $active-style; 
+    }
+}
+/*Top header*/
+.top-header{
+    background: $active-style;
+    color: $White;
+    a{
+        color: $White;
+        &:hover{
+            color: $white_01;
+        }
+    }
+}
+.sticker {
+    .top-header {
+        background: $active-style;
+        color: $White;
+         a:hover{
+                color: $white-02!important; 
+            }
+    }
+    .bottom-header {
+       background: $Black; 
+       //color: $Black;
+    }
+    &.active{
+        .top-header {
+            a:hover{
+                color: $white-02!important; 
+            }
+        }        a {
+            color: $White !important; 
+            &:hover{
+                color: $active-style!important; 
+            }
+        }
+        a {
+            color: $White !important; 
+            &:hover{
+                color: $active-style!important; 
+            }
+        }
+    }
+}
+.citysoul-form-user{
+    background: $active-style;
+}
+
+/*Social list*/
+.citysoul-social{
+    &.social-round{
+        li{
+            a{
+                &:hover{
+                    background: $active-style;
+                }
+            }
+        }
+    }
+}
+/*Navigation*/
+.navigator{
+    .main-menu{
+        li {
+            a :hover { color: $active-style; }
+        }
+        .menu-item{
+            &.current-menu-item, &:hover{
+                >a{
+                    color: $active-style;
+                }
+            }
+            .sub-menu{
+                // border-bottom: 10px solid $active-style;
+                // border-top: 10px solid $active-style;
+               // background: $active-style;
+                .menu-item{
+                    background: $active-style;
+                }
+                .current-menu-item {
+                    background: $Black !important; 
+                }
+            }
+        }
+    }
+}
+
+/*Setup font & color*/
+.text-title{
+    font-family: $Os;
+}
+
+.text-more{
+    font-family: $Ara;
+    font-style: italic;
+}
+.text-desc{
+    font-family: $Ari;
+}
+.text-active{
+    color: $active-style;
+    *{
+        color: $active-style;
+    }
+}
+.btn-buy{
+    background: $White;
+    color: $black_09;
+}
+.desc-small{
+    color: $white-02;
+}
+.citysoul-input-text{
+    border-color: $active-style !important;
+}
+.view-all-link{
+    &:before{
+        background: $active-style;
+    }
+    a{
+        color: $white-02;
+    }
+}
+.back-to-top {
+    border-color : $active-style;
+    &:before {
+         color: $active-style;
+    }
+    &:hover {
+        background: $active-style;
+    }
+}
+/*Upcomming*/
+.upcomming {
+   // background :$White;
+}
+.upcomming-slider{
+    .citysoul-title , .all-link a {
+        color: $White;
+    }
+    .upcomming-item{
+        .slider-image {
+            opacity: 1;
+        }
+        .info-ticket {
+            a {
+                color: $White; 
+            }
+            .desc-small {
+                color: $white_09;
+            }
+        }
+        .info-slide{
+            &:after {
+                background: none;
+            }
+            &:before{
+                border: 10px solid $active-style;
+            }
+            &:hover {
+                background :$Black;
+            }
+            .btn-buy {
+                 background: $White; 
+                 color :$Black; 
+            }
+            
+        }
+    }
+    .all-link {
+        &:before{
+            background: $active-style;   
+        }
+    }
+
+}
+/*Dj*/
+.single-dj{
+
+    background : url(../images/artist_bg_rock2.png) no-repeat center center; 
+    .cover-soundcloud {
+        .dj-image:after {
+            border-color: $active-style;
+        }
+    }
+    .dj-infomation {
+        .citysoul-title {
+            color: $White;
+        }
+    }
+}
+
+
+
+
+/*Testimonial*/
+.testimonial  {
+    .testimonial-title {
+        .citysoul-title {
+            color: rgba($White, 0.05); 
+        }
+    }
+}
+.testimonial-list{
+    .citysoul-testimonial{
+        .testimonial-item{
+            .auth-testimonial{
+                color: $White;
+                
+                &:after{
+                    background: $active-style;
+                }
+            }
+            .testi-message {
+                color: $White;
+            }
+        }
+    }
+}
+
+/**
+ * Product Slider 
+ */
+.shop-slider {
+    background: $black_09;
+}
+.citysoul-shop-item {
+    .shop-item-text {
+        .item-shop-info {
+            .desc-product{
+
+                color: $white-02;
+
+            }
+        }
+        .border-image:before {
+            border-color : $active-style;
+        }
+    }
+}
+/*Twitter recent*/
+.twitter-recents-items{
+    background: url(../images/rectangle-rock2.png) no-repeat center center;
+    .twitter-message, .recent-post{
+        // .title-items-twitter ,.title-items-twitter *  {
+        //     color: $Black;
+        // }
+        ul {
+            li {
+                // .name-follow, .time{
+                //     color: $Black;
+                // }
+                .message{
+                    color: $white-02;
+                    line-height: 20px;
+                    a{
+                        color: $white-02;
+                        &:hover{
+                            color: $white-02;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .citysoul-button{
+        color: $active-style;
+        border : $active-style 1px solid;
+
+        &:hover {
+            border-color : $White;
+            &.text-active {
+                * {
+                    color: $White;
+                }
+            }
+        }
+    }
+    .btn-buy {
+        background : none;
+        opacity: 1;
+
+    }
+
+}
+
+
+/*Video*/
+.citysoul-playvideo{
+    .text-button{
+        .btn-control{
+            &.btn-play{
+                .play-icon{
+                    background: url(../images/play-white-big.png) no-repeat center center;
+                    background-size: 100% 100%;
+                }
+            }
+            &.btn-pause{
+                .play-icon{
+                    background: url(../images/pause-white.png) no-repeat center center;
+                }
+            }
+
+        }
+        .all-video-link{
+            &:before{
+                background: $active-style;
+            }
+        }
+    }
+}
+
+/*News*/
+.citysoul-news {
+    .citysoul-title {
+        color: $White; 
+    }
+
+}
+/*Gallery*/
+.gallery {
+    
+    .title-gallery {
+        .citysoul-title {
+            color:  $White;
+        }
+    }
+}
+/*Shop slider*/
+
+.shop-slider {
+    //background :#d7eff7;
+    .citysoul-title-shop {
+        color: $white-02;
+    }
+    
+}
+.citysoul-shop-item{
+    .shop-item-text{
+        .item-shop-info {
+           .citysoul-title  {
+                color: $White;
+            }
+            .desc-small {
+                color: $white-08;
+            } 
+        }
+
+        .item-shop-image{
+            &:before{
+                border: 10px solid $active-style;
+            }
+        }
+    }
+}
+.citysoul-shop-item .shop-item-text .item-shop-info .shop-more .text-more {
+    color: $white-08;
+}
+
+/*Footer*/
+
+footer{
+    
+    background : url(../images/footer_bg_rock2.png) no-repeat center center; 
+   color: $white-02;
+
+}
+.footer-widget{
+    .citysoul-button-o {
+      .text-title {
+         color: $active-style;
+      }
+    }
+}
+.copyright{
+    @include font-size(12px);
+    color: $white-02;
+    a{
+        color: $white-02;
+        &:hover{
+            color: $White;
+        }
+    }
+}
+.content-widget{
+    .additional-widget{
+        a{
+            color: $white-02;
+            &:hover{
+                color: $active-style;
+            }
+        }
+    }
+}

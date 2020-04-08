@@ -1,0 +1,247 @@
+//Check out
+.box-check-out{
+    float: left;
+    width: 100%;
+    height: auto;
+    .title-box-checkout{
+        float: left;
+        width: 100%;
+        text-transform: uppercase;
+        // color: $white_07;
+        // @include font-size(16px);
+        // font-weight: $Bold;
+        // font-family: $La;
+        .fa{
+            color: $white_07;
+        }
+        &.payment-method{
+            margin-top: 100px;
+        }
+    }
+    .title-white-form{
+        font-weight: Bold;
+        margin-bottom: 10px;
+        color: $white_06;
+        letter-spacing: 1.25px;
+        .fa{
+            @include font-size(12px);
+            color: $white_05;
+            // line-height: 1em;
+            position: relative;
+            top: -2px;
+            margin-right: 5px;
+        }
+        a{
+            color: $white_06;
+            @include transition;
+            &:hover{
+                color: $White;
+            }
+        }
+    }
+    td, th{
+        padding: 0;
+    }
+    .checkout-list-input{
+        float: left;
+        list-style: none;
+        padding-left: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        li{
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            .title-input{
+                color: $white_03;
+                margin-bottom: 10px;
+                float: left;
+                width: 100%;
+            }
+            &.coupon-text{
+                height: 35px;
+                line-height: 35px;
+                background: $white_005;
+                #coupon_code{
+                    float: left;
+                    width: 60%!important;
+                }
+                .button{
+                    width: 40%;
+                    float: right;
+                    @include font-size(12px);
+                    padding:0;
+                    background: none;
+                    // line-height: 35px;
+                }
+            }
+            input[type="text"],input[type="password"], textarea{
+                float: left;
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid $active-color;
+                padding-left: 10px;
+                box-sizing: border-box;
+                height: 30px;
+                // font-family: $Me;
+                // width: 100%;
+                font-style: italic;
+                color: $white_03;
+                letter-spacing: 1.5px;
+                resize: none;
+                @include transition;
+                &:focus{
+                    border-color: rgba($active-color, 0.3);
+                }
+                &.txt-border{
+                    border: 1px solid rgba($active-color, 0.3);
+                }
+                // font-weight: $Light;
+                @include placeholder{
+                    font-style: italic;
+                    color: $white_03;
+                }
+                &.input-coupon{
+                    background: transparent;
+                    border: none;
+                }
+            }
+            textarea{
+                height: 310px;
+                width: 100%;
+            }
+            &.half{
+                input[type="text"]{
+                    width: 49.9%;
+                }
+            }
+
+        }
+    }
+    .show-box-checkout{
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+        // font-family: $Me;
+        // font-weight: $Bold;
+        margin-bottom: 15px;
+        // @include font-size();
+    }
+    .list-radio{
+        float: left;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        list-style: none;
+        li{
+            float: left;
+            width: 100%;
+            height: auto;
+            // margin-top: 10px;
+            // font-family: $Me;
+            @include font-size(13px);
+            input{
+                margin-right: 20px;
+                cursor: pointer;
+            }
+            &:last-child{
+                height: 35px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                a{
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    color: $white_05;
+                    border-color: $white_03;
+                    // font-weight: $Bold;
+                    @include font-size(12px);
+                    &:hover{
+                        background-color: $active-color;
+                        border-color: $active-color;
+                        color: $White;
+                    }
+                }
+            }
+        }
+    }
+    .list-card{
+        float: left;
+        width: 100%;
+        list-style: none;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        box-sizing:border-box;
+        li{
+            float: left;
+            width: 25%;
+            img{
+                width: 62px;
+                height: 30px;
+            }
+        }
+    }
+}
+.coupon-form{
+    margin-top: 30px;
+}
+.shipping-method {
+    padding:50px;
+    background: #0b0907;
+    .return-customer{
+        margin-top: 50px;
+    }
+    .content-box-checkout{
+        p,ul{
+            padding-left: 20px;
+            float: left;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+    table{
+        width: 100%;
+    }
+    &.box-total{
+        padding: 20px 30px;
+        p, ul{
+            padding-left: 0px;
+        }
+    }
+    .total-table{
+        float: left;
+        width: 100%;
+        tr{
+            td{
+                padding: 3px 0px;
+                &:nth-child(2){
+                    text-align: right;
+                }
+            }
+        }
+        tfoot{
+            width: 100%;
+            text-transform: uppercase;
+        }
+    }
+}
+.process-check-out{
+    width: 100%;
+    background: $active-color;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -60px;
+    height: 60px;
+    // line-height: 60px;
+    color: $white_07;
+    @include transition;
+    &:hover{
+        color: $White;
+    }
+
+}
+.woocommerce-checkout #payment{
+    background: transparent;
+}

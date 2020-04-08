@@ -1,0 +1,122 @@
+%cts__desc {
+    font-family: $Os;
+    color: $active-color;
+    @include font-size(10px);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1em;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.newsletterh3 {
+    text-align: center;
+    border-bottom:1px solid #bc8b2e4d;
+    .title-widget {
+        text-align: center;
+    }
+    .citysoul-subcribe-title {
+        letter-spacing: 10px;
+    }
+    .citysoul-subcribe-widget {
+        max-width: 100%;
+        @media only screen and (min-width: 992px) {
+            max-width: 30%;
+        }
+        @include center(x);
+    }
+    .form-newsletter {
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          text-align: center;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+          text-align: center;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+          text-align: center;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+          text-align: center;
+        }
+    }
+}
+.track-list--center {
+    position: relative;
+    @media only screen and (min-width: 992px) {
+        max-width: 50%;
+    }
+    margin: 0 auto;
+    float: none;
+    .citysoul-track-list{
+        min-height: 300px;
+    }
+    .title-track {
+        text-align: center;
+        position: relative;
+    }
+    &__element {
+        display: block;
+        font-family: $Os;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        word-break: break-all;
+        color : $White;
+        opacity: 0.1;
+        clear: both;
+        text-align: center;
+        width: 100%;
+        @include font-size(40px);
+        @media only screen and (min-width: 992px) {
+            @include font-size(70px);
+        }
+    }
+    &__more {
+        font-family: $Ara;
+        color : $white_04;
+        position: absolute;
+        bottom:10%;
+        left: 45%;
+        @media only screen and (min-width: 992px) {
+            @include font-size(20px);
+        }
+        &:before{
+            content: "";
+            width: 20px;
+            @media only screen and (min-width: 992px) {
+                width: 40px;
+            }
+            height: 2px;
+            background: $active-color;
+            position: absolute;
+            left: 25%;
+            top: -40%;
+        }
+    }
+}
+.info-ticket--cdw {
+    padding-top:25px;
+    @media only screen and (min-width: 992px) {
+        padding-top: 60px;
+    }
+    .citysoul-button {
+        border:2px solid $White;
+        color: $White;
+        &:hover {
+            border-color: $active-color;
+            color: $active-color;
+        }
+    }
+}
+.citysoul-cover-page {
+    &.remove_h {
+        height: 0px;
+        min-height: 0px;
+    }
+}
+.team-slider {
+    .info-member {
+        .text-title {
+            text-align: center;
+        }
+    }
+}

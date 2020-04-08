@@ -1,0 +1,197 @@
+footer{
+    float: left;
+    width: 100%;
+    @include MQ(M) {
+        padding-top: 135px;
+    }
+    
+    // &.footer-dark{
+    //     background: $Black;
+    // }
+    &.footer-none{
+        padding: 0;
+    }
+    .text-active{
+        span{
+            color: $active-color;
+        }
+    }
+}
+
+.footer-column{
+    li{
+        list-style: none;
+    }
+}
+
+.main-footer, .bottom-footer{
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+.main-footer{
+    //padding-bottom: 120px;
+    //mobile
+    .container {
+        @include RP(L){
+            width: 100%;
+            padding-left :15px;
+            padding-right :15px;
+        }
+    }
+}
+.copyright{
+    @include font-size(12px);
+    color: $white-02;
+    a{
+        color: $white-02;
+        &:hover{
+            color: $White;
+        }
+    }
+}
+.footer-widget{
+    box-sizing: border-box;
+    padding: 0 15px;
+    padding-top: 20px;
+    @include MQ(M) {
+        padding-top: 0px;
+    }
+    @include RP(L){
+        padding-right:0px;
+        padding-left:0px;
+    }
+    padding-left: 15px;
+    padding-right: 15px;
+    &:first-child{
+        padding-left: 0px;
+    }
+    &:last-child{
+        padding-right: 0px;
+    }
+   .citysoul-subcribe-title{
+        opacity:0.1;
+    }
+    .citysoul-button-o {
+       
+        @include RP(F){
+            display: none;
+        }
+        &:hover {
+            border-color : $White;
+            &.text-active {
+                * {
+                    color: $White;
+                }
+            }
+        }
+    }
+}
+.title-widget{
+    line-height: 25px;
+    letter-spacing: 1.75px;
+}
+.citysoul-subcribe-title{
+    opacity:0.1;
+    clear: both;
+}
+.content-widget{
+    margin-top: 10px;
+    @include MQ(M) {
+        margin-top: 50px;
+    }
+    ul{
+        list-style: none;
+        padding-left:0px;
+        width: 100%;
+    }
+    .address-widget{
+        float: left;
+        list-style: none;
+        padding-left: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+        color: $white-03;
+        span{
+            @include font-size(16px);
+            font-family: $Ara;
+        }
+        strong{
+            text-transform: uppercase;
+            @include font-size(12px);
+            font-family: $Os;
+            font-style: normal;
+        }
+        li{
+            margin-bottom: 5px;
+        }
+    }
+    .additional-widget{
+        a{
+            color: $white-03;
+            &:hover{
+                color: $active-color;
+            }
+        }
+    }
+    .citysoul-social{
+        margin-bottom: 40px;
+    }
+    .additional-widget{
+        text-transform: uppercase;
+        li{
+            width: 50%;
+            float: left;
+            margin-bottom: 15px;
+        }
+    }
+
+    .citysoul-subcribe-widget{
+        position: relative;
+        top: 0;
+        @include MQ(M) {
+            top: -72px;
+        }
+        @include RP(L){
+            max-width: 100%;
+        }
+        max-width: 300px;
+        .form-newsletter {
+           .success-form-message {
+                padding : 10px;
+                padding-left : 0;
+                color: $White;
+                @include font-size(14px);
+                opacity: 1;
+                cursor: pointer;
+                
+            } 
+            .error {
+                    color: $Error;
+            }
+            .success {
+                   color: $Success;
+                }
+
+        }
+        
+    }
+    .citysoul-subcribe-input-text{
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .btn-subcribe{
+        @include font-size(12px);
+        color: $white-05;
+        @include transition(fast);
+        letter-spacing: 3px;
+        border-color: $white-05;
+        &:hover{
+            @include transition(fast);
+            color: $white-02;
+            border-color: $white-02;
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+ 
+@import 'bourbon/bourbon'; // http://bourbon.io/
+
+@import 'partials/mixins'; // custom mixins
+ 
+
+$color-dj :#100413;
+/**
+ * Artist 
+ */
+.single-dj{ 
+    background: $color-dj;
+}
+/**
+ * Twitter 
+ */
+.twitter-recents-items{
+    background: url(../images/rectangle-broadway.png) no-repeat center center;
+}
+/** 
+ * Shop Slider
+ */
+.shop-slider {
+  background: $color-dj;  
+}
+
+
+
+
+
+
+

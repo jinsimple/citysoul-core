@@ -1,0 +1,3096 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextop theme v1.0.0\n"
+"POT-Creation-Date: 2016-12-07 19:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Beautheme <support@beautheme.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "404 Not found -  "
+msgstr ""
+
+#: 404.php:18
+msgid "the resource requested could not be found on this server"
+msgstr ""
+
+#: 404.php:23
+msgid "Please try one of the following pages"
+msgstr ""
+
+#: 404.php:25
+msgid "Home page"
+msgstr ""
+
+#: ajax_controller.php:22 vc_templates/citysoul_card.php:148
+msgid "Membership Period"
+msgstr ""
+
+#: ajax_controller.php:109
+msgid "Track list"
+msgstr ""
+
+#: ajax_controller.php:110 inc/custom/function-custom.php:116
+#: inc/vc_custom/citysoul_field_shortcode.php:2714
+#: vc_templates/album/left.php:23 vc_templates/album/right.php:18
+msgid "SoundCloud"
+msgstr ""
+
+#: ajax_controller.php:160 inc/custom/function-custom.php:176
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:608
+#: vc_templates/album/left.php:77 vc_templates/album/right.php:77
+msgid "Update Required"
+msgstr ""
+
+#: ajax_controller.php:161 inc/custom/function-custom.php:177
+#: vc_templates/album/left.php:78 vc_templates/album/right.php:78
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your"
+msgstr ""
+
+#: ajax_controller.php:161 inc/custom/function-custom.php:177
+#: vc_templates/album/left.php:78 vc_templates/album/right.php:78
+msgid "Flash plugin"
+msgstr ""
+
+#: booking-event.php:27
+msgid "Booking"
+msgstr ""
+
+#: comments.php:58
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:86
+msgid " Comment"
+msgstr ""
+
+#: comments.php:105
+msgid "Submit comment"
+msgstr ""
+
+#: comments.php:106
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:111
+msgid "Email *"
+msgstr ""
+
+#: comments.php:115
+msgid "Name *"
+msgstr ""
+
+#: comments.php:118
+msgid "Message *"
+msgstr ""
+
+#: content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:10
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:12
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: core/includes/core-template-funtion.php:100
+msgid "Sticky"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:201
+#: core/includes/core-template-funtion.php:221
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: core/includes/core-template-funtion.php:205
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:225
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:243
+msgid "Read more..."
+msgstr ""
+
+#: core/includes/core-template-funtion.php:401
+msgid "By"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:441 page.php:35
+#: single-artist.php:49 single-event.php:35 templates/template-blank.php:23
+msgid "Edit "
+msgstr ""
+
+#: core/includes/core-template-funtion.php:661
+msgid "Tag:"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/core-template-funtion.php:677
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/core-template-funtion.php:692
+msgid "Product description"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:726
+#: vc_templates/citysoul_product.php:204
+msgid "View detail"
+msgstr ""
+
+#: core/includes/functions.php:218
+msgid "PREV"
+msgstr ""
+
+#: core/includes/functions.php:219
+msgid "NEXT"
+msgstr ""
+
+#: core/includes/functions.php:352
+msgid "Images"
+msgstr ""
+
+#: core/layout/social-share.php:10
+msgid "Share to Facebook"
+msgstr ""
+
+#: core/layout/social-share.php:11
+msgid "Share to Twitter"
+msgstr ""
+
+#: core/layout/social-share.php:12
+msgid "Share to Google Plus"
+msgstr ""
+
+#: core/layout/social-share.php:13
+msgid "Share to Pinterest"
+msgstr ""
+
+#: core/layout/social-share.php:14
+msgid "Share to LinkedIn"
+msgstr ""
+
+#: functions.php:97 functions.php:246
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:116
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:124
+msgctxt "Arapey font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:127
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:135
+msgctxt "Arimo font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:143
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:247
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:261
+msgid "Sidebar widget"
+msgstr ""
+
+#: functions.php:263
+msgid "Sidebar widget position."
+msgstr ""
+
+#: functions.php:282
+msgid "Footer sidebar"
+msgstr ""
+
+#: functions.php:283
+msgid "This is footer sidebar "
+msgstr ""
+
+#: functions.php:512 woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr ""
+
+#: functions.php:516
+msgid "Username"
+msgstr ""
+
+#: functions.php:520
+msgid "Password"
+msgstr ""
+
+#: functions.php:524
+msgid "Register"
+msgstr ""
+
+#: functions.php:537
+msgid "<strong>ERROR</strong>: You must include a email."
+msgstr ""
+
+#: functions.php:540
+msgid "<strong>ERROR</strong>: You must include a username."
+msgstr ""
+
+#: header-sticky.php:14 header.php:42
+msgid "Sign up"
+msgstr ""
+
+#: header-sticky.php:16 header.php:44
+msgid "Sign up with"
+msgstr ""
+
+#: header-sticky.php:30 header.php:58
+msgid "Login"
+msgstr ""
+
+#: header-sticky.php:33 header.php:61
+msgid "Login with"
+msgstr ""
+
+#: header-sticky.php:52 header.php:80
+msgid "En"
+msgstr ""
+
+#: header-sticky.php:53 header.php:81
+msgid "Fr"
+msgstr ""
+
+#: header.php:23
+msgid "Close"
+msgstr ""
+
+#: inc/custom/function-custom.php:83
+msgid "the club"
+msgstr ""
+
+#: inc/custom/function-custom.php:85
+msgid "Step to the light"
+msgstr ""
+
+#: inc/custom/function-custom.php:106
+msgid "podcast"
+msgstr ""
+
+#: inc/custom/function-custom.php:107
+msgid "All SoundCloud"
+msgstr ""
+
+#: inc/custom/function-custom.php:115 vc_templates/album/left.php:22
+#: vc_templates/album/right.php:17
+msgid "track list"
+msgstr ""
+
+#: inc/custom/function-custom.php:360 vc_templates/event-list/list.php:54
+msgid "Start"
+msgstr ""
+
+#: inc/custom/function-custom.php:366 vc_templates/event-list/list.php:61
+msgid "End"
+msgstr ""
+
+#: inc/custom/function-custom.php:371 vc_templates/event-list/list.php:68
+msgid "Location"
+msgstr ""
+
+#: inc/custom/function-custom.php:378
+#: inc/vc_custom/citysoul_field_shortcode.php:155
+#: vc_templates/event-list/grid.php:44 vc_templates/event-list/list.php:77
+msgid "Artist"
+msgstr ""
+
+#: inc/custom/function-custom.php:434 vc_templates/event-list/grid.php:61
+#: vc_templates/event-list/list.php:112 vc_templates/event-list/slide.php:58
+#: vc_templates/event-list/slidesmall.php:54
+msgid "Buy ticket"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to "
+"ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:393
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:912
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2618
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:394
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:395
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update "
+"or activate."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1019
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files "
+"are not packaged in a folder."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1206
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may "
+"take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:63
+msgid "Citysoul postype and function"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:69
+msgid "Master Slide"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:81
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:86
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:91
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:96
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: inc/theme-option.php:66 inc/theme-option.php:67
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-option.php:167
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-option.php:173
+msgid "Support Team"
+msgstr ""
+
+#: inc/theme-option.php:233
+msgid "Theme Information 1"
+msgstr ""
+
+#: inc/theme-option.php:234 inc/theme-option.php:239
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/theme-option.php:238
+msgid "Theme Information 2"
+msgstr ""
+
+#: inc/theme-option.php:245
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/theme-option.php:252
+msgid "Getting Started"
+msgstr ""
+
+#: inc/theme-option.php:278
+msgid "General setting"
+msgstr ""
+
+#: inc/theme-option.php:280
+msgid "These are something setting for all page!"
+msgstr ""
+
+#: inc/theme-option.php:287
+msgid "Change website color"
+msgstr ""
+
+#: inc/theme-option.php:288
+msgid "Select your color with our style defined."
+msgstr ""
+
+#: inc/theme-option.php:301
+msgid "Upload logo"
+msgstr ""
+
+#: inc/theme-option.php:303 inc/theme-option.php:310
+#: inc/theme-option.php:317 inc/theme-option.php:363
+#: inc/theme-option.php:370
+msgid "Upload any image using the WordPress native uploader"
+msgstr ""
+
+#: inc/theme-option.php:308
+msgid "Upload mobile logo"
+msgstr ""
+
+#: inc/theme-option.php:315
+msgid "Upload fixed header logo"
+msgstr ""
+
+#: inc/theme-option.php:322
+msgid "Enable Smooth Scroll?"
+msgstr ""
+
+#: inc/theme-option.php:333
+msgid "Enable go to top?"
+msgstr ""
+
+#: inc/theme-option.php:344
+msgid "Show main navigation?"
+msgstr ""
+
+#: inc/theme-option.php:361
+msgid "Upload image cover artis"
+msgstr ""
+
+#: inc/theme-option.php:368
+msgid "Upload image cover gallery"
+msgstr ""
+
+#: inc/theme-option.php:378
+msgid "Header & footer"
+msgstr ""
+
+#: inc/theme-option.php:386
+msgid "Custom header"
+msgstr ""
+
+#: inc/theme-option.php:394
+msgid "Enable header fixed"
+msgstr ""
+
+#: inc/theme-option.php:404
+msgid "Enable search on header"
+msgstr ""
+
+#: inc/theme-option.php:415
+msgid "Enable link language on header"
+msgstr ""
+
+#: inc/theme-option.php:427 inc/theme-option.php:466
+msgid "Header text color"
+msgstr ""
+
+#: inc/theme-option.php:428 inc/theme-option.php:441
+#: inc/theme-option.php:454 inc/theme-option.php:467
+#: inc/theme-option.php:480 inc/theme-option.php:493
+#: inc/theme-option.php:543 inc/theme-option.php:554
+#: inc/theme-option.php:592 inc/theme-option.php:605
+#: inc/theme-option.php:631 inc/theme-option.php:644
+msgid "Gives you the RGBA color."
+msgstr ""
+
+#: inc/theme-option.php:440 inc/theme-option.php:479
+msgid "Header text color hover"
+msgstr ""
+
+#: inc/theme-option.php:453
+msgid "Header background Color"
+msgstr ""
+
+#: inc/theme-option.php:492
+msgid "Header sticky background Color"
+msgstr ""
+
+#: inc/theme-option.php:505
+msgid "Phone contact"
+msgstr ""
+
+#: inc/theme-option.php:507
+msgid "Phone number on header"
+msgstr ""
+
+#: inc/theme-option.php:514
+msgid "Custom footer"
+msgstr ""
+
+#: inc/theme-option.php:534
+msgid "Chose footer columns"
+msgstr ""
+
+#: inc/theme-option.php:535
+msgid "Chose your custom widget number you want to show"
+msgstr ""
+
+#: inc/theme-option.php:542
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/theme-option.php:553
+msgid "Footer background Color"
+msgstr ""
+
+#: inc/theme-option.php:561
+msgid "Your copyright"
+msgstr ""
+
+#: inc/theme-option.php:563
+msgid "Use any of the features of WordPress editor inside your panel!"
+msgstr ""
+
+#: inc/theme-option.php:570
+msgid "Main menu setting"
+msgstr ""
+
+#: inc/theme-option.php:572
+msgid "These are something setting for main menu!"
+msgstr ""
+
+#: inc/theme-option.php:579
+msgid "Title menu typography"
+msgstr ""
+
+#: inc/theme-option.php:584 inc/theme-option.php:622
+#: inc/theme-option.php:689 inc/theme-option.php:698
+#: inc/theme-option.php:707 inc/theme-option.php:716
+msgid "Specify the body font properties."
+msgstr ""
+
+#: inc/theme-option.php:591
+msgid "Title menu hover color"
+msgstr ""
+
+#: inc/theme-option.php:604
+msgid "Menu dropdowns BG Color"
+msgstr ""
+
+#: inc/theme-option.php:617
+msgid "Title submenu typography"
+msgstr ""
+
+#: inc/theme-option.php:630
+msgid "Title submenu hover color"
+msgstr ""
+
+#: inc/theme-option.php:643
+msgid "Menu dropdowns BG Color hover"
+msgstr ""
+
+#: inc/theme-option.php:657
+msgid "Styling options"
+msgstr ""
+
+#: inc/theme-option.php:659 inc/theme-option.php:889
+#: inc/theme-option.php:1214
+msgid "These are something setting for Styling options!"
+msgstr ""
+
+#: inc/theme-option.php:666
+msgid "Background body color"
+msgstr ""
+
+#: inc/theme-option.php:669
+msgid "Specify the body color."
+msgstr ""
+
+#: inc/theme-option.php:678
+msgid "Theme style setting"
+msgstr ""
+
+#: inc/theme-option.php:686
+msgid "Text body setting"
+msgstr ""
+
+#: inc/theme-option.php:695
+msgid "Link body setting"
+msgstr ""
+
+#: inc/theme-option.php:704
+msgid "Link body hover setting"
+msgstr ""
+
+#: inc/theme-option.php:713
+msgid "Title body color"
+msgstr ""
+
+#: inc/theme-option.php:724
+msgid "Button color"
+msgstr ""
+
+#: inc/theme-option.php:732
+msgid "Text button color"
+msgstr ""
+
+#: inc/theme-option.php:735 inc/theme-option.php:744
+msgid "Specify the button font properties."
+msgstr ""
+
+#: inc/theme-option.php:741
+msgid "Text button color hover"
+msgstr ""
+
+#: inc/theme-option.php:750
+msgid "Background button color"
+msgstr ""
+
+#: inc/theme-option.php:759
+msgid "Background button color hover"
+msgstr ""
+
+#: inc/theme-option.php:768
+msgid "Border button color"
+msgstr ""
+
+#: inc/theme-option.php:776
+msgid "Border button color hover"
+msgstr ""
+
+#: inc/theme-option.php:786
+msgid "Sidebar color"
+msgstr ""
+
+#: inc/theme-option.php:794
+msgid "Text sidebar color"
+msgstr ""
+
+#: inc/theme-option.php:797 inc/theme-option.php:806
+msgid "Specify the sidebar font properties."
+msgstr ""
+
+#: inc/theme-option.php:803
+msgid "Link sidebar color"
+msgstr ""
+
+#: inc/theme-option.php:812
+msgid "Background sidebar color"
+msgstr ""
+
+#: inc/theme-option.php:823
+msgid "Typography setting"
+msgstr ""
+
+#: inc/theme-option.php:831
+msgid "H1 element"
+msgstr ""
+
+#: inc/theme-option.php:832
+msgid "Specify the h1 font properties."
+msgstr ""
+
+#: inc/theme-option.php:840
+msgid "H2 element"
+msgstr ""
+
+#: inc/theme-option.php:841
+msgid "Specify the h2 font properties."
+msgstr ""
+
+#: inc/theme-option.php:849
+msgid "H3 element"
+msgstr ""
+
+#: inc/theme-option.php:850
+msgid "Specify the h3 font properties."
+msgstr ""
+
+#: inc/theme-option.php:858
+msgid "H4 element"
+msgstr ""
+
+#: inc/theme-option.php:859
+msgid "Specify the h4 font properties."
+msgstr ""
+
+#: inc/theme-option.php:867
+msgid "H5 element"
+msgstr ""
+
+#: inc/theme-option.php:868
+msgid "Specify the h5 font properties."
+msgstr ""
+
+#: inc/theme-option.php:876
+msgid "H6 element"
+msgstr ""
+
+#: inc/theme-option.php:877
+msgid "Specify the h6 font properties."
+msgstr ""
+
+#: inc/theme-option.php:887
+msgid "Blog options"
+msgstr ""
+
+#: inc/theme-option.php:896
+msgid "Blog archive option"
+msgstr ""
+
+#: inc/theme-option.php:904
+msgid "Enable date time?"
+msgstr ""
+
+#: inc/theme-option.php:916 inc/theme-option.php:1017
+msgid "Enable title?"
+msgstr ""
+
+#: inc/theme-option.php:927
+msgid "Enable excerpt?"
+msgstr ""
+
+#: inc/theme-option.php:938 inc/theme-option.php:1066
+msgid "Enable tags?"
+msgstr ""
+
+#: inc/theme-option.php:950
+msgid "Enable category time?"
+msgstr ""
+
+#: inc/theme-option.php:962
+msgid "Enable readmore?"
+msgstr ""
+
+#: inc/theme-option.php:974
+msgid "Enable thumbnail?"
+msgstr ""
+
+#: inc/theme-option.php:987
+msgid "Blog single option"
+msgstr ""
+
+#: inc/theme-option.php:995
+msgid "Enable breadcrumb?"
+msgstr ""
+
+#: inc/theme-option.php:1006
+msgid "Enable cover image?"
+msgstr ""
+
+#: inc/theme-option.php:1030
+msgid "Enable datetime post?"
+msgstr ""
+
+#: inc/theme-option.php:1042
+msgid "Enable author?"
+msgstr ""
+
+#: inc/theme-option.php:1054
+msgid "Enable number comment?"
+msgstr ""
+
+#: inc/theme-option.php:1078
+msgid "Enable social?"
+msgstr ""
+
+#: inc/theme-option.php:1089
+msgid "Enable next post?"
+msgstr ""
+
+#: inc/theme-option.php:1100
+msgid "Enable profile author?"
+msgstr ""
+
+#: inc/theme-option.php:1110
+msgid "Enable comment?"
+msgstr ""
+
+#: inc/theme-option.php:1124
+msgid "Social setting"
+msgstr ""
+
+#: inc/theme-option.php:1132
+msgid "Your facebook url"
+msgstr ""
+
+#: inc/theme-option.php:1137
+msgid "Your twitter url"
+msgstr ""
+
+#: inc/theme-option.php:1142
+msgid "Your google plus url"
+msgstr ""
+
+#: inc/theme-option.php:1147
+msgid "Your youtube url"
+msgstr ""
+
+#: inc/theme-option.php:1152
+msgid "Your pinterest url"
+msgstr ""
+
+#: inc/theme-option.php:1157
+msgid "Your linkedin url"
+msgstr ""
+
+#: inc/theme-option.php:1162
+msgid "Your instagram url"
+msgstr ""
+
+#: inc/theme-option.php:1167
+msgid "Your behance url"
+msgstr ""
+
+#: inc/theme-option.php:1172
+msgid "Your soundcloud url"
+msgstr ""
+
+#: inc/theme-option.php:1178 inc/theme-option.php:1187
+msgid "Social to show"
+msgstr ""
+
+#: inc/theme-option.php:1188
+msgid "Select your social link you want to show"
+msgstr ""
+
+#: inc/theme-option.php:1189
+msgid "Chose your social you want to show in your website."
+msgstr ""
+
+#: inc/theme-option.php:1212
+msgid "Advanced options"
+msgstr ""
+
+#: inc/theme-option.php:1221
+msgid "Enable responsive?"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:22
+msgid "Album"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:25
+#: inc/vc_custom/citysoul_field_shortcode.php:158
+#: inc/vc_custom/citysoul_field_shortcode.php:296
+#: inc/vc_custom/citysoul_field_shortcode.php:433
+#: inc/vc_custom/citysoul_field_shortcode.php:539
+#: inc/vc_custom/citysoul_field_shortcode.php:679
+#: inc/vc_custom/citysoul_field_shortcode.php:780
+#: inc/vc_custom/citysoul_field_shortcode.php:879
+#: inc/vc_custom/citysoul_field_shortcode.php:1071
+#: inc/vc_custom/citysoul_field_shortcode.php:1299
+#: inc/vc_custom/citysoul_field_shortcode.php:1525
+#: inc/vc_custom/citysoul_field_shortcode.php:1656
+#: inc/vc_custom/citysoul_field_shortcode.php:1725
+#: inc/vc_custom/citysoul_field_shortcode.php:1864
+#: inc/vc_custom/citysoul_field_shortcode.php:2128
+#: inc/vc_custom/citysoul_field_shortcode.php:2221
+#: inc/vc_custom/citysoul_field_shortcode.php:2519
+#: inc/vc_custom/citysoul_field_shortcode.php:2631
+#: inc/vc_custom/citysoul_field_shortcode.php:2830
+#: inc/vc_custom/citysoul_field_shortcode.php:2941
+#: inc/vc_custom/citysoul_field_shortcode.php:3013
+#: inc/vc_custom/citysoul_field_shortcode.php:3122
+msgid "Beau Theme"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:27
+#: inc/vc_custom/citysoul_field_shortcode.php:160
+#: inc/vc_custom/citysoul_field_shortcode.php:298
+#: inc/vc_custom/citysoul_field_shortcode.php:435
+#: inc/vc_custom/citysoul_field_shortcode.php:541
+#: inc/vc_custom/citysoul_field_shortcode.php:681
+#: inc/vc_custom/citysoul_field_shortcode.php:782
+#: inc/vc_custom/citysoul_field_shortcode.php:881
+#: inc/vc_custom/citysoul_field_shortcode.php:1073
+#: inc/vc_custom/citysoul_field_shortcode.php:1301
+#: inc/vc_custom/citysoul_field_shortcode.php:1527
+#: inc/vc_custom/citysoul_field_shortcode.php:1658
+#: inc/vc_custom/citysoul_field_shortcode.php:1727
+#: inc/vc_custom/citysoul_field_shortcode.php:1866
+#: inc/vc_custom/citysoul_field_shortcode.php:2223
+#: inc/vc_custom/citysoul_field_shortcode.php:2521
+#: inc/vc_custom/citysoul_field_shortcode.php:2633
+#: inc/vc_custom/citysoul_field_shortcode.php:2832
+#: inc/vc_custom/citysoul_field_shortcode.php:3015
+#: inc/vc_custom/citysoul_field_shortcode.php:3124
+msgid "This section allow you show map"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:31
+#: inc/vc_custom/citysoul_field_shortcode.php:885
+#: inc/vc_custom/citysoul_field_shortcode.php:1077
+#: inc/vc_custom/citysoul_field_shortcode.php:1731
+#: inc/vc_custom/citysoul_field_shortcode.php:1870
+#: inc/vc_custom/citysoul_field_shortcode.php:2227
+#: inc/vc_custom/citysoul_field_shortcode.php:2652
+#: inc/vc_custom/citysoul_field_shortcode.php:2946
+msgid "Option"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:35
+msgid "Select"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:36
+msgid "Cover Left"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:37
+msgid "Cover Right"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:43
+#: inc/vc_custom/citysoul_field_shortcode.php:1306
+#: inc/vc_custom/citysoul_field_shortcode.php:1882
+msgid "Title"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:50
+#: inc/vc_custom/citysoul_field_shortcode.php:1313
+msgid "Description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:57
+msgid "Select Album show list"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:69
+#: inc/vc_custom/citysoul_field_shortcode.php:322
+#: inc/vc_custom/citysoul_field_shortcode.php:592
+#: inc/vc_custom/citysoul_field_shortcode.php:1557
+#: inc/vc_custom/citysoul_field_shortcode.php:1770
+#: inc/vc_custom/citysoul_field_shortcode.php:2152
+#: inc/vc_custom/citysoul_field_shortcode.php:2555
+#: inc/vc_custom/citysoul_field_shortcode.php:2858
+msgid "Type title post to choose"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:74
+#: inc/vc_custom/citysoul_field_shortcode.php:972
+#: inc/vc_custom/citysoul_field_shortcode.php:986
+#: inc/vc_custom/citysoul_field_shortcode.php:1150
+#: inc/vc_custom/citysoul_field_shortcode.php:1397
+#: inc/vc_custom/citysoul_field_shortcode.php:1775
+#: inc/vc_custom/citysoul_field_shortcode.php:1982
+msgid "Total items"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:78
+#: inc/vc_custom/citysoul_field_shortcode.php:975
+#: inc/vc_custom/citysoul_field_shortcode.php:989
+#: inc/vc_custom/citysoul_field_shortcode.php:1153
+#: inc/vc_custom/citysoul_field_shortcode.php:1400
+#: inc/vc_custom/citysoul_field_shortcode.php:1778
+#: inc/vc_custom/citysoul_field_shortcode.php:1985
+msgid ""
+"Set max limit for items in grid or enter -1 to display all (limited to "
+"1000)."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:88
+#: inc/vc_custom/citysoul_field_shortcode.php:351
+#: inc/vc_custom/citysoul_field_shortcode.php:455
+#: inc/vc_custom/citysoul_field_shortcode.php:605
+#: inc/vc_custom/citysoul_field_shortcode.php:997
+#: inc/vc_custom/citysoul_field_shortcode.php:1412
+#: inc/vc_custom/citysoul_field_shortcode.php:1580
+#: inc/vc_custom/citysoul_field_shortcode.php:1794
+#: inc/vc_custom/citysoul_field_shortcode.php:2178
+#: inc/vc_custom/citysoul_field_shortcode.php:2561
+#: inc/vc_custom/citysoul_field_shortcode.php:2864
+#: inc/vc_custom/citysoul_field_shortcode.php:2981
+#: inc/vc_custom/citysoul_field_shortcode.php:3196
+msgid "Title color"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:91
+#: inc/vc_custom/citysoul_field_shortcode.php:354
+#: inc/vc_custom/citysoul_field_shortcode.php:458
+#: inc/vc_custom/citysoul_field_shortcode.php:608
+#: inc/vc_custom/citysoul_field_shortcode.php:1000
+#: inc/vc_custom/citysoul_field_shortcode.php:1415
+#: inc/vc_custom/citysoul_field_shortcode.php:1583
+#: inc/vc_custom/citysoul_field_shortcode.php:1797
+#: inc/vc_custom/citysoul_field_shortcode.php:2181
+#: inc/vc_custom/citysoul_field_shortcode.php:2564
+#: inc/vc_custom/citysoul_field_shortcode.php:2867
+#: inc/vc_custom/citysoul_field_shortcode.php:2984
+#: inc/vc_custom/citysoul_field_shortcode.php:3199
+msgid "Color for title on shortcode"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:92
+#: inc/vc_custom/citysoul_field_shortcode.php:102
+#: inc/vc_custom/citysoul_field_shortcode.php:111
+#: inc/vc_custom/citysoul_field_shortcode.php:120
+#: inc/vc_custom/citysoul_field_shortcode.php:129
+#: inc/vc_custom/citysoul_field_shortcode.php:355
+#: inc/vc_custom/citysoul_field_shortcode.php:365
+#: inc/vc_custom/citysoul_field_shortcode.php:374
+#: inc/vc_custom/citysoul_field_shortcode.php:383
+#: inc/vc_custom/citysoul_field_shortcode.php:392
+#: inc/vc_custom/citysoul_field_shortcode.php:459
+#: inc/vc_custom/citysoul_field_shortcode.php:469
+#: inc/vc_custom/citysoul_field_shortcode.php:478
+#: inc/vc_custom/citysoul_field_shortcode.php:487
+#: inc/vc_custom/citysoul_field_shortcode.php:496
+#: inc/vc_custom/citysoul_field_shortcode.php:609
+#: inc/vc_custom/citysoul_field_shortcode.php:619
+#: inc/vc_custom/citysoul_field_shortcode.php:628
+#: inc/vc_custom/citysoul_field_shortcode.php:637
+#: inc/vc_custom/citysoul_field_shortcode.php:646
+#: inc/vc_custom/citysoul_field_shortcode.php:1001
+#: inc/vc_custom/citysoul_field_shortcode.php:1011
+#: inc/vc_custom/citysoul_field_shortcode.php:1020
+#: inc/vc_custom/citysoul_field_shortcode.php:1029
+#: inc/vc_custom/citysoul_field_shortcode.php:1038
+#: inc/vc_custom/citysoul_field_shortcode.php:1416
+#: inc/vc_custom/citysoul_field_shortcode.php:1426
+#: inc/vc_custom/citysoul_field_shortcode.php:1435
+#: inc/vc_custom/citysoul_field_shortcode.php:1444
+#: inc/vc_custom/citysoul_field_shortcode.php:1453
+#: inc/vc_custom/citysoul_field_shortcode.php:1584
+#: inc/vc_custom/citysoul_field_shortcode.php:1594
+#: inc/vc_custom/citysoul_field_shortcode.php:1603
+#: inc/vc_custom/citysoul_field_shortcode.php:1612
+#: inc/vc_custom/citysoul_field_shortcode.php:1621
+#: inc/vc_custom/citysoul_field_shortcode.php:1798
+#: inc/vc_custom/citysoul_field_shortcode.php:1808
+#: inc/vc_custom/citysoul_field_shortcode.php:1817
+#: inc/vc_custom/citysoul_field_shortcode.php:1826
+#: inc/vc_custom/citysoul_field_shortcode.php:1835
+#: inc/vc_custom/citysoul_field_shortcode.php:2182
+#: inc/vc_custom/citysoul_field_shortcode.php:2192
+#: inc/vc_custom/citysoul_field_shortcode.php:2565
+#: inc/vc_custom/citysoul_field_shortcode.php:2575
+#: inc/vc_custom/citysoul_field_shortcode.php:2584
+#: inc/vc_custom/citysoul_field_shortcode.php:2593
+#: inc/vc_custom/citysoul_field_shortcode.php:2602
+#: inc/vc_custom/citysoul_field_shortcode.php:2868
+#: inc/vc_custom/citysoul_field_shortcode.php:2878
+#: inc/vc_custom/citysoul_field_shortcode.php:2887
+#: inc/vc_custom/citysoul_field_shortcode.php:2896
+#: inc/vc_custom/citysoul_field_shortcode.php:2905
+#: inc/vc_custom/citysoul_field_shortcode.php:2975
+#: inc/vc_custom/citysoul_field_shortcode.php:2985
+#: inc/vc_custom/citysoul_field_shortcode.php:3200
+#: inc/vc_custom/citysoul_field_shortcode.php:3210
+#: inc/vc_custom/citysoul_field_shortcode.php:3219
+#: inc/vc_custom/citysoul_field_shortcode.php:3228
+#: inc/vc_custom/citysoul_field_shortcode.php:3237
+msgid "Style for shortcode"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:98
+#: inc/vc_custom/citysoul_field_shortcode.php:361
+#: inc/vc_custom/citysoul_field_shortcode.php:465
+#: inc/vc_custom/citysoul_field_shortcode.php:615
+#: inc/vc_custom/citysoul_field_shortcode.php:1007
+#: inc/vc_custom/citysoul_field_shortcode.php:1422
+#: inc/vc_custom/citysoul_field_shortcode.php:1590
+#: inc/vc_custom/citysoul_field_shortcode.php:1804
+#: inc/vc_custom/citysoul_field_shortcode.php:2571
+#: inc/vc_custom/citysoul_field_shortcode.php:2874
+#: inc/vc_custom/citysoul_field_shortcode.php:3206
+msgid "Color border text"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:101
+#: inc/vc_custom/citysoul_field_shortcode.php:364
+#: inc/vc_custom/citysoul_field_shortcode.php:468
+#: inc/vc_custom/citysoul_field_shortcode.php:618
+#: inc/vc_custom/citysoul_field_shortcode.php:1010
+#: inc/vc_custom/citysoul_field_shortcode.php:1425
+#: inc/vc_custom/citysoul_field_shortcode.php:1593
+#: inc/vc_custom/citysoul_field_shortcode.php:1807
+#: inc/vc_custom/citysoul_field_shortcode.php:2574
+#: inc/vc_custom/citysoul_field_shortcode.php:2877
+#: inc/vc_custom/citysoul_field_shortcode.php:3209
+msgid "Color border on the top of text"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:108
+#: inc/vc_custom/citysoul_field_shortcode.php:371
+#: inc/vc_custom/citysoul_field_shortcode.php:475
+#: inc/vc_custom/citysoul_field_shortcode.php:625
+#: inc/vc_custom/citysoul_field_shortcode.php:1017
+#: inc/vc_custom/citysoul_field_shortcode.php:1432
+#: inc/vc_custom/citysoul_field_shortcode.php:1600
+#: inc/vc_custom/citysoul_field_shortcode.php:1814
+#: inc/vc_custom/citysoul_field_shortcode.php:2188
+#: inc/vc_custom/citysoul_field_shortcode.php:2191
+#: inc/vc_custom/citysoul_field_shortcode.php:2581
+#: inc/vc_custom/citysoul_field_shortcode.php:2884
+#: inc/vc_custom/citysoul_field_shortcode.php:3216
+msgid "Background color"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:117
+#: inc/vc_custom/citysoul_field_shortcode.php:380
+#: inc/vc_custom/citysoul_field_shortcode.php:484
+#: inc/vc_custom/citysoul_field_shortcode.php:634
+#: inc/vc_custom/citysoul_field_shortcode.php:1026
+#: inc/vc_custom/citysoul_field_shortcode.php:1441
+#: inc/vc_custom/citysoul_field_shortcode.php:1609
+#: inc/vc_custom/citysoul_field_shortcode.php:1823
+#: inc/vc_custom/citysoul_field_shortcode.php:2590
+#: inc/vc_custom/citysoul_field_shortcode.php:2893
+#: inc/vc_custom/citysoul_field_shortcode.php:3225
+msgid "Link color"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:126
+#: inc/vc_custom/citysoul_field_shortcode.php:389
+#: inc/vc_custom/citysoul_field_shortcode.php:493
+#: inc/vc_custom/citysoul_field_shortcode.php:643
+#: inc/vc_custom/citysoul_field_shortcode.php:1035
+#: inc/vc_custom/citysoul_field_shortcode.php:1450
+#: inc/vc_custom/citysoul_field_shortcode.php:1618
+#: inc/vc_custom/citysoul_field_shortcode.php:1832
+#: inc/vc_custom/citysoul_field_shortcode.php:2599
+#: inc/vc_custom/citysoul_field_shortcode.php:2902
+#: inc/vc_custom/citysoul_field_shortcode.php:3234
+msgid "Link color hover"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:135
+#: inc/vc_custom/citysoul_field_shortcode.php:260
+#: inc/vc_custom/citysoul_field_shortcode.php:398
+#: inc/vc_custom/citysoul_field_shortcode.php:501
+#: inc/vc_custom/citysoul_field_shortcode.php:652
+#: inc/vc_custom/citysoul_field_shortcode.php:756
+#: inc/vc_custom/citysoul_field_shortcode.php:828
+#: inc/vc_custom/citysoul_field_shortcode.php:1044
+#: inc/vc_custom/citysoul_field_shortcode.php:1264
+#: inc/vc_custom/citysoul_field_shortcode.php:1459
+#: inc/vc_custom/citysoul_field_shortcode.php:1627
+#: inc/vc_custom/citysoul_field_shortcode.php:1841
+#: inc/vc_custom/citysoul_field_shortcode.php:2090
+#: inc/vc_custom/citysoul_field_shortcode.php:2197
+#: inc/vc_custom/citysoul_field_shortcode.php:2457
+#: inc/vc_custom/citysoul_field_shortcode.php:2608
+#: inc/vc_custom/citysoul_field_shortcode.php:2793
+#: inc/vc_custom/citysoul_field_shortcode.php:2911
+#: inc/vc_custom/citysoul_field_shortcode.php:2990
+#: inc/vc_custom/citysoul_field_shortcode.php:3099
+#: inc/vc_custom/citysoul_field_shortcode.php:3244
+msgid "Css"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:137
+#: inc/vc_custom/citysoul_field_shortcode.php:262
+#: inc/vc_custom/citysoul_field_shortcode.php:400
+#: inc/vc_custom/citysoul_field_shortcode.php:503
+#: inc/vc_custom/citysoul_field_shortcode.php:654
+#: inc/vc_custom/citysoul_field_shortcode.php:758
+#: inc/vc_custom/citysoul_field_shortcode.php:830
+#: inc/vc_custom/citysoul_field_shortcode.php:1046
+#: inc/vc_custom/citysoul_field_shortcode.php:1266
+#: inc/vc_custom/citysoul_field_shortcode.php:1461
+#: inc/vc_custom/citysoul_field_shortcode.php:1629
+#: inc/vc_custom/citysoul_field_shortcode.php:1843
+#: inc/vc_custom/citysoul_field_shortcode.php:2092
+#: inc/vc_custom/citysoul_field_shortcode.php:2199
+#: inc/vc_custom/citysoul_field_shortcode.php:2459
+#: inc/vc_custom/citysoul_field_shortcode.php:2610
+#: inc/vc_custom/citysoul_field_shortcode.php:2795
+#: inc/vc_custom/citysoul_field_shortcode.php:2913
+#: inc/vc_custom/citysoul_field_shortcode.php:2992
+#: inc/vc_custom/citysoul_field_shortcode.php:3101
+#: inc/vc_custom/citysoul_field_shortcode.php:3246
+msgid "Design options"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:164
+#: inc/vc_custom/citysoul_field_shortcode.php:2238
+#: inc/vc_custom/citysoul_field_shortcode.php:2637
+msgid "Title Heading"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:167
+#: inc/vc_custom/citysoul_field_shortcode.php:2241
+#: inc/vc_custom/citysoul_field_shortcode.php:2640
+msgid "This title heading"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:171
+msgid "Title Heading Caption"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:174
+msgid "Title heading caption"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:179
+msgid "Select Artist"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:181
+#: inc/vc_custom/citysoul_field_shortcode.php:923
+#: inc/vc_custom/citysoul_field_shortcode.php:942
+#: inc/vc_custom/citysoul_field_shortcode.php:952
+#: inc/vc_custom/citysoul_field_shortcode.php:976
+#: inc/vc_custom/citysoul_field_shortcode.php:1137
+#: inc/vc_custom/citysoul_field_shortcode.php:1145
+#: inc/vc_custom/citysoul_field_shortcode.php:1154
+#: inc/vc_custom/citysoul_field_shortcode.php:1348
+#: inc/vc_custom/citysoul_field_shortcode.php:1367
+#: inc/vc_custom/citysoul_field_shortcode.php:1377
+#: inc/vc_custom/citysoul_field_shortcode.php:1401
+#: inc/vc_custom/citysoul_field_shortcode.php:1911
+#: inc/vc_custom/citysoul_field_shortcode.php:1930
+#: inc/vc_custom/citysoul_field_shortcode.php:1941
+#: inc/vc_custom/citysoul_field_shortcode.php:1958
+#: inc/vc_custom/citysoul_field_shortcode.php:1968
+#: inc/vc_custom/citysoul_field_shortcode.php:1986
+#: inc/vc_custom/citysoul_field_shortcode.php:2264
+#: inc/vc_custom/citysoul_field_shortcode.php:2275
+#: inc/vc_custom/citysoul_field_shortcode.php:2291
+#: inc/vc_custom/citysoul_field_shortcode.php:2297
+#: inc/vc_custom/citysoul_field_shortcode.php:2318
+msgid "Data Settings"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:192
+msgid "Type title artist to choose"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:198
+#: inc/vc_custom/citysoul_field_shortcode.php:2734
+msgid "Color Title Heading"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:201
+msgid "Color for title heading"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:202
+#: inc/vc_custom/citysoul_field_shortcode.php:211
+#: inc/vc_custom/citysoul_field_shortcode.php:220
+#: inc/vc_custom/citysoul_field_shortcode.php:229
+#: inc/vc_custom/citysoul_field_shortcode.php:238
+#: inc/vc_custom/citysoul_field_shortcode.php:247
+#: inc/vc_custom/citysoul_field_shortcode.php:256
+#: inc/vc_custom/citysoul_field_shortcode.php:712
+#: inc/vc_custom/citysoul_field_shortcode.php:720
+#: inc/vc_custom/citysoul_field_shortcode.php:728
+#: inc/vc_custom/citysoul_field_shortcode.php:736
+#: inc/vc_custom/citysoul_field_shortcode.php:744
+#: inc/vc_custom/citysoul_field_shortcode.php:752
+#: inc/vc_custom/citysoul_field_shortcode.php:806
+#: inc/vc_custom/citysoul_field_shortcode.php:815
+#: inc/vc_custom/citysoul_field_shortcode.php:824
+#: inc/vc_custom/citysoul_field_shortcode.php:1164
+#: inc/vc_custom/citysoul_field_shortcode.php:1176
+#: inc/vc_custom/citysoul_field_shortcode.php:1188
+#: inc/vc_custom/citysoul_field_shortcode.php:1196
+#: inc/vc_custom/citysoul_field_shortcode.php:1208
+#: inc/vc_custom/citysoul_field_shortcode.php:1216
+#: inc/vc_custom/citysoul_field_shortcode.php:1224
+#: inc/vc_custom/citysoul_field_shortcode.php:1236
+#: inc/vc_custom/citysoul_field_shortcode.php:1244
+#: inc/vc_custom/citysoul_field_shortcode.php:1252
+#: inc/vc_custom/citysoul_field_shortcode.php:1260
+#: inc/vc_custom/citysoul_field_shortcode.php:1690
+#: inc/vc_custom/citysoul_field_shortcode.php:1700
+#: inc/vc_custom/citysoul_field_shortcode.php:2000
+#: inc/vc_custom/citysoul_field_shortcode.php:2010
+#: inc/vc_custom/citysoul_field_shortcode.php:2019
+#: inc/vc_custom/citysoul_field_shortcode.php:2028
+#: inc/vc_custom/citysoul_field_shortcode.php:2041
+#: inc/vc_custom/citysoul_field_shortcode.php:2050
+#: inc/vc_custom/citysoul_field_shortcode.php:2063
+#: inc/vc_custom/citysoul_field_shortcode.php:2076
+#: inc/vc_custom/citysoul_field_shortcode.php:2086
+#: inc/vc_custom/citysoul_field_shortcode.php:2329
+#: inc/vc_custom/citysoul_field_shortcode.php:2348
+#: inc/vc_custom/citysoul_field_shortcode.php:2358
+#: inc/vc_custom/citysoul_field_shortcode.php:2367
+#: inc/vc_custom/citysoul_field_shortcode.php:2376
+#: inc/vc_custom/citysoul_field_shortcode.php:2385
+#: inc/vc_custom/citysoul_field_shortcode.php:2394
+#: inc/vc_custom/citysoul_field_shortcode.php:2403
+#: inc/vc_custom/citysoul_field_shortcode.php:2416
+#: inc/vc_custom/citysoul_field_shortcode.php:2429
+#: inc/vc_custom/citysoul_field_shortcode.php:2442
+#: inc/vc_custom/citysoul_field_shortcode.php:2452
+#: inc/vc_custom/citysoul_field_shortcode.php:2738
+#: inc/vc_custom/citysoul_field_shortcode.php:2748
+#: inc/vc_custom/citysoul_field_shortcode.php:2758
+#: inc/vc_custom/citysoul_field_shortcode.php:2768
+#: inc/vc_custom/citysoul_field_shortcode.php:2778
+#: inc/vc_custom/citysoul_field_shortcode.php:2788
+#: inc/vc_custom/citysoul_field_shortcode.php:3040
+#: inc/vc_custom/citysoul_field_shortcode.php:3049
+#: inc/vc_custom/citysoul_field_shortcode.php:3058
+#: inc/vc_custom/citysoul_field_shortcode.php:3067
+#: inc/vc_custom/citysoul_field_shortcode.php:3076
+#: inc/vc_custom/citysoul_field_shortcode.php:3085
+#: inc/vc_custom/citysoul_field_shortcode.php:3094
+msgid "Style"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:207
+msgid "Color Title Caption"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:210
+msgid "Color for title caption"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:216
+msgid "Color Name's Artist"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:219
+msgid "Color for name's artist "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:225
+msgid "Color Genres "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:228
+msgid "Color for genres"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:234
+msgid "Color Description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:237
+msgid "Color for description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:243
+msgid "Color Active Button"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:246
+msgid "Color for active button"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:252
+msgid "Color Border Image "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:255
+msgid "Color for border image"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:293
+msgid "List Post"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:303
+#: inc/vc_custom/citysoul_field_shortcode.php:439
+#: inc/vc_custom/citysoul_field_shortcode.php:547
+#: inc/vc_custom/citysoul_field_shortcode.php:1531
+#: inc/vc_custom/citysoul_field_shortcode.php:1741
+#: inc/vc_custom/citysoul_field_shortcode.php:2133
+#: inc/vc_custom/citysoul_field_shortcode.php:2526
+#: inc/vc_custom/citysoul_field_shortcode.php:2838
+#: inc/vc_custom/citysoul_field_shortcode.php:2961
+#: inc/vc_custom/citysoul_field_shortcode.php:3128
+msgid "Title element"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:306
+#: inc/vc_custom/citysoul_field_shortcode.php:442
+msgid "The title of Blog."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:310
+msgid "Select post show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:327
+msgid "Pages"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:332
+#: inc/vc_custom/citysoul_field_shortcode.php:1566
+#: inc/vc_custom/citysoul_field_shortcode.php:1788
+#: inc/vc_custom/citysoul_field_shortcode.php:2161
+msgid "Select columns count."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:338
+msgid "Show Readmore/ Pagination"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:430
+msgid "Post Slide"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:447
+msgid "Number Show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:450
+msgid "The number slide show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:536
+msgid "Card"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:550
+#: inc/vc_custom/citysoul_field_shortcode.php:558
+#: inc/vc_custom/citysoul_field_shortcode.php:566
+#: inc/vc_custom/citysoul_field_shortcode.php:574
+#: inc/vc_custom/citysoul_field_shortcode.php:1309
+#: inc/vc_custom/citysoul_field_shortcode.php:1316
+#: inc/vc_custom/citysoul_field_shortcode.php:1336
+#: inc/vc_custom/citysoul_field_shortcode.php:1534
+#: inc/vc_custom/citysoul_field_shortcode.php:1541
+#: inc/vc_custom/citysoul_field_shortcode.php:1744
+#: inc/vc_custom/citysoul_field_shortcode.php:1752
+#: inc/vc_custom/citysoul_field_shortcode.php:2529
+#: inc/vc_custom/citysoul_field_shortcode.php:2537
+#: inc/vc_custom/citysoul_field_shortcode.php:2841
+#: inc/vc_custom/citysoul_field_shortcode.php:3132
+msgid "The title of element."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:555
+#: inc/vc_custom/citysoul_field_shortcode.php:1538
+msgid "Desc element"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:563
+msgid "Title Apply"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:571
+msgid "Desc Apply"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:580
+msgid "Select card show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:597
+#: inc/vc_custom/citysoul_field_shortcode.php:699
+msgid "Select form contact form 7"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:676
+msgid "Contact"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:685
+msgid "Title contact"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:688
+#: inc/vc_custom/citysoul_field_shortcode.php:2136
+#: inc/vc_custom/citysoul_field_shortcode.php:2964
+msgid "The title of content."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:692
+msgid "Description contact"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:695
+#: inc/vc_custom/citysoul_field_shortcode.php:2956
+msgid "The description of content only for style left."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:709
+msgid "Color title form"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:717
+msgid "Color description form"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:725
+msgid "Color border input"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:733
+msgid "Color text input"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:741
+msgid "Color border submit"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:749
+msgid "Color text submit"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:777
+msgid "Countdown Time"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:786
+msgid "Time Countdown"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:790
+msgid "This time coutdown like month/day/year "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:794
+msgid "Image Background"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:797
+msgid "This background imgage"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:802
+msgid "Time heading color "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:805
+msgid "Color for time heading "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:811
+msgid "Time coutdown color "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:814
+msgid "Color for time countdown "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:820
+msgid "Background color "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:823
+msgid "Color for background "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:876
+msgid "List Artist"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:900
+msgid "Title "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:903
+msgid "The title."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:908
+msgid "Description "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:916
+#: inc/vc_custom/citysoul_field_shortcode.php:1341
+#: inc/vc_custom/citysoul_field_shortcode.php:1904
+#: inc/vc_custom/citysoul_field_shortcode.php:2262
+msgid "Option Data"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:929
+msgid "Select Artist show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:941
+#: inc/vc_custom/citysoul_field_shortcode.php:1366
+#: inc/vc_custom/citysoul_field_shortcode.php:1929
+msgid "Type title single new to choose . Please type two char !"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:950
+#: inc/vc_custom/citysoul_field_shortcode.php:1375
+#: inc/vc_custom/citysoul_field_shortcode.php:2295
+msgid "Select category product show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1068
+msgid "List event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1081
+#: inc/vc_custom/citysoul_field_shortcode.php:2231
+#: inc/vc_custom/citysoul_field_shortcode.php:2266
+#: inc/vc_custom/citysoul_field_shortcode.php:2331
+msgid "Select ..."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1082
+msgid "Slide Big"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1083
+msgid "Slide Small"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1084
+msgid "Grid style"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1085
+msgid "List style"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1086
+msgid "Calendar event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1093
+msgid "Title list event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1103
+msgid "Description list event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1113
+msgid "Link view Calendar"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1123
+msgid "Select event show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1125
+msgid "Option Settings"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1136
+msgid "Type title single event to choose"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1142
+msgid "Category"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1161
+msgid "Color title"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1173
+msgid "Color description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1185
+msgid "Color date"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1193
+msgid "Color border event hover"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1205
+msgid "Color title event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1213
+msgid "Color description event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1221
+msgid "Color artist event"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1233
+msgid "Color button ticket"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1241
+msgid "Color icon button ticket"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1249
+msgid "Background button ticket"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1257
+msgid "Background today ticket"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1296
+msgid "Gallery Style"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1321
+msgid "Option Gallery"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1333
+msgid "Find links"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1354
+msgid "Select gallery show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1481
+msgid "Title icon"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1484
+msgid "The title of icon."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1485
+#: inc/vc_custom/citysoul_field_shortcode.php:1496
+msgid "Title and description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1492
+msgid "Description icon"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1495
+msgid "The description of icon."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1522
+msgid "List Video"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1545
+msgid "Select video show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1561
+msgid "Total Item"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1571
+msgid "Remame read more"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1574
+msgid "Remame read more."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1653
+msgid "Google Map"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1662
+msgid "Latitude"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1666
+msgid "You can find your latitude from http://latlong.net"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1670
+msgid "Longitude"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1674
+msgid "You can find your longitude from http://latlong.net"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1678
+msgid "Map marker"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1681
+msgid "Select a small image from media library."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1686
+msgid "Height"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1691
+msgid "Example : 450px "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1697
+msgid "Color for Water , Ocean, Lake ,River"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1722
+msgid "Menu Custom"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1749
+#: inc/vc_custom/citysoul_field_shortcode.php:2534
+msgid "Title description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1758
+msgid "Select menu show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1783
+msgid "View category"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1861
+#: vc_templates/citysoul_news.php:85
+msgid "News"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1885
+msgid "This title"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1889
+msgid "Text More"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1892
+msgid "This text more "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1896
+msgid "Link Text More"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1899
+msgid "This link more"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1917
+msgid "Select news show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1938
+msgid "Catagory"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1949
+#: inc/vc_custom/citysoul_field_shortcode.php:2166
+msgid "Order by"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1953
+msgid "Date"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1954
+msgid "Order by post ID"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1955
+msgid "Random order"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1957
+msgid "Select order type. "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1966
+msgid "Sort order"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1971
+#: inc/vc_custom/citysoul_field_shortcode.php:2170
+msgid "Descending"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1972
+#: inc/vc_custom/citysoul_field_shortcode.php:2171
+msgid "Ascending"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1974
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1996
+#: inc/vc_custom/citysoul_field_shortcode.php:2344
+msgid "Color Title"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:1999
+#: inc/vc_custom/citysoul_field_shortcode.php:2347
+msgid "Color for title "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2006
+msgid "Color Text More"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2009
+msgid "Color for text more "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2015
+msgid "Color Link "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2018
+msgid "Color for link  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2024
+msgid "Color Link Active "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2027
+msgid "Color for link active "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2037
+#: inc/vc_custom/citysoul_field_shortcode.php:2399
+msgid "Color Day "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2040
+#: inc/vc_custom/citysoul_field_shortcode.php:2402
+msgid "Color for day  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2046
+#: inc/vc_custom/citysoul_field_shortcode.php:2412
+msgid "Color Date "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2049
+#: inc/vc_custom/citysoul_field_shortcode.php:2415
+msgid "Color for date "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2055
+msgid "Color Hot New  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2058
+msgid "Color for text hot new "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2068
+msgid "Color Hot New Background "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2071
+msgid "Color for background hot new "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2082
+#: inc/vc_custom/citysoul_field_shortcode.php:2085
+msgid "Background Color "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2124
+msgid "List Partner"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2129
+msgid "This section allow you show "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2140
+msgid "Select partner show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2156
+msgid "Number post show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2169
+#: inc/vc_custom/citysoul_field_shortcode.php:2656
+msgid "Select..."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2218
+msgid "Product"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2232
+msgid "Single Slider"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2233
+msgid "Mutil Slider"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2245
+msgid "Text Go to Store"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2248
+msgid "This text for Go to Store "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2252
+msgid "Link Go to Store"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2255
+msgid "This link for Go to Store"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2267
+msgid "InProduct"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2268
+msgid "InCategory"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2273
+msgid "Select product show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2290
+msgid "Type title single product to choose"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2315
+#: inc/vc_custom/citysoul_field_shortcode.php:2319
+msgid "Number product show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2327
+msgid "Navigation"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2332
+msgid "Enable"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2333
+msgid "Disable"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2354
+msgid "Color Border Item "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2357
+msgid "Color for item border "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2363
+msgid "Color Title Heading "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2366
+msgid "Color for title heading  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2372
+msgid "Color Go to Store "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2375
+msgid "Color for text go to store  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2381
+msgid "Color title product "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2384
+msgid "Color for title product"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2390
+msgid "Color info product  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2393
+msgid "Color for infomation product "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2425
+msgid "Color Star "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2428
+msgid "Color for star ratting  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2438
+msgid "Color Text Price "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2441
+msgid "Color for text price  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2448
+#: inc/vc_custom/citysoul_field_shortcode.php:2784
+msgid "Color  Background "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2451
+#: inc/vc_custom/citysoul_field_shortcode.php:2787
+msgid "Color for background  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2479
+msgid "Row stretch"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2482
+msgid "Default"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2483
+msgid "Stretch row"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2484
+msgid "Stretch row and content"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2485
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2486
+msgid "Stretch row and content (no paddings content in center)"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2488
+msgid ""
+"Select stretching options for row and content (Note: stretched may not "
+"work properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2516
+msgid "Shedule List"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2543
+msgid "Select schedule show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2628
+msgid "ShortDescription"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2644
+#: inc/vc_custom/citysoul_field_shortcode.php:2647
+msgid "Description Content"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2657
+msgid "No Image"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2658
+msgid "With Image"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2661
+msgid "Chose option style "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2665
+#: inc/vc_custom/citysoul_field_shortcode.php:2668
+msgid "Title Box Description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2669
+#: inc/vc_custom/citysoul_field_shortcode.php:2681
+msgid "Orther Settings"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2677
+#: inc/vc_custom/citysoul_field_shortcode.php:2680
+msgid "Title Box Tags"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2690
+msgid "Facebook"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2693
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2694
+#: inc/vc_custom/citysoul_field_shortcode.php:2702
+#: inc/vc_custom/citysoul_field_shortcode.php:2710
+#: inc/vc_custom/citysoul_field_shortcode.php:2718
+msgid "Social options"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2698
+#: inc/vc_custom/citysoul_field_shortcode.php:3010
+#: vc_templates/citysoul_twitter.php:55
+msgid "Twitter"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2701
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2706
+msgid "YouTube"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2709
+msgid "YouTube Link"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2717
+msgid "SoundCloud Link"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2722
+msgid "Image Description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2729
+msgid "This image description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2737
+msgid "Color for title heading "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2744
+msgid "Color Description Content"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2747
+msgid "Color for description content "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2754
+msgid "Color Title Box Description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2757
+msgid "Color for title box description  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2764
+msgid "Color Title Box Tags"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2767
+msgid "Color for title box tags  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2774
+msgid "Color  Active Button"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2777
+msgid "Color for active button  "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2827
+#: vc_templates/citysoul_testimonial.php:48
+msgid "Testimonial"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2846
+msgid "Select testimonial show"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2937
+msgid "Show Title And Description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2942
+msgid "This section allow you show title and description"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2953
+msgid "Description element"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2971
+msgid "Description color"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:2974
+msgid "Color for description on shortcode"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3020
+msgid "Twitter Nick Name"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3027
+msgid "Total Tweet"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3037
+msgid "Color Twitter "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3046
+msgid "Color Screen Name "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3055
+msgid "Color Nick Name"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3064
+msgid "Color Time Tweet"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3073
+msgid "Color Detail "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3082
+msgid "Color Button Follow "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3091
+msgid "Color Button Text Follow "
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3119
+msgid "Video"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3143
+msgid "Select font family."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3144
+msgid "Select font styling."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3147
+msgid "Custom fonts"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3156
+msgid "Link button"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3159
+msgid "Link button of banner."
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3163
+msgid "Images video"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3169
+msgid "Url video youtube or vimeo"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3173
+msgid ""
+"Ex: https://www.youtube.com/embed/ZCg81dvVM3U or https://player.vimeo.com/"
+"video/180222262"
+msgstr ""
+
+#: inc/vc_custom/citysoul_field_shortcode.php:3177
+msgid "Icon"
+msgstr ""
+
+#: search.php:33
+msgid "Search results for: "
+msgstr ""
+
+#: searchform-popup.php:3
+msgid "Close X"
+msgstr ""
+
+#: searchform-popup.php:8
+msgid "Search anytime by typing"
+msgstr ""
+
+#: searchform-popup.php:11
+msgid "Photographer"
+msgstr ""
+
+#: vc_templates/album/left.php:14
+msgid "01"
+msgstr ""
+
+#: vc_templates/album/left.php:109
+msgid "All Album"
+msgstr ""
+
+#: vc_templates/album/right.php:13
+msgid "About"
+msgstr ""
+
+#: vc_templates/album/right.php:14
+msgid "All artist"
+msgstr ""
+
+#: vc_templates/citysoul_artist.php:50
+msgid "djs"
+msgstr ""
+
+#: vc_templates/citysoul_artist.php:53
+msgid "we have some amazing !"
+msgstr ""
+
+#: vc_templates/citysoul_contact.php:40
+msgid "Write to us"
+msgstr ""
+
+#: vc_templates/citysoul_contact.php:54
+msgid "Please creat Form Contact !"
+msgstr ""
+
+#: vc_templates/citysoul_countdown.php:54
+msgid "Days"
+msgstr ""
+
+#: vc_templates/citysoul_countdown.php:59
+msgid "Hrs"
+msgstr ""
+
+#: vc_templates/citysoul_countdown.php:64
+msgid "Mins"
+msgstr ""
+
+#: vc_templates/citysoul_countdown.php:69
+msgid "Sec"
+msgstr ""
+
+#: vc_templates/citysoul_news.php:88
+msgid "All more"
+msgstr ""
+
+#: vc_templates/citysoul_product.php:126
+msgid "Shop"
+msgstr ""
+
+#: vc_templates/citysoul_product.php:129
+msgid "Go to Store"
+msgstr ""
+
+#: vc_templates/citysoul_product.php:205
+msgid "Add to cart"
+msgstr ""
+
+#: vc_templates/citysoul_twitter.php:69
+msgid "Follow"
+msgstr ""
+
+#: vc_templates/citysoul_twitter.php:75
+msgid "Recent comments"
+msgstr ""
+
+#: vc_templates/gallery/gallery_style.php:5
+msgid "gallery"
+msgstr ""
+
+#: vc_templates/gallery/gallery_style.php:6
+msgid "we have painted the picture"
+msgstr ""
+
+#: vc_templates/gallery/gallery_style.php:7
+msgid "All gallery"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:23
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:45
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:77
+msgid "GRAND TOTAL"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:89
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during "
+"checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:22
+msgid "Shopping cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26 woocommerce/single-product/related.php:57
+msgid "Goto store"
+msgstr ""
+
+#: woocommerce/cart/cart.php:48
+msgid "Product name"
+msgstr ""
+
+#: woocommerce/cart/cart.php:49
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:50
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:51
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:94
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:129
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:131
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:153
+msgid "Grand total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:159
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:172
+msgid "Keep shopping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:185
+msgid "Have a coupon ? Click here to enter your code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:188
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:189
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:32
+msgid "Check out"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:74
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a "
+"review."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:47
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/related.php:54
+msgid "More"
+msgstr ""

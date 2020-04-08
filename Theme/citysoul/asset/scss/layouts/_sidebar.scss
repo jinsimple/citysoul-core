@@ -1,0 +1,149 @@
+.citysoul-sidebar{
+    //width: 310px;
+    height: auto;
+    margin-left: 0;
+    // @include MQ(S){
+    //     margin-left: 30px;
+    // }
+    @include MQ(L){
+        margin-left: 0;
+    }
+    .searchform{
+        input[type="text"]{
+            width: 45%;
+            height: inherit;
+        }
+    }
+    a{
+        color: $white_06;
+        &:hover{
+            color: $active-color;
+        }
+    }
+    ul{
+        li{
+            color: $active-color;
+        }
+    }
+}
+.widget-sidebar{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    .widget-title{
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    // .screen-reader-text{
+    //     display: none;
+    // }
+    .widget-content{
+        float: left;
+        width: 100%;
+        .citysoul-date{
+            em{
+                @include font-size(15px);
+            }
+        }
+        // a{
+        //     color: $white_05;
+        //     &:hover{
+        //         color: $White;
+        //     }
+        // }
+
+        ul{
+            padding-left: 20px;
+            &.list-post, &.list-recent-comment, &.list-archive{
+                padding-left: 0px;
+                list-style: none;
+            }
+            li{
+                float: left;
+                width: 100%;
+                height: auto;
+            }
+            &.list-post{
+                li{  
+                    padding-bottom: 22px;
+                    border-bottom: 1px solid $white_005;
+                    margin-top: 22px;
+                    a{
+                        color: $white_05;
+                        @include transition;
+                        &:hover{
+                            color: $White;
+                        }
+                    }
+                    .title-post-sidebar{
+                        text-transform: uppercase;
+                    }
+                    .citysoul-date {
+                        display: inherit;
+                    }
+                    .images {
+                        width: 140px;
+                        height: 80px;
+                        overflow: hidden;
+                        position :relative; 
+                        float: left;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        img {
+                           
+                           width: 100%;
+                           height: auto;
+                            position :absolute;
+                            @include center(xy);
+                        }
+                    }
+
+                }
+            }
+            &.list-recent-comment{
+                li{
+                    margin-bottom: 25px;
+                    margin-top: 25px;
+                    .name-comment{
+                        margin-bottom: 10px;
+                        float: left;
+                        width: 100%;
+                        i{
+                            @include font-size(18px);
+                        }
+                    }
+                    .comment-text{
+                        color: $white_05;
+                        @include font-size(14px);
+                        font-style: italic;
+                        a{
+                            color: $white_05;
+                            &:hover{
+                                color: $White;
+                            }
+                        }
+                    }
+                }
+            }
+            &.list-archive{
+                li{
+                    @include font-size(12px);
+                    line-height: 32px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    a{
+                        color: $white_05;
+                        @include transition;
+                        &:hover{
+                            color: $White;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.sidebar-default{
+    padding-top: 70px;
+}

@@ -1,0 +1,220 @@
+#citysoul-mobile-menu{
+    position: relative;
+    z-index: 6;
+    button{
+        @media only screen and (min-width: 768px){
+            display: block;
+        }
+        @media only screen and (min-width: 1200px){
+            display: none;
+        }
+
+        float: left;
+        width: 20px;
+        height: 20px;
+        padding: 0px;
+        background: transparent;
+        border:none;
+        position: fixed;
+        right: 15px;
+        top: 10px;
+        z-index: 99992;
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            right: 15px;
+        }
+        &.show-menu-mobile{
+            position: fixed;
+            right: 10px;
+            i{
+                background: $Black;
+            }
+        }
+        i{
+            float: left;
+            width: 100%;
+            margin: 3px 0px;
+            @include transition(fast);
+            position: relative;
+            &:before{
+                content: '';
+                background: url(../images/icon-citysoul.png) no-repeat -28px -84px;
+                height: 18px;
+                width: 24px;
+                position: absolute;
+                top: -5px;
+                left: 0;
+            }
+        }
+    }
+}
+
+.mobile-menu{
+    .menu{
+        padding: 30px 25px;
+        position: relative;
+        @include transition (fast);
+        height: 100vh;
+        width: 100%;
+        &.show-menu-mobile{
+            background: #000;
+        }
+        li{
+            list-style: none;
+            border-bottom: 1px solid $active-color;
+            position: relative;
+            text-align: center;
+            padding: 10px 15px;
+            @include MQ(F) {
+                padding: 30px 25px;
+            }
+            border-bottom: 2px solid rgba(70, 70, 70, 0.30);
+
+            .arrow-menu{
+                position: absolute;
+                top: 5px;
+                right: 50px;
+                font-size: 2em;
+                z-index: 9
+            }
+            a{
+                font-size: 1.2em;
+                @include MQ(F) {
+                    font-size: 2.2em;
+                }
+                font-weight: 600;
+                color: $White;
+                opacity: 0.8;
+                text-transform: uppercase;
+                position:relative;
+                z-index: 8;
+            }
+            .sub-menu,.children{
+                display: none;
+                padding: 0;
+                li{
+                    border-bottom:none;
+                    padding: 7px 0;
+                    min-height: auto;
+                }
+                a{
+                    text-transform: capitalize;
+                    font-size: 1.1em;
+                    font-weight: normal;
+                }
+                &.active{
+                    display: block;
+                    margin: 10px 0;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+
+
+/* Overlay style */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    @include MQ(F) {
+       display: none;
+    }
+   
+    
+    background: rgba(0,0,0,1);
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100;
+}
+
+/* Menu style */
+.overlay nav {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+        overflow: scroll;
+}
+
+.overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    top: 5%;
+}
+
+.overlay ul li {
+    display: block;
+    // height: 20%;
+    // height: calc(100% / 5);
+    min-height: 54px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.overlay ul li a {
+    font-weight: 300;
+    display: block;
+    color: #fff;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-transform: uppercase;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+    color: #f0f0f0;
+}
+
+/* Effects */
+.overlay-scale {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+    transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+}
+
+.overlay-scale.open {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.close{
+    font-size: 14px;
+}
+
+@media screen and (max-height: 30.5em) {
+    .overlay nav {
+        height: 75%;
+    }
+    .overlay ul li {
+        min-height: 34px;
+    }
+}

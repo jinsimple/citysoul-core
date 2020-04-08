@@ -1,0 +1,349 @@
+.track-list{
+    float: left;
+    width: 100%;
+    height: auto;
+         &.full_track{
+         .images-podcast{
+             transform: scale(.8);
+             zoom: .8;
+             @include MQ(M) {
+                 transform: scale(1);
+                 height: 900px;
+                 zoom: 1;
+             }
+             .text-name{
+                 text-align: center;
+                 .text-bg{
+                     @include font-size(115px);
+                     display: none;
+                     @include MQ(M) {
+                         display: block;
+                         @include font-size(160px);
+                         // left: 50%;
+                     }
+                     @include MQ(F) {
+                         @include font-size(200px);
+                     }
+
+                }
+
+             }
+         }
+        .citysoul-list-play{
+             padding-top: 160px;
+             @include MQ(F) {
+                padding-left: 10%;
+                padding-right: 25%;
+             }
+             .title-track{
+                 padding: 0px 15px;
+                 text-align: center;
+                 @include MQ(M) {
+                     text-align: left;
+                     padding-left: 150px;
+                }
+            }
+        }
+    }
+}
+.track-list-shortcode {
+    padding: 0;
+    @include MQ(L) {
+        padding : 0 50px;
+    }
+}
+.citysoul-track-list{
+    float: left;
+    width: 100%;
+    min-height: 900px;
+    .citysoul-list-play{
+        /*padding-top: 160px;*/
+
+    }
+    &.track-list-right{
+        .track-play-list{
+            padding-bottom: 150px;
+        }
+        .jp-audio{
+             .jp-type-playlist{
+                width: 100%;
+                float: right!important;
+                padding-left: 0px;
+                position: absolute;
+                .jp-gui{
+                    padding-left: 50px;
+                    .citysoul-play-container{
+                        width: 80%;
+                        @include MQ(F) {
+                            width: 65%;
+                        }
+                    }
+                }
+                .jp-controls{
+                    width: 14%;
+                }
+             }
+        }
+        .citysoul-list-play{
+            padding-top: 375px;
+        }
+    }
+}
+.position-track{
+    position: relative;
+    z-index: 2;
+    .title-box-track{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        top: 110px;
+        box-sizing: border-box;
+        padding-left: 15px;
+        .citysoul-title-half{
+            margin-bottom: 0px;
+            div{
+                width: 100%;
+                text-align: left;
+                float: left;
+                &.link-main-text {
+                    position: absolute;
+                    left: 0px;
+                    bottom: 0px;
+                    position: absolute;
+                    line-height: 1em;
+                    bottom: 0px;
+                    left: 0px;
+                    a{
+                        color: $white_03!important;
+                        &:hover{
+                            color: $White!important;
+                        }
+                    }
+                    &:before{
+                        content:"";
+                        width: 37px;
+                        height: 2px;
+                        background: $active-color;
+                        position: absolute;
+                        top: -15px;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+        .title-track{
+            padding-top: 150px;
+            margin-left: 40px;
+            float: left;
+            .text-title{
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+// For images podcast
+.images-podcast{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    float: left;
+    width: 100%;
+    @include MQ(M) {
+        height: 450px;
+    }
+    img{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        @include center(xy);
+    }
+    &.visible-over{
+        overflow: visible;
+        margin-top: -75px;
+    }
+    .podcast-image{
+        float: left;
+        width: 100%;
+        height: 100%;
+        min-height: 900px;
+        position: relative;
+        overflow: hidden;
+        img{
+            position: absolute;
+            right: 0px;@include center(xy);
+            min-width: 100%;
+            height: 900px;
+            width: auto;
+        }
+    }
+    &.podcast-image{
+        .images-podcast-right{
+            img{
+                left: 0px;
+            }
+        }
+
+    }
+    .text-name{
+        position: absolute;
+        right: 65px;
+        width: 310px;
+        @include center(y);
+        top: 50%;
+        .text-bg{
+            position: absolute;
+            z-index: 0;
+            @include font-size(200px);
+            line-height: 252px;
+            letter-spacing: 2px;
+            color: $white_01;
+            top: -90px;
+        }
+        .text-over{
+            text-transform: uppercase;
+            position: relative;
+            z-index: 2;
+            line-height: 80px;
+            letter-spacing: 1.75px;
+            word-break: break-all;
+        }
+    }
+    .text-artist-detail{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index:2 ;
+        max-width: 640px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        padding-top: 150px;
+        @include MQ(M) {
+            padding-left: 90px;
+            padding-top: 275px;
+        }
+        .text-100x {
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 120px;
+            text-align: center;
+            position: relative;
+            margin-bottom: 120px;
+            @include font-size(40px);
+            @include MQ(M) {
+                left: -420px;
+                text-align: right;
+                @include font-size(70px);
+            }
+            @include MQ(F) {
+                @include font-size(100px);
+            }
+
+        }
+        .social-albums{
+            margin-top: 40px;
+        }
+    }
+}
+
+// For playlist
+.citysoul-list-play{
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    @include RP(L){
+        padding-right : 10px;
+    }
+    .title-track{
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        //mobile
+        @include RP(L) {
+            padding-left:0px;
+            text-align: center;
+        }
+        /*padding-left: 105px;*/
+        margin-bottom: 50px;
+        .text-title{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            @include font-size(20px);
+        }
+        .text-more{
+            letter-spacing: 1.05px;
+            @include font-size(16px);
+        }
+    }
+    .jp-audio {
+         &.jp-state-playing {
+                //background :#121212;
+                background: -webkit-linear-gradient(left,rgb(0, 0, 0),rgb(18, 18, 18),rgb(0, 0, 0));  /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(left,rgb(0, 0, 0),rgb(18, 18, 18),rgb(0, 0, 0));  /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(left,rgb(0, 0, 0),rgb(18, 18, 18),rgb(0, 0, 0));  /* For Fx 3.6 to 15 */
+                background: linear-gradient(to right,rgb(0, 0, 0),rgb(18, 18, 18),rgb(0, 0, 0));  /* Standard syntax (must be last) */
+        }
+        .jp-current-song {
+            width: 80%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .jp-type-playlist {
+            position: absolute;
+            width: 85%;
+            left: 5%;
+            margin: 0;
+            .jp-gui {
+                position:relative;
+
+                .citysoul-play-container {
+                    width: 88%;
+                    position :absolute;
+                    left: 12%;
+                    .button-click-play {
+                        width: 2%;
+                        position : absolute;
+                        left: 88%;
+                        z-index: 2;
+                    }
+                }
+                .jp-controls {
+                    position :absolute;
+                    left: 0%;
+                    width: 12%;
+                    button {
+                        padding : 0;
+                        width: 25%;
+                    }
+                }
+                .jp-progress{
+                    position :absolute;
+                    top: 100%;
+                    height: 2px;
+                    width: 100%;
+                }
+            }
+        }
+        .kilobite-text {
+            @include RP(S){
+                display: none;
+            }
+            display: block;
+            position:absolute;
+            left: 93%;
+            width: 7%;
+            text-align: center;
+
+        }
+        .jp-volume-controls {
+            position:absolute;
+            left: 88%;
+            width: 2%;
+            margin: 0;
+
+        }
+    }
+
+
+}

@@ -1,0 +1,1366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"class",
+				"class=\"ev__cover"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"cal",
+				"class\tAttr"
+			],
+			[
+				"esc",
+				"esc_attr"
+			],
+			[
+				"ran",
+				"$randomID〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"city",
+				"citysoul_create_membership"
+			],
+			[
+				"citys",
+				"citysoul-contact-map"
+			],
+			[
+				"title",
+				"title=\"%s"
+			],
+			[
+				"end",
+				"endforeach〔keyword〕"
+			],
+			[
+				"ehtml",
+				"esc_html_e"
+			],
+			[
+				"sp",
+				"sprintf"
+			],
+			[
+				"ins",
+				"instagram"
+			],
+			[
+				"sh_link",
+				"$sh_link_url〔variable〕"
+			],
+			[
+				"bac",
+				"background_image"
+			],
+			[
+				"Ga",
+				"gallery_style"
+			],
+			[
+				"tie",
+				"title\t<title>"
+			],
+			[
+				"Se",
+				"Settings"
+			],
+			[
+				"ga",
+				"gallery_full"
+			],
+			[
+				"tar",
+				"target=\"_blank"
+			],
+			[
+				"back",
+				"background_color"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"cit",
+				"citysoul"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"col",
+				"col-xs-12"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"galleryh3",
+				"galleryh3__element"
+			],
+			[
+				"se",
+				"section\t<section>"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"event",
+				"event__item"
+			],
+			[
+				"tex",
+				"text-5x"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"col-md",
+				"col-md-6"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"ebe",
+				"event__by"
+			],
+			[
+				"remoe",
+				"remove_action"
+			],
+			[
+				"white",
+				"white_01"
+			],
+			[
+				"whi",
+				"white"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"exp",
+				"expect_expectl"
+			],
+			[
+				"sing",
+				"$single_id〔variable〕"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"s",
+				"slider-image"
+			],
+			[
+				"es",
+				"esc_html__"
+			],
+			[
+				"black",
+				"black_01"
+			],
+			[
+				"color_link_detail_",
+				"color_link_detail_op"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"int",
+				"inherit"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"blac",
+				"black_01"
+			],
+			[
+				"time",
+				"timetable"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"sub",
+				"subcribe-message"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"esc_",
+				"esc_html__"
+			],
+			[
+				"record_g",
+				"record_get_field〔function〕"
+			],
+			[
+				"get_the",
+				"get_the_ID〔function〕"
+			],
+			[
+				"exten",
+				"external"
+			],
+			[
+				"is_",
+				"is_shop"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"is_s",
+				"is_singular"
+			],
+			[
+				"wit",
+				"width"
+			],
+			[
+				"edit_fe",
+				"edit_field_class"
+			],
+			[
+				"w",
+				"with-icon"
+			],
+			[
+				"no",
+				"$noid〔variable〕"
+			],
+			[
+				"the",
+				"the_field〔function〕"
+			],
+			[
+				"foote",
+				"footer"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"texta",
+				"textarea_rows"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"wid",
+				"widget"
+			],
+			[
+				"wp_fo",
+				"wp_footer"
+			],
+			[
+				"tetx",
+				"text-decoration"
+			],
+			[
+				"da",
+				"data-color=〔attribute〕"
+			],
+			[
+				"12p",
+				"1200px"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"tb",
+				"tbody"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"dat",
+				"data-filter"
+			],
+			[
+				"esc_htm",
+				"esc_html_e"
+			],
+			[
+				"record_al",
+				"record_album_content"
+			],
+			[
+				"sho",
+				"shop_single"
+			],
+			[
+				"year",
+				"$year〔variable〕"
+			],
+			[
+				"esc_html_",
+				"esc_html_e"
+			],
+			[
+				"blak",
+				"black_05"
+			],
+			[
+				"alb",
+				"$album_next〔variable〕"
+			],
+			[
+				"rec",
+				"record_producer_content"
+			],
+			[
+				"is",
+				"is_singular"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"oj",
+				"object"
+			],
+			[
+				"glo",
+				"global〔keyword〕"
+			],
+			[
+				"vr",
+				"var_dump"
+			],
+			[
+				"endfo",
+				"endforeach〔keyword〕"
+			],
+			[
+				"record",
+				"record_get_field"
+			],
+			[
+				"record_",
+				"record_producer_content"
+			],
+			[
+				"esc_html",
+				"esc_html_e"
+			],
+			[
+				"get_the_thu",
+				"get_the_post_thumbnail"
+			],
+			[
+				"cover",
+				"$cover_image〔variable〕"
+			],
+			[
+				"go",
+				"google_map_key"
+			],
+			[
+				"vc",
+				"vc_rs_pdt"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"alo",
+				"$alone〔variable〕"
+			],
+			[
+				"arra",
+				"array〔function〕"
+			],
+			[
+				"recor_be",
+				"record_beau_dump〔function〕"
+			],
+			[
+				"ke",
+				"key"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/functions.php",
+			"settings":
+			{
+				"buffer_size": 22498,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/vn.dev/wp-content/plugins/woocommerce/includes/wc-product-functions.php",
+			"settings":
+			{
+				"buffer_size": 22010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/inc/custom-function/danlet_wc_function.php",
+			"settings":
+			{
+				"buffer_size": 22561,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/html.dev/html-citysoul/scss/section/_event.scss",
+			"settings":
+			{
+				"buffer_size": 6633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/inc/custom-function/danlet_wc_hook.php",
+			"settings":
+			{
+				"buffer_size": 10250,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"color",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"​"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Milky/DataSoucre/html.dev/html-citysoul",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/base",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/partials",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/section",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/postypes",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/widgets",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-danlet/demo-data/Danlet-Data",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-danlet/includes",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-danlet/includes/functions",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/woocommerce",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/woocommerce/includes",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/core/includes",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/custom",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/templates",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/templates/footer",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/css",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/scss/base",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/scss/layouts",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/scss/partials",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/core/includes",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/inc",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/inc/custom-function",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/templates/footer",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/recording/inc",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/recording/inc/custom-function",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/recording/templates",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/recording/templates/footer"
+	],
+	"file_history":
+	[
+		"/Milky/DataSoucre/html.dev/html-citysoul/home3.html",
+		"/Milky/DataSoucre/html.dev/html-citysoul/home4.html",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/base/_update.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-danlet/includes/functions/theme-function.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/scss/partials/_fonts.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/asset/scss/base/_reset.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/footer.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/header.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/404.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/comments.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/vc_templates/danlet_about.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/templates/footer/footer-default.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/core/includes/functions.php",
+		"/Milky/DataSoucre/html.dev/html-citysoul/calendar-1.php",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/section/_event_calendar.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/css/jquery-ui.min.css",
+		"/Users/tinhvqbk/Desktop/moment.min.js",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/citysoul.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/broadway.html",
+		"/Milky/DataSoucre/html.dev/html-citysoul/calendar-1.html",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/theme-option.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/postypes/theme-metabox.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/widgets/beau_newsletter_widget.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/core/includes/core-template-funtion.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/templates/footer/footer-onecolumn.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/footer.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/functions.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/templates/footer/footer-default.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/citysoul_instagram.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/custom/hook-script.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/event_update/slider.php",
+		"/Milky/DataSoucre/html.dev/html-citysoul/home-9.html",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom/citysoul_instagram.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/functions/instagram-images.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/recording/inc/custom-function/recording_custom_function.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom/citysoul_init.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/citysoul_countdown.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom/citysoul_field_shortcode.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom/citysoul_event_update.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom/citysoul_podcast.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/citysoul_podcast.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/citysoul_gallery_style.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/inc/vc_custom/citysoul_gallery_update.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/gallery/gallery_style.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/gallery/gallery_style2.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/gallery/gallery_full.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/event_update/big_image.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/recording/inc/vc_custom/vc_recording_patner.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/postypes/theme-customfield.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/asset/scss/section/_event.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/vc_templates/citysoul_event_update.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/asset/css/css-customadmin.css",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/core/includes/functions.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/includes/functions/vc_custom_field.php",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-recording/asset/css/css-customadmin.css",
+		"/Milky/DataSoucre/vn.dev/wp-content/plugins/beautheme-citysoul/README.md",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/asset/scss/section/_testimonial.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/asset/scss/base/_body.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/asset/scss/pages/_shoping_cart.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/asset/scss/layouts/_button.scss",
+		"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul/asset/scss/section/_track_list.scss",
+		"/Milky/DataSoucre/vn.dev/wp-config.php",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/section/_galleryh3.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/section/_event.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/detail-event.html",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/base/_body.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/section/_event_h4.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/home4.html.php",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/section/galleryh3.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/pages/_shoping_cart.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/partials/_layout.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/rock.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/party.scss",
+		"/Milky/DataSoucre/html.dev/html-citysoul/scss/electronic.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/pages/_video.scss",
+		"/Milky/GitLab/origin/citysoul/vc_templates/citysoul_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_sh_service.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes_number.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/layout/author-box-detail-post.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes_tabs.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/classes/single-big.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/classes/single-small.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/list/classes.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/video/big.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/video/small.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/base/_reset.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/archive.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/base/_body.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/includes/core-template-hook.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/functions.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/includes/core-template-funtion.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/header.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates/header/header-slide.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates/header/header-content.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates/header/header-popup.php",
+		"/Milky/DataSoucre/theme.dev/wp-content/themes/recording/functions.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/theme-option.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_subscribe_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/footer.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_newsletter_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_user.php",
+		"/Users/tinhvqbk/Desktop/danlet/vc_templates/danlet_user.php",
+		"/Milky/BeauTheme/Academy v1.0.0/academy-child-theme/functions.php",
+		"/Milky/BeauTheme/Academy v1.0.0/academy-child-theme/style.css",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/danlet_membership.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_testimonial.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_testimonial.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/header-shop.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/danlet_testimonial.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/asset/css/css-customadmin.css",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/teacher/single.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/layouts/_header_menu.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/style.css",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_subscribe.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/content-none.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/woocommerce/cart/cart.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/core/includes/functions.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/style.css",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/core/includes/core-template-hook.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/core/includes/core-template-funtion.php",
+		"/Milky/DataSoucre/theme.dev/wp-content/themes/recording/footer.php",
+		"/Milky/DataSoucre/theme.dev/wp-content/themes/recording/loop-items/items-post.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/functions.php",
+		"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/inc/theme-option.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Milky/DataSoucre/vn.dev/wp-content/plugins/woocommerce",
+			"/Milky/DataSoucre/vn.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul",
+			"/Milky/DataSoucre/vn.dev/wp-content/plugins",
+			"/Milky/DataSoucre/vn.dev/wp-content/themes/citysoul",
+			"/Milky/DataSoucre/html.dev/html-citysoul/scss",
+			"/Milky/DataSoucre/html.dev/html-citysoul",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Users/tinhvqbk/Desktop/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates",
+			"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/blank.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/plugins/js_composer",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/woocommerce",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/loop-items",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-academy",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy/inc/vc_custom",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/plugins/beautheme-recording",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/woocommerce",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/inc/vc_custom",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/inc/vc_custom",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss/base",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/vc_templates",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/milky.dev/wp-content/plugins/plg-bologna",
+			"/Milky/DataSoucre/milky.dev/wp-content/themes/bologna",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes/milblog",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes/milblog",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes/milblog/core/theme-option.php",
+			"/Milky/DataSoucre/academy.dev/wp-content/plugins/woocommerce/templates",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/academy.dev/wp-content/plugins",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/GitLab/VNMilky/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/GitLab/VNMilky/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-academy",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset",
+			"/Milky/DataSoucre/academy.dev/wp-content/plugins",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes",
+			"/Milky/DataSoucre/wp.dev/wp-content/plugins/js_composer",
+			"/Milky/DataSoucre/wp.dev",
+			"/Milky/DataSoucre/wp.dev/wp-content/themes/citysoul",
+			"/Milky/DataSoucre/wp.dev/wp-content/themes/citysoul/asset",
+			"/Milky/DataSoucre/wp.dev/wp-content/themes/citysoul/asset/js",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul/asset",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul",
+			"/SoucreDev/html.dev/html-academy/asset/scss",
+			"/SoucreDev/html.dev/html-academy/asset",
+			"/SoucreDev/html.dev/html-academy/asset/scss",
+			"/SoucreDev/html.dev/html-academy/asset/scss/base"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"woocommerce_get_product_thumbnail",
+			"woocommerce_before_shop_loop_item",
+			"danlet_woocommerce_before_shop_loop_item_before",
+			"acd_shop_img",
+			"message",
+			"Your me ",
+			"echo esc_html(",
+			"event",
+			"$active-color",
+			"']);\n",
+			"show-social-link",
+			"count",
+			"esc_html",
+			"footer",
+			"citysoul_event_update",
+			"instagram",
+			"count",
+			"citysoul_button_playlist_script_hook",
+			"citysoul_playlist_script_hook",
+			"citysoul_event_update",
+			"arr[0]",
+			"list_event_title",
+			"0",
+			"section",
+			"Options",
+			"                        \"class\"         => \"\",\n",
+			"                        'group'         => esc_html__( 'Style for shortcode', 'citysoul' ),\n",
+			"color_viewmore",
+			"list_event_title",
+			"_big",
+			"recording",
+			"section",
+			"album",
+			"wp-menu-name",
+			"Citysoul_option Options",
+			"Citysoul_op",
+			"'group'         => esc_html__( 'Style', \"citysoul\" ),",
+			"recording",
+			"citysoul_event_v1_2",
+			"citysoul_event",
+			"init",
+			"vc_danlet",
+			"_0xbf57",
+			"&",
+			"citysoul-desc",
+			"big",
+			"gal",
+			"text-active",
+			"@extend .text-more;",
+			"@extend .citysoul-title;",
+			" @extend .text-title;",
+			"@extend .text-white;",
+			"8%",
+			"col-md-12 col-xs-6",
+			"event",
+			"acd_video_img",
+			"academy_",
+			"col-lg-6",
+			"col-sm-6",
+			"ol-sm-6",
+			"sh_service_title",
+			"dofollow",
+			"rel=\"dofollow\"",
+			"dofollow",
+			"danletSearch",
+			"slider-image",
+			"danlet_before_main_content",
+			"danlet-cover",
+			"danlet-cover-blo",
+			"danlet_cover_image",
+			"border-color",
+			"citysoul",
+			"recording",
+			"smoth-scroll.js",
+			"TScrollToPlugin.min.js",
+			"weenMax.min.js",
+			"fullcalendar.min.js",
+			"moment.js",
+			"bootstrap.min.js",
+			"jquery.lazyload.min.js",
+			"mansory/layout-modes/vertical.js",
+			"layout-mode.js",
+			"mansory/layout-mode.js",
+			"isotope.pkgd.min.js",
+			"swiper/swiper.jquery.min.js",
+			"modernizr.custom.js",
+			"jwplayer/jwplayer.js",
+			"masterslider/masterslider.min.js",
+			"jwplayer/jwplayer.js",
+			"jquery.countTo.js",
+			"jquery.easing.min.js",
+			"recording",
+			"echo $",
+			"academy",
+			"Timetable",
+			"danlet-comment-form",
+			"recording",
+			"__('",
+			"home_url",
+			"acd_shop_detail_price",
+			"#f5f5f5",
+			"danlet_cover_image",
+			"twentyfourteen",
+			"recording",
+			"Archive Product option",
+			"checkbox",
+			"'dependency'    => array(\n                    'element'       => 'option_position',\n                    'value'      => array( 'right','left' ),\n                ),",
+			"              'group'         => esc_html__('Advanced Settings','danlet'),\n",
+			"fa-blind",
+			"sh_teacher_hm_tb_bgvm",
+			"header_desktop",
+			"gallery_load_more",
+			".acd_loadmore",
+			"academy_",
+			"rotate(-90deg);",
+			"sh_class_img_box",
+			"r",
+			"otate(-90deg);",
+			"transform: rotate(-90deg);",
+			"acd_class_level",
+			"acd_class_box",
+			"sh_class_group",
+			".acd_classes_list",
+			"text-indent: -9999px;",
+			"sh_class_img",
+			"text-idient",
+			"acd_classes_list",
+			"acd_teacher_img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"[danlet_",
+			"danlet",
+			"\"danlet\"",
+			"danlet_",
+			"svg_danlet",
+			"'danlet'",
+			"'danlet')",
+			",'danlet'",
+			"'icon'      => 'vc_beautheme',",
+			"record",
+			"milblog",
+			"academy",
+			"acd_left_bot_svg",
+			"acd_left_top_svg",
+			"$white",
+			"$rosef5",
+			"rgba(255, 255, 255, 0.05)",
+			"dev.dev"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Milky/DataSoucre/html.dev/html-citysoul"
+		},
+		{
+			"path": "/Milky/DataSoucre/vn.dev/wp-content"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5050,
+								5055
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Milky/DataSoucre/vn.dev/wp-content/plugins/woocommerce/includes/wc-product-functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21088,
+								21119
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/inc/custom-function/danlet_wc_function.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17550,
+								17550
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Milky/DataSoucre/html.dev/html-citysoul/scss/section/_event.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Milky/DataSoucre/vn.dev/wp-content/themes/danlet/inc/custom-function/danlet_wc_hook.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1846,
+								1886
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"core/in",
+				"record/core/includes/functions.php"
+			],
+			[
+				"_footer",
+				"asset/scss/layouts/_footer.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

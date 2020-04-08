@@ -1,0 +1,35 @@
+.services-icon{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    .citysoul-title-box-menu{
+        margin-bottom: 60px;
+    }
+}
+.list-service-view{
+    margin-top: 60px;
+    float: left;
+    // width: 100%;
+}
+.service-item{
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.icon-service{
+    min-height: 85px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.service-title{
+    white-space: nowrap;
+    margin-bottom: 20px;
+    letter-spacing: 1.75px;
+    color: $white_05;
+}
+.service-desc{
+    line-height: 22px;
+    color: $white_06;
+}

@@ -1,0 +1,92 @@
+.testimonial{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+
+    @include MQ(M) {
+        padding-bottom: 150px;
+        padding-top: 215px;
+    }
+}
+.testimonial-title{
+    .citysoul-title{
+        color: rgba($White, 0.1);
+        @include font-size(36px);
+        letter-spacing: 8px;
+        @include MQ(M) {
+            @include font-size(68px);
+        }
+    }
+}
+.testimonial-list{
+    float: left;
+    width: 100%;
+    // position: relative;
+    min-height: 265px;
+    .citysoul-testimonial{
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        @include center(x);
+        min-height: 250px;
+        margin-top: -35px;
+        padding-bottom: 30px;
+        @include MQ(M) {
+            width: 940px;
+            min-height: 250px;
+        }
+        @include MQ(F) {
+            min-height: 170px;
+        }
+        @include MQ(F) {
+            min-height: 170px;
+        }
+        .testimonial-item{
+            min-height: 160px;
+            width: 815px;
+            .auth-testimonial{
+                @include font-size(20px);
+                font-style: italic;
+                color: $white-04;
+                line-height: 1em;
+                padding-bottom: 5px;
+                position: relative;
+                margin-bottom: 30px;
+                margin-top: 25px;
+                letter-spacing: 2px;
+                @include MQ(M) {
+                    margin-top: 0px;
+                }
+                &:after{
+                    content:"";
+                    width: 20px;
+                    height: 2px;
+                    background: $active-color;
+                    position: absolute;
+                    bottom: -10px;
+                    @include center(x);
+                }
+            }
+            .testi-message {
+                text-transform: uppercase;
+                @include font-size(14px);
+                letter-spacing: 2px;
+                color: $active-color;
+                padding: 0px 20px;
+                text-align: center;
+                @include MQ(M) {
+                    padding: 0px 50px;
+                    @include font-size(18px);
+                }
+                @include MQ(F) {
+                    padding: 0px 0px;
+                    line-height: 35px;
+                }
+            }
+        }
+        .swiper-pagination-bullet{
+            background: #fff!important;
+        }
+    }
+}

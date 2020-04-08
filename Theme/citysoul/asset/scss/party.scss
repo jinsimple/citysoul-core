@@ -1,0 +1,452 @@
+@charset "UTF-8";
+
+@import 'bourbon/bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and media queries
+
+@import 'layouts/button'; // responsive grid and media queries
+$active-style : #0196fd;
+$single-dj : #f4f1ef;
+$testimonial :#d0d6d8;
+body {
+
+    background :  $White;
+    color: $Black;
+    
+}
+a{ 
+
+    &:hover{
+        color: $active-style;
+    }
+}
+
+/*Top header*/
+.top-header{
+    background: $White;
+    color: $Black;
+    a{
+        color: $Black;
+        &:hover{
+            color: $black-01;
+        }
+    }
+}
+.sticker {
+    .top-header {
+        background: $White;
+        color: $Black;
+    }
+    .bottom-header {
+        background:$white-05
+       //color: $Black;
+    }
+    &.active{
+        a {
+            color: $Black !important; 
+            &:hover{
+                color: $active-style!important; 
+            }
+        }
+    }
+}
+
+.citysoul-form-user{
+    background: $active-style;
+}
+
+/*Social list*/
+.citysoul-social{
+    &.social-round{
+        li{
+            a{
+                &:hover{
+                    background: $active-style;
+                }
+            }
+        }
+    }
+}
+/*Navigation*/
+.navigator{
+    .main-menu{
+
+        li {
+            a :hover { color: $active-style; }
+        }
+        .menu-item{
+            &.current-menu-item, &:hover{
+                >a{
+                    color: $active-style;
+                }
+            }
+            .sub-menu{
+                // border-bottom: 10px solid $active-style;
+                // border-top: 10px solid $active-style;
+                // background: $active-style;
+                .menu-item{
+                    background: $active-style;
+                }
+                .current-menu-item {
+                    background: $White !important; 
+                }
+            }
+        }
+    }
+}
+
+/*Setup font & color*/
+.text-title{
+    //font-family : $Rob ;
+}
+
+.text-more{
+    //font-family : $Rob ;
+    font-style: italic;
+    font-weight: 300;
+}
+.text-desc{
+    //font-family : $Rob ;
+}
+.text-active{
+    color: $active-style;
+    *{
+        color: $active-style;
+    }
+}
+.btn-buy{
+    background: $White;
+    color: $black_09;
+}
+.desc-small{
+    color: $white-02;
+}
+.citysoul-input-text{
+    border-color: $active-style !important;
+}
+.view-all-link{
+    &:before{
+        background: $active-style;
+    }
+    a{
+        color: $black_08;
+    }
+}
+
+//New
+
+.citysoul-list-news-view .item-news.items-small .date-link a{
+    color: #79787e;
+    opacity: 0.8;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+/*Upcomming*/
+.upcomming {
+    background :$White;
+}
+.upcomming-slider{
+    .citysoul-title , .all-link a {
+        color: $Black;  
+    }
+    .upcomming-item{
+        .slider-image {
+            opacity: 1;
+        }
+        .info-ticket {
+            a {
+                color: $Black;  
+            }
+            .desc-small {
+                color: $black_09;
+            }
+        }
+        .info-slide{
+            .citysoul-date {
+                font-weight: 300;
+                em {
+                    @include font-size(15px);
+                }
+                strong {
+                    @include font-size(18px);
+                }
+            }
+            &:after {
+                background: none;
+            }
+            &:before{
+                border: 10px solid $active-style;
+            }
+            &:hover {
+                background :$White;
+            }
+            .btn-buy {
+                 background: $active-style;  
+                 color :$White; 
+            }
+            
+        }
+    }
+    .all-link {
+        &:before{
+            background: $active-style;   
+        }
+    }
+
+}
+/*Dj*/
+.single-dj{
+    background: $single-dj;
+    .cover-soundcloud {
+        .dj-image:after {
+            border-color: $active-style;
+        }
+    }
+    .dj-infomation {
+        .citysoul-title {
+            color: $Black;
+        }
+        .desc-small {
+            color: $black_03;
+        }
+    }
+
+}
+
+
+
+/*Testimonial*/
+.testimonial  {
+    background : url(../images/party-testimonial.png) no-repeat center center; 
+    .testimonial-title {
+        .citysoul-title {
+            color: $testimonial;
+        }
+    }
+}
+.testimonial-list{
+    .citysoul-testimonial{
+        .testimonial-item{
+            .auth-testimonial{
+                color: $Black;
+                
+                &:after{
+                    background: $active-style;
+                }
+            }
+            .testi-message {
+                color: $active-style;
+            }
+        }
+    }
+}
+
+/**
+ * Product Slider 
+ */
+.shop-slider {
+    background: $black_09;
+}
+.citysoul-shop-item {
+    .shop-item-text {
+        .item-shop-info {
+            .desc-product{
+                color: $white-05;
+            }
+        }
+        .border-image:before {
+            border-color : $active-style;
+        }
+    }
+}
+/*Twitter recent*/
+.twitter-recents-items{
+    background: url(../images/rectangle-electronic.png) no-repeat center center;
+    .twitter-message, .recent-post{
+        .title-items-twitter ,.title-items-twitter *  {
+            color: $Black;
+        }
+        ul {
+            li {
+                .name-follow, .time{
+                    color: $Black;
+                }
+                .message{
+                    color: $black_08;
+                    line-height: 20px;
+                    a{
+                        color: $black_08;
+                        &:hover{
+                            color: $black_08;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .citysoul-button{
+        color: $active-style;
+        border : $active-style 1px solid;
+        &:hover {
+            border-color : $black_08;
+            color:  $black_08;
+            &.text-active {
+                * {
+                    color: $black_08;
+                }
+            }
+        }
+    }
+    .btn-buy {
+        background : none;
+        opacity: 1;
+    }
+
+}
+
+
+/*Video*/
+.citysoul-playvideo{
+    .text-button{
+        .btn-control{
+            &.btn-play{
+                .play-icon{
+                    background: url(../images/play-white-big.png) no-repeat center center;
+                    background-size: 100% 100%;
+                }
+            }
+            &.btn-pause{
+                .play-icon{
+                    background: url(../images/pause-white.png) no-repeat center center;
+                }
+            }
+
+        }
+        .all-video-link{
+            &:before{
+                background: $active-style;
+            }
+        }
+    }
+}
+
+/*News*/
+.citysoul-news {
+    .citysoul-title {
+        color: $Black; 
+    }
+    .item-news {
+        .news-link {
+            font-weight: 700;
+            opacity: 0.5;
+        }
+    }
+}
+/*Gallery*/
+.gallery {
+    background : $White; 
+    .title-gallery {
+        .citysoul-title {
+            color: $Black;
+        }
+    }
+    .gallery-item {
+        .gal-image { 
+            img{
+                opacity: 1;
+            }
+        }
+    }
+}
+/*Shop slider*/
+
+.shop-slider {
+    background :#d7eff7;
+
+    
+}
+
+.citysoul-shop-item{
+    .shop-item-text{
+        .item-shop-info {
+           .citysoul-title  {
+                color: $Black;
+            }
+            .desc-small {
+                color: $black_08;
+            } 
+        }
+
+        .item-shop-image{
+            &:before{
+                border: 10px solid $active-style;
+            }
+        }
+    }
+}
+
+
+/*Footer*/
+
+footer{
+   background: #0f0e21;
+   color: $White;
+   .text-active, .text-active * {
+        color: $White;
+   }
+}
+.footer-widget{
+    .citysoul-button-o {
+        &:hover {
+            &.btn-subcribe {
+               border-color : $White;
+            }
+            border-color : $active-style;
+            &.text-active {
+                * {
+                    color: $active-style; 
+                }
+            }
+        }
+      .text-title {
+         color: $White;
+      }
+    }
+}
+.copyright{
+    @include font-size(12px);
+    color: $white-02;
+    a{
+        color: $white-02;
+        &:hover{
+            color: $White;
+        }
+    }
+}
+.content-widget{
+    .additional-widget{
+        a{
+            color: $White;
+            &:hover{
+                color: $active-style;
+            }
+        }
+    }
+}
+
+.back-to-top {
+    border-color : $active-style;
+    &:before {
+         color: $active-style;
+    }
+    &:hover {
+        background: $active-style;
+    }
+}

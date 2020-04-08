@@ -1,0 +1,56 @@
+.page-404{
+    float: left;
+    width: 100%;
+}
+.citysoul-404{
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/404.jpg) no-repeat center center;
+    background-size: auto 100%;
+    .container{
+        // @include center(y);
+        position: relative;
+    }
+    .citysoul-text-404 {
+        width: 100%;
+        text-transform: uppercase;
+        line-height: 45px;
+        margin: 0;
+        padding: 0;
+        margin-top: 15vh;
+        float: right;
+        letter-spacing: 2px;
+        @media only screen and (min-width: 768px) {
+            line-height: 75px;
+        }
+        @media only screen and (min-width: 1024px) {
+            margin-right: 5%;
+            margin-bottom: 75px;
+            margin-top: 25vh;
+            width: 50%;
+        }
+    }
+    .text-404-guide{
+        margin-bottom: 20px;
+        font-style: italic;
+        opacity: 0.8;
+    }
+    .citysoul-404-button{
+        margin-right: 0;
+        padding: 0;
+        float: right;
+        
+        @media only screen and (min-width: 1024px) {
+            margin-right: 180px;
+        }
+        .citysoul-button{
+            border-color: $active-color;
+            &:hover{
+                color: $white_08;
+                background: $active-color;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+.booking-event{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.msb-booking-ticket-list{
+    display: inline-block;
+    .citysoul-button{
+        margin-left: 5px;
+        margin-right: 5px;
+        &:hover{
+            background: $active-color;
+            border-color: $active-color;
+            color: $white_06;
+
+        }
+    }
+}
